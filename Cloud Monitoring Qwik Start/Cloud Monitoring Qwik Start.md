@@ -1,6 +1,6 @@
 # Cloud Monitoring: Qwik Start || [GSP089](https://www.cloudskillsboost.google/focuses/10599?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/L3Q8sE0dkUQ)
+## 🔑 Solution [here](https://youtu.be/P1QKb8R-AJI)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -24,7 +24,7 @@ You've successfully completed the lab. **Miles to go!** 🚀
 
 👉 Join the conversation and never miss an update:
 
-💚 [𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆](https://chat.whatsapp.com/ECJ9h8GA3CA1ksaI9m5NrX)
+💚 [𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗖𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆](https://chat.whatsapp.com/)
 📢 [Telegram Channel](https://t.me/sparkwave.01)
 👥 [Discussion Group](https://t.me/sparkwave.01chats)
 
