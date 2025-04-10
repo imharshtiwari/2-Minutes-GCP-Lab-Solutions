@@ -1,6 +1,6 @@
 # Cloud Monitoring: Qwik Start || [GSP089](https://www.cloudskillsboost.google/focuses/10599?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/xVgxKmGz-30)
+## 🔑 Solution [here](https://youtu.be/L3Q8sE0dkUQ)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -12,10 +12,13 @@ sudo chmod +x gsp089.sh
 ./gsp089.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉
+# 🎉 🐻‍❄️ྀིྀི Yeeeeaaahhh! You Did It! 🎉
 
-Your hard work and determination paid off! 💻
-You've successfully completed the lab. **Way to go!** 🚀
+
+Keep pushing forward—every small step takes you closer to your dream.! 💻🚀
+
+You've successfully completed the lab. **Miles to go!** 🚀
+
 
 ### 💬 Stay Connected with Our Community!
 
