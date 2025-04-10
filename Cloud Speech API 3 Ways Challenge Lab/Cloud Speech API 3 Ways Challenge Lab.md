@@ -1,6 +1,6 @@
 # Cloud Speech API 3 Ways: Challenge Lab || [ARC132](https://www.cloudskillsboost.google/focuses/67215?parent=catalog) ||
 
-## Solution [here](https://youtu.be/eQIWNzs-0NA)
+## Solution [here](https://youtu.be/Zjgx2Dd7Vkk)
 
 ### Run the following Commands in CloudShell
 
@@ -29,7 +29,7 @@ sudo chmod +x arc132.sh
 ./arc132.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐻‍❄️ྀིྀི Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
@@ -37,4 +37,4 @@ sudo chmod +x arc132.sh
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/sparkwave.01) & [Discussion group](https://t.me/sparkwave.01chats)
 
-# [SPARKWAVE](https://www.youtube.com/@sparkwave.01)
+# ✨[SPARKWAVE](https://www.youtube.com/@sparkwave.01)
