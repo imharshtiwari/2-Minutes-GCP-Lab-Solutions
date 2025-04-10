@@ -1,6 +1,6 @@
 # Google Chat Bot - Apps Script || [GSP250](https://www.cloudskillsboost.google/focuses/32756?parent=catalog) ||
 
-## Solution [here](https://youtu.be/fCqeNrXpE0Q)
+## Solution [here](https://youtu.be/d4nqYWA4xgw)
 
 ### Task 1. Create a chat app from a template
 
@@ -375,7 +375,7 @@ function blockOutCalendar(reason) {
 
 * Return to the DM in Google Chat, and type **I'm sick**
 
-### Congratulations 🎉 for completing the Lab !
+### 🐻‍❄️ྀིྀི Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
@@ -383,4 +383,4 @@ function blockOutCalendar(reason) {
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/sparkwave.01) & [Discussion group](https://t.me/sparkwave.01chats)
 
-# [SPARKWAVE](https://www.youtube.com/@sparkwave.01)
+# ✨[SPARKWAVE](https://www.youtube.com/@sparkwave.01)
