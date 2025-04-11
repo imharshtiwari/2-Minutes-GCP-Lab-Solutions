@@ -1,6 +1,6 @@
 # Debugging Apps on Google Kubernetes Engine || [GSP736](https://www.cloudskillsboost.google/focuses/13065?parent=catalog) ||
 
-## Solution [here](https://youtu.be/r_k3S3G4XmE)
+## Solution [here](https://youtu.be/IgMizJx6cA0)
 
 ### Run the following Commands in CloudShell
 
