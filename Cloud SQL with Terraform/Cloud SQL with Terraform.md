@@ -1,6 +1,6 @@
 # Cloud SQL with Terraform || [GSP234](https://www.cloudskillsboost.google/focuses/1215?parent=catalog) ||
 
-## Solution [here](https://youtu.be/5xkW_ZX5iko)
+## Solution [here](https://youtu.be/VtnseElEcTE)
 
 ### Run the following Commands in SSH
 ```
