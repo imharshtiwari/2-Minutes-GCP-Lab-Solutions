@@ -1,6 +1,6 @@
 # Securing Virtual Machines using BeyondCorp Enterprise (BCE) || [GSP1036](https://www.cloudskillsboost.google/focuses/40544?parent=catalog) ||
 
-## Solution [here](https://youtu.be/7880xXUOg34)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1036.sh
 ./gsp1036.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

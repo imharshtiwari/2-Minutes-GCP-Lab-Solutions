@@ -1,6 +1,6 @@
 # Get Started with Sensitive Data Protection: Challenge Lab || [ARC116](https://www.cloudskillsboost.google/focuses/64782?parent=catalog) ||
 
-## Solution [here](https://youtu.be/9sWZC466FQk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -22,7 +22,7 @@ sudo chmod +x arc116-2.sh
 ./arc116-2.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 #### Outstanding work! Your commitment has made this accomplishment possible.
 

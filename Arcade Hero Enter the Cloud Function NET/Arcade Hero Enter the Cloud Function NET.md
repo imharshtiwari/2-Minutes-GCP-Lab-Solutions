@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the Cloud Function NET || [ARC232](https://www.cloudskillsboost.google/focuses/98841?parent=catalog) ||
 
-## Solution [here](https://youtu.be/puC4eE8nx2o)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc232.sh
 ./arc232.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

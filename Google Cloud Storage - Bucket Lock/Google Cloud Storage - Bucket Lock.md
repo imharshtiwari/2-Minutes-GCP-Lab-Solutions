@@ -1,6 +1,6 @@
 # Google Cloud Storage - Bucket Lock || [GSP297](https://www.cloudskillsboost.google/focuses/3483?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ROLigBsAx3A)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp297.sh
 ./gsp297.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

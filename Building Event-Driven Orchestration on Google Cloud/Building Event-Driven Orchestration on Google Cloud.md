@@ -1,6 +1,6 @@
 # [Building Event-Driven Orchestration on Google Cloud](https://www.cloudskillsboost.google/paths/19/course_templates/465/labs/346770)
 
-## Solution [here](https://youtu.be/GCpSTrTMXYM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # [Using Cloud PubSub with Cloud Run APPRUN](https://www.cloudskillsboost.google/course_templates/371/labs/495879)
 
-## Solution [here](https://youtu.be/wev1Ws_eQYM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

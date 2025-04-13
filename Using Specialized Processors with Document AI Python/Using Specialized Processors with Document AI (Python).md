@@ -1,6 +1,6 @@
 # Using Specialized Processors with Document AI (Python) || [GSP1140](https://www.cloudskillsboost.google/focuses/67859?parent=catalog) ||
 
-## Solution [here](https://youtu.be/jR2E_bgqmkg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

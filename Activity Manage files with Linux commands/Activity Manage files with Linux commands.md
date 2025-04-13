@@ -1,6 +1,6 @@
 # Activity: Manage files with Linux commands
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -35,7 +35,7 @@ EOF_END
 cat tasks.txt
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

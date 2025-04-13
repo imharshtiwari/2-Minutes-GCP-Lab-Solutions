@@ -1,6 +1,6 @@
 # Securing APIs with Apigee X || [GSP844](https://www.cloudskillsboost.google/focuses/29996?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/VK2Gh35BJ1g)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Commands to Execute in Cloud Shell:**
 
@@ -33,7 +33,7 @@ sudo chmod +x gsp844.sh
 | Name         | readonly-app            |  
 | Developer    | select joe@example.com  |
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You've successfully conquered the lab! Your dedication and skills truly shine.*
 

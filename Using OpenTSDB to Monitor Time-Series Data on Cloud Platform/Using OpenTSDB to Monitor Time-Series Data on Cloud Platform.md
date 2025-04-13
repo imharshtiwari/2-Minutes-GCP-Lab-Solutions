@@ -1,6 +1,6 @@
 # Using OpenTSDB to Monitor Time-Series Data on Cloud Platform || [GSP142](https://www.cloudskillsboost.google/focuses/629?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6vnL7IS9CXE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 2. Creating a Bigtable instance
 
@@ -25,7 +25,7 @@ sudo chmod +x gsp142.sh
 ./gsp142.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Consuming Customer Specific Datasets from Data Sharing Partners using BigQuery || [GSP1043](https://www.cloudskillsboost.google/focuses/42015?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/Qb3JYr_syG0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell (Data Sharing Partner Project Console)
 
@@ -32,7 +32,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉
 
 Your hard work and determination paid off! 💻
 You've successfully completed the lab. **Way to go!** 🚀

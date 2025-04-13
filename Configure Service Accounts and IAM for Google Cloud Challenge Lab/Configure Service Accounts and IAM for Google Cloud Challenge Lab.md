@@ -1,6 +1,6 @@
 # Configure Service Accounts and IAM for Google Cloud: Challenge Lab || [ARC134](https://www.cloudskillsboost.google/focuses/67219?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ug-Xzw3d6Vo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x arc134.sh
 ./arc134.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

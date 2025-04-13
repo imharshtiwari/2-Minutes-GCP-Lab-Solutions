@@ -1,6 +1,6 @@
 # Secure BigLake Data: Challenge Lab || [ARC129](https://www.cloudskillsboost.google/focuses/64458?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/cX2bsOHifis)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 
 ### 🚀 **Steps to Execute in Cloud Shell:** 
@@ -16,7 +16,7 @@ sudo chmod +x arc129.sh
 ./arc129.sh
 ```
 
-## 🎉 Congratulations on Completing the Lab!
+## 🎉 🐻‍❄️ྀིྀི Congratulations on Completing the Lab!
 
 ##### *You’ve demonstrated excellent skills and perseverance—great work!*  
 

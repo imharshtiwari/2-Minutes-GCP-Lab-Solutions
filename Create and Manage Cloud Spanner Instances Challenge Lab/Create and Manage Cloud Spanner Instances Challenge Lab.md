@@ -1,6 +1,6 @@
 # Create and Manage Cloud Spanner Instances: Challenge Lab || [GSP381](https://www.cloudskillsboost.google/focuses/54357?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ZURE1v6n7rw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp381.sh
 
 * Go to `Dataflow Job` from [here](https://console.cloud.google.com/dataflow/jobs?)
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Datastream: PostgreSQL Replication to BigQuery || [GSP1052](https://www.cloudskillsboost.google/focuses/53925?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GVl2jfB7DKA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -69,7 +69,7 @@ sudo chmod +x gsp1052-2.sh
 
 * Specify the publication name as **test_publication**
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

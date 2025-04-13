@@ -1,6 +1,6 @@
 # [Movie Recommendations in BigQuery ML 2.5](https://www.cloudskillsboost.google/course_templates/55/labs/488493)
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands in CloudShell
 ```
@@ -11,7 +11,7 @@ sudo chmod +x MovieRecommendations.sh
 ./MovieRecommendations.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

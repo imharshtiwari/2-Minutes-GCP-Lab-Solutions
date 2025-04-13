@@ -1,6 +1,6 @@
-# Deploy and Test a Visual Inspection AI Component Anomaly Detection Solution || [GSP896](https://www.cloudskillsboost.google/focuses/34182?parent=catalog) ||
+# Deploy and Test a Visual Inspection AI Component Anomaly Detection 🔑 Solution || [GSP896](https://www.cloudskillsboost.google/focuses/34182?parent=catalog) ||
 
-## Solution [here](https://youtu.be/OCG88YRtQnY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp896.sh
 ./gsp896.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

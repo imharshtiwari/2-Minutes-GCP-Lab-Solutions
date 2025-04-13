@@ -1,6 +1,6 @@
 # Cloud Run Canary Deployments || [GSP1078](https://www.cloudskillsboost.google/focuses/52827?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/gOJzyOB9RZA)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Execute These Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1078.sh
 ./gsp1078.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

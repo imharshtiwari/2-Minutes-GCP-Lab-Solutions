@@ -1,6 +1,6 @@
 # ETL Processing on Google Cloud Using Dataflow and BigQuery (Python) || [GSP290](https://www.cloudskillsboost.google/focuses/3460?parent=catalog) ||
 
-## Solution [here](https://youtu.be/3n1Fkmm_bdI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -58,7 +58,7 @@ python dataflow_python_examples/data_lake_to_mart.py \
   --region=$REGION
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

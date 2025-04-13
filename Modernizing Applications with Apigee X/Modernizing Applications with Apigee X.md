@@ -1,6 +1,6 @@
 # Modernizing Applications with Apigee X || [GSP842](https://www.cloudskillsboost.google/focuses/25900?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/8qg6aXpI1hg)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 Run the following commands in **Cloud Shell**:
 
@@ -25,7 +25,7 @@ sudo chmod +x gsp842.sh
 - **get-address-for-location**: [Download Here](https://drive.google.com/uc?export=download&id=1y8m9GkhU2mTvtC18ptQY7obVGOozBXnJ)  
 - **bank-v1**: [Download Here](https://drive.google.com/uc?export=download&id=1OZFNYAabSVIWHaaHD6JDUPz-TX0QTTSg)
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 ##### *You Have Successfully Demonstrated Your Skills and Perseverance.*  
 

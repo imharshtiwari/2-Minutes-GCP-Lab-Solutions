@@ -1,6 +1,6 @@
 # Bot Management with Google Cloud Armor and reCAPTCHA || [GSP877](https://www.cloudskillsboost.google/focuses/88281?parent=catalog) ||
 
-## Solution [here](https://youtu.be/D0xHkdiIGWE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp877.sh
 ./gsp877.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

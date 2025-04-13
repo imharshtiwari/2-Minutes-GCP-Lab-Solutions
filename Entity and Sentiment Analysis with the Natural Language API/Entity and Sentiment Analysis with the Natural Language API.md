@@ -1,6 +1,6 @@
 # Entity and Sentiment Analysis with the Natural Language API || [GSP038](https://www.cloudskillsboost.google/focuses/1843?parent=catalog) ||
 
-## Solution [here](https://youtu.be/t4zprxScLbE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp038.sh
 ./gsp038.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

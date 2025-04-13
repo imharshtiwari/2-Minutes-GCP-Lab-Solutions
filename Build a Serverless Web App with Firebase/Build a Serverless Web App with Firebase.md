@@ -1,6 +1,6 @@
 # Build a Serverless Web App with Firebase || [GSP643](https://www.cloudskillsboost.google/focuses/8391?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/2fhkexvwMEY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Register your app name as **Pet Theory**
 
@@ -23,7 +23,7 @@
 
 * Now Click `Save`
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

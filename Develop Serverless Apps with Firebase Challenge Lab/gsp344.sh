@@ -36,16 +36,16 @@ gcloud firestore databases create --location=$REGION
 
 git clone https://github.com/rosera/pet-theory.git
 
-cd pet-theory/lab06/firebase-import-csv/solution
+cd pet-theory/lab06/firebase-import-csv/🔑 Solution
 npm install
 node index.js netflix_titles_original.csv
 
-cd ~/pet-theory/lab06/firebase-rest-api/solution-01
+cd ~/pet-theory/lab06/firebase-rest-api/🔑 Solution-01
 npm install
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1
 gcloud beta run deploy $SERVICE_NAME --image gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.1 --allow-unauthenticated --region=$REGION
 
-cd ~/pet-theory/lab06/firebase-rest-api/solution-02
+cd ~/pet-theory/lab06/firebase-rest-api/🔑 Solution-02
 npm install
 gcloud builds submit --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2
 gcloud beta run deploy $SERVICE_NAME --image gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2 --allow-unauthenticated --region=$REGION

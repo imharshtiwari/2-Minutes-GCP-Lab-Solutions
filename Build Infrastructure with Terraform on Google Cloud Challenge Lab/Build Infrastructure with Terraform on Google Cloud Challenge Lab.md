@@ -1,6 +1,6 @@
 # Build Infrastructure with Terraform on Google Cloud: Challenge Lab || [GSP345](https://www.cloudskillsboost.google/focuses/42740?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6fidKO9GO7w)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -16,7 +16,7 @@ sudo chmod +x gsp345.sh
 ./gsp345.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

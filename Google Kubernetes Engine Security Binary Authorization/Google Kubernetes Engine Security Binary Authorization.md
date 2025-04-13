@@ -1,6 +1,6 @@
 # Google Kubernetes Engine Security: Binary Authorization || [GSP479](https://www.cloudskillsboost.google/focuses/57885?parent=catalog) ||
 
-## Solution [here](https://youtu.be/cXTA0nxGfLo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp479.sh
 ./gsp479.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

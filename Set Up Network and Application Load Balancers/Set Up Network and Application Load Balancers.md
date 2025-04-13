@@ -1,6 +1,6 @@
 # Set Up Network and Application Load Balancers || [GSP007](https://www.cloudskillsboost.google/focuses/12007?parent=catalog) ||
 
-## 🗝️ Solution [here](https://youtu.be/AkeamF3rtaE)
+## 🗝️ 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 #### 1️⃣ Download and Execute the Script  
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./gsp007.sh
 ```
 
-### 🎉 You Did It! Lab Successfully Completed
+### 🎉 🐻‍❄️ྀིྀི You Did It! Lab Successfully Completed
 
 ##### *Outstanding effort! Your dedication shines through. Well done!*
 

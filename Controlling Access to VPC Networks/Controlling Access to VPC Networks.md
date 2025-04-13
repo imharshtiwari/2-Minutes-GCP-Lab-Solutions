@@ -1,6 +1,6 @@
 # [Controlling Access to VPC Networks](https://www.cloudskillsboost.google/games/5551/labs/35772)
 
-## Solution [here](https://youtu.be/BGIBzYiYGyQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Clean Up Unused IP Addresses || [GSP646](https://www.cloudskillsboost.google/focuses/7841?parent=catalog) ||
 
-## Solution [here](https://youtu.be/u9tn1s4GgkU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp646.sh
 ./gsp646.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

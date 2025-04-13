@@ -1,6 +1,6 @@
 # [Alerting in Google Cloud](https://www.cloudskillsboost.google/focuses/19469?parent=catalog)
 
-## 🔑 Solution [here](https://youtu.be/ZdOGYMYdEDk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01/ZdOGYMYdEDk)
 
 #### 1️⃣ Download and Execute the Script  
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You have proven your determination and technical expertise. Outstanding work!*
 

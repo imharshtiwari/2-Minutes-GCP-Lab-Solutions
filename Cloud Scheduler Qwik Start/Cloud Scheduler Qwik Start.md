@@ -1,6 +1,6 @@
 # Cloud Scheduler: Qwik Start || [GSP401](https://www.cloudskillsboost.google/focuses/3556?parent=catalog) ||
 
-## Solution [here](https://youtu.be/7xwjJYiRzcg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp401.sh
 ./gsp401.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

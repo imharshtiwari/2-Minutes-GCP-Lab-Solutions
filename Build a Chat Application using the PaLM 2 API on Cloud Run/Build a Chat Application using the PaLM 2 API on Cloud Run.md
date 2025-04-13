@@ -1,6 +1,6 @@
 # Build a Chat Application using the PaLM 2 API on Cloud Run || [GSP1201](https://www.cloudskillsboost.google/focuses/80696?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Q0QVGrEVbes)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1201.sh
 ./gsp1201.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Deploying an Open Source Cassandra™ Database using the GCP Marketplace || [GSP704](https://www.cloudskillsboost.google/focuses/10538?parent=catalog) ||
 
-## Solution [here](https://youtu.be/2zZmSJTX9Ps)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to `Apache Cassandra packaged by Bitnami` from [here](https://console.cloud.google.com/marketplace/product/bitnami-launchpad/cassandra?)
 
@@ -50,7 +50,7 @@ SELECT * FROM space_flights.catalog WHERE spacecraft_name = 'vostok2';
 exit
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

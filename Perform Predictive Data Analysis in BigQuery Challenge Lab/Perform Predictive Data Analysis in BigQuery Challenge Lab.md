@@ -1,6 +1,6 @@
 # Perform Predictive Data Analysis in BigQuery: Challenge Lab || [GSP374](https://www.cloudskillsboost.google/focuses/37320?parent=catalog) ||
 
-## Solution [here](https://youtu.be/drrdaN5mroI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -25,7 +25,7 @@ sudo chmod +x gsp374.sh
 
 * Go to `BigQuery` from [here](https://console.cloud.google.com/bigquery?)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

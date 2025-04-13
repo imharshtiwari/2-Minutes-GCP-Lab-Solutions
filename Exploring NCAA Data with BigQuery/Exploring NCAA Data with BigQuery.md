@@ -1,6 +1,6 @@
 # Exploring NCAA Data with BigQuery || [GSP160](https://www.cloudskillsboost.google/focuses/624?parent=catalog) ||
 
-## Solution [here](https://youtu.be/wQjcc05ukUk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp160.sh
 ./gsp160.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

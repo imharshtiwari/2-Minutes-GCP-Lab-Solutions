@@ -1,6 +1,6 @@
 # Cloud Operations for GKE || [GSP497](https://www.cloudskillsboost.google/focuses/5157?parent=catalog) ||
 
-## 💡 **Solution [here]()**
+## 💡 **🔑 Solution [here]()**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 

@@ -1,6 +1,6 @@
 # [Configuring Traffic Blocklisting with Google Cloud Armor](https://www.cloudskillsboost.google/focuses/19185?parent=catalog)
 
-## Solution [here](https://youtu.be/oiZo5pCaA_8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

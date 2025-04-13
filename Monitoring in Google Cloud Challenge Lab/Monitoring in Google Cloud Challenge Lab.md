@@ -1,6 +1,6 @@
 # Monitoring in Google Cloud: Challenge Lab || [ARC115](https://www.cloudskillsboost.google/focuses/63855?parent=catalog) ||
 
-## Solution [here](https://youtu.be/cZJn_C_Ry4w)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x arc115.sh
 ./arc115.sh
 ```
 
-### NOW FOLLOW [VIDEO'S](https://youtu.be/cZJn_C_Ry4w) INSTRUCTIONS.
+### NOW FOLLOW [VIDEO'S](https://www.youtube.com/@sparkwave.01) INSTRUCTIONS.
 
 * Go to `Create Uptime Check` from [here](https://console.cloud.google.com/monitoring/uptime/create?)
 
@@ -40,7 +40,7 @@ textPayload:"200"
 execution took (\d+)
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

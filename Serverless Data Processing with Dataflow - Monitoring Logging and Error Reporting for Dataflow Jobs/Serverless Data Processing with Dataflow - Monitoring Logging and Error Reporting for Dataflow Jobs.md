@@ -1,6 +1,6 @@
 # [Serverless Data Processing with Dataflow - Monitoring, Logging and Error Reporting for Dataflow Jobs](https://www.cloudskillsboost.google/course_templates/264/labs/438183)
 
-## Solution [here](https://youtu.be/H09U7ipc_oA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -16,7 +16,7 @@ sudo chmod +x sparkwave.sh
 
 * Go to `Dataflow Job` from [here](https://console.cloud.google.com/dataflow/jobs?)
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

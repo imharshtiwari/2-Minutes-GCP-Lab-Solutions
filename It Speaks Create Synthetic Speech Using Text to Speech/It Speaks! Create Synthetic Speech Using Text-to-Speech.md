@@ -1,6 +1,6 @@
 # It Speaks! Create Synthetic Speech Using Text-to-Speech || [GSP222](https://www.cloudskillsboost.google/focuses/1290?parent=catalog) ||
 
-## Solution [here](https://youtu.be/7Qs0BjLS-6c)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp222.sh
 ./gsp222.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

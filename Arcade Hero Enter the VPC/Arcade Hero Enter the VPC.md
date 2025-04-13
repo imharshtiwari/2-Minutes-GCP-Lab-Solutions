@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the VPC || [ARC122-VPC](https://www.cloudskillsboost.google/focuses/83836?parent=catalog) ||
 
-## Solution [here](https://youtu.be/RXvbDxhVgxg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

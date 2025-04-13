@@ -1,6 +1,6 @@
 # Creating Cross-region Load Balancing || [GSP157](https://www.cloudskillsboost.google/focuses/642?parent=catalog) ||
 
-## Solution [here](https://youtu.be/tarIacWydQM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp157.sh
 ./gsp157.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

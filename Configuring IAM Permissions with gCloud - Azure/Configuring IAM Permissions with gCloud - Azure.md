@@ -1,6 +1,6 @@
 # Configuring IAM Permissions with gCloud - Azure || [GSP1119](https://www.cloudskillsboost.google/focuses/60391?parent=catalog) ||
 
-## Solution [here](https://youtu.be/AxnyDGjVLQ4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -33,7 +33,7 @@ sudo chmod +x gsp1119-2.sh
 ```
 
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

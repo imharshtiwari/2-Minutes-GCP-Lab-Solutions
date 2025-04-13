@@ -1,6 +1,6 @@
 # [Google Cloud Fundamentals: Getting Started with Cloud Storage and Cloud SQL ](https://www.cloudskillsboost.google/games/4770/labs/31090)
 
-## Solution [here](https://youtu.be/eG52SUB-iVw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -13,7 +13,7 @@ sudo chmod +x CloudStorageCloudSQL.sh
 
 ./CloudStorageCloudSQL.sh
 ```
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

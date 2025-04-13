@@ -1,6 +1,6 @@
 # Activity: Manage authorization
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -15,7 +15,7 @@ ls -ld /home/researcher2/projects/drafts
 chmod g-x /home/researcher2/projects/drafts
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

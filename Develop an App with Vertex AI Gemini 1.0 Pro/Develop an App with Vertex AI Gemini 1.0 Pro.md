@@ -1,6 +1,6 @@
 # [Develop an App with Vertex AI Gemini 1.0 Pro](https://www.cloudskillsboost.google/focuses/86788?parent=catalog)
 
-## Solution [here](https://youtu.be/c1DGOyzcDig)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Predict Visitor Purchases with a Classification Model in BigQuery ML || [GSP229](https://www.cloudskillsboost.google/focuses/1794?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Bq-AW9aIFaA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -88,7 +88,7 @@ SELECT * EXCEPT(unique_session_id) FROM (
 ));
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

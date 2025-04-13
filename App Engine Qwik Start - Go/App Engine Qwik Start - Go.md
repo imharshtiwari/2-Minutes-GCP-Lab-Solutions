@@ -1,6 +1,6 @@
 # App Engine: Qwik Start - Go || [GSP070](https://www.cloudskillsboost.google/focuses/2754?parent=catalog) ||
 
-## Solution [here](https://youtu.be/3cVxYis4Hj8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp070.sh
 ./gsp070.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

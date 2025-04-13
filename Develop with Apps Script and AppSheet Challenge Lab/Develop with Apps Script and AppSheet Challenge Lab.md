@@ -1,6 +1,6 @@
 # Develop with Apps Script and AppSheet: Challenge Lab || [ARC126](https://www.cloudskillsboost.google/focuses/66584?parent=catalog) ||
 
-## Solution [here](https://youtu.be/wMZo-zuih3M)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create and customize an app
 
@@ -104,7 +104,7 @@ function onRemoveFromSpace(event) {
 
 * Go and Test Your **Helper Bot** [here](https://mail.google.com/chat/u/0/#chat/home)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Detect Labels, Faces, and Landmarks in Images with the Cloud Vision API || [GSP037](https://www.cloudskillsboost.google/focuses/1841?parent=catalog) ||
 
-## Solution [here](https://youtu.be/JZdS9HsOwXI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp037.sh
 ./gsp037.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

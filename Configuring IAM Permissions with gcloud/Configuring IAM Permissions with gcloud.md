@@ -1,6 +1,6 @@
 # Configuring IAM Permissions with gcloud || [GSP647](https://www.cloudskillsboost.google/focuses/7678?parent=catalog) ||
 
-## Solution [here](https://youtu.be/_6phqXHz-9I)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -29,7 +29,7 @@ sudo chmod +x gsp647-2.sh
 ./gsp647-2.sh
 ```
 
-* Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's](https://youtu.be/_6phqXHz-9I) Instructions.
+* Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's](https://www.youtube.com/@sparkwave.01) Instructions.
 
 ```
 user2
@@ -49,7 +49,7 @@ sudo chmod +x gsp647-3.sh
 ./gsp647-3.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

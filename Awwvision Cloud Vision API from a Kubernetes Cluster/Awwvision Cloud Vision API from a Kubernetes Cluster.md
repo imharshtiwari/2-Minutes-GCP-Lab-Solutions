@@ -1,6 +1,6 @@
 # Awwvision: Cloud Vision API from a Kubernetes Cluster || [GSP066](https://www.cloudskillsboost.google/focuses/1241?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6z47q_JfW7A)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp066.sh
 ./gsp066.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Classify Text into Categories with the Natural Language API || [GSP063](https://www.cloudskillsboost.google/focuses/1749?parent=catalog) ||
 
-## Solution [here](https://youtu.be/u3uNcaXtZ8g)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp063.sh
 ./gsp063.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

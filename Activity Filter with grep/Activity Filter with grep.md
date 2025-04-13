@@ -1,6 +1,6 @@
 # Activity: Filter with grep
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -15,7 +15,7 @@ grep "Human Resources" Q4_added_users.txt
 grep "jhill" Q2_deleted_users.txt
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

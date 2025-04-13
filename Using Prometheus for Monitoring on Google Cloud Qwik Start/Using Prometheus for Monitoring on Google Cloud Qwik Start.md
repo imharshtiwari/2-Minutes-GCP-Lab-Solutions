@@ -1,6 +1,6 @@
 # Using Prometheus for Monitoring on Google Cloud: Qwik Start || [GSP1024](https://www.cloudskillsboost.google/focuses/31103?parent=catalog) ||
 
-## Solution [here](https://youtu.be/dbCMOTpgtwY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1024.sh
 ./gsp1024.sh
 ```
 
-### Congratulations for Completing the Lab! 🎉  
+### 🐼 Congratulations for Completing the Lab! 🎉  
 
 ##### *You've showcased outstanding skills and determination.*  
 

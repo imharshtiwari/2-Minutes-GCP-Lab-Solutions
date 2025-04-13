@@ -1,6 +1,6 @@
 # Getting Started with BigQuery GIS for Data Analysts || [GSP866](https://www.cloudskillsboost.google/focuses/17817?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/zQpg_ZPsASs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -24,7 +24,7 @@ FROM
 WHERE num_bikes_available > 30
 ```
 
-# 🎉 Woohoo! You Did It! 🎉
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉
 
 Your hard work and determination paid off! 💻
 You've successfully completed the lab. **Way to go!** 🚀

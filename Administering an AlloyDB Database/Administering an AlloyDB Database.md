@@ -1,6 +1,6 @@
 # Administering an AlloyDB Database || [GSP1086](https://www.cloudskillsboost.google/focuses/100851?parent=catalog) ||
 
-## Solution [here](https://youtu.be/SjV2dOM_TME)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01/SjV2dOM_TME)
 
 ### Run the following Commands in CloudShell
 
@@ -59,7 +59,7 @@ export REGION="${ZONE%-*}"
 gcloud beta alloydb backups create lab-backup --region=$REGION  --cluster=lab-cluster
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

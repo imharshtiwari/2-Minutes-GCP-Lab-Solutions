@@ -1,6 +1,6 @@
 # Create and Manage Bigtable Instances: Challenge Lab || [GSP380](https://www.cloudskillsboost.google/focuses/92500?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GbzjeeVll4c)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x gsp380.sh
 
 * Go to `Dataflow Job` from [here](https://console.cloud.google.com/dataflow/jobs?)
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

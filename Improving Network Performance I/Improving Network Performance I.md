@@ -1,6 +1,6 @@
 # Improving Network Performance I || [GSP045](https://www.cloudskillsboost.google/focuses/1286?parent=catalog) ||
 
-## Solution [here](https://youtu.be/OiwEWVb9Yf4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp045.sh
 ./gsp045.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

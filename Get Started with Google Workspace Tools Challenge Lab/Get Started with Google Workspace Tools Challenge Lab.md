@@ -1,6 +1,6 @@
 # Get Started with Google Workspace Tools: Challenge Lab || [GSP376](https://www.cloudskillsboost.google/focuses/39167?parent=catalog) ||
 
-## Solution [here](https://youtu.be/t93hJjIYUWo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create your signature
 
@@ -102,7 +102,7 @@ Comments
 
 5. Click `Create app`
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

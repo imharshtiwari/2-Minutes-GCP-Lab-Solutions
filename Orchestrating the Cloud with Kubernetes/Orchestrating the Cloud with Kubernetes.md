@@ -1,6 +1,6 @@
 # Orchestrating the Cloud with Kubernetes || [GSP213](https://www.cloudskillsboost.google/focuses/557?parent=catalog) ||
 
-## Solution [here](https://youtu.be/exRI9MwthuM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp021.sh
 ./gsp021.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

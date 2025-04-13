@@ -1,6 +1,6 @@
 # VPC Network Peering || [GSP193](https://www.cloudskillsboost.google/focuses/964?parent=catalog) ||
 
-## Solution [here](https://youtu.be/FkOHmlSXZXg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp193.sh
 ./gsp193.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

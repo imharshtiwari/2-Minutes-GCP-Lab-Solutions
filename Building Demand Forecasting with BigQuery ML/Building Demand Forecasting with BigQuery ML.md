@@ -1,6 +1,6 @@
 # Building Demand Forecasting with BigQuery ML || [GSP852](https://www.cloudskillsboost.google/focuses/16547?parent=catalog) ||
 
-## Solution [here](https://youtu.be/pu56M19UBZk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -49,7 +49,7 @@ sudo chmod +x gsp852-2.sh
 ./gsp852-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

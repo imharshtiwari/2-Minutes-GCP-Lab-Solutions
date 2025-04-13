@@ -1,6 +1,6 @@
 # Getting Started with API Gateway: Challenge Lab || [ARC109](https://www.cloudskillsboost.google/focuses/61484?parent=catalog) ||
 
-## Solution [here](https://youtu.be/iWRh0xCKwRQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc109.sh
 ./arc109.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

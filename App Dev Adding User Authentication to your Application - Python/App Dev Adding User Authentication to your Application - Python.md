@@ -1,6 +1,6 @@
 # App Dev: Adding User Authentication to your Application - Python || [GSP186](https://www.cloudskillsboost.google/focuses/1071?parent=catalog) ||
 
-## Solution [here](https://youtu.be/8eBNR19o9-4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -14,7 +14,7 @@ cd ~/firebase/start
 ```
 
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

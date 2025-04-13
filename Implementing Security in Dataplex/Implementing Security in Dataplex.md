@@ -1,6 +1,6 @@
 # Implementing Security in Dataplex || [GSP1157](https://www.cloudskillsboost.google/focuses/67213?parent=catalog) ||
 
-## Solution [here](https://youtu.be/0JUaW4wyrDY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1157.sh
 ./gsp1157.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

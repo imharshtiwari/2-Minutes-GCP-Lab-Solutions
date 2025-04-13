@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the BigQuery Table || [ARC130](https://www.cloudskillsboost.google/focuses/85626?&parent=catalog) ||
 
-## Solution [here](https://youtu.be/FXjCGPriMAI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x arc130.sh
 ./arc130.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

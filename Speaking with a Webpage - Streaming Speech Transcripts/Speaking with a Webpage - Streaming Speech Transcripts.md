@@ -1,6 +1,6 @@
 # Speaking with a Webpage - Streaming Speech Transcripts || [GSP125](https://www.cloudskillsboost.google/focuses/676?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GAmFSpgiV-o)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -35,7 +35,7 @@ sudo chmod +x gsp125-3.sh
 ./gsp125-3.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

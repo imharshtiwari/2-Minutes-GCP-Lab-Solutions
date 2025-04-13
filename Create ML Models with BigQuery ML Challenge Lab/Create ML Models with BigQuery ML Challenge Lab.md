@@ -1,6 +1,6 @@
 # Create ML Models with BigQuery ML: Challenge Lab || [GSP341](https://www.cloudskillsboost.google/focuses/14294?parent=catalog) ||
 
-## Solution [here](https://youtu.be/pU5tdHlD_lU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp341.sh
 ./gsp341.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

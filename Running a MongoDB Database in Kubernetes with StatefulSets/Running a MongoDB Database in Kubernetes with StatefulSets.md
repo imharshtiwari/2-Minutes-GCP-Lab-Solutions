@@ -1,6 +1,6 @@
 # Running a MongoDB Database in Kubernetes with StatefulSets || [GSP022](https://www.cloudskillsboost.google/focuses/640?parent=catalog) ||
 
-## Solution [here](https://youtu.be/BgDhGANEdp4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp022.sh
 ./gsp022.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

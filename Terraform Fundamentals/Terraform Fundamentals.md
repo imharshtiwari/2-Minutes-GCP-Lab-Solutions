@@ -1,6 +1,6 @@
 # Terraform Fundamentals || [GSP156](https://www.cloudskillsboost.google/focuses/1208?parent=catalog) ||
 
-## Solution [here](https://youtu.be/qjpt7hElKjw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp156.sh
 ./gsp156.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Working with JSON, Arrays, and Structs in BigQuery || [GSP416](https://www.cloudskillsboost.google/focuses/3696?parent=catalog) ||
 
-## Solution [here](https://youtu.be/pRQPv0mvqX8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -11,7 +11,7 @@ sudo chmod +x gsp416.sh
 ./gsp416.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

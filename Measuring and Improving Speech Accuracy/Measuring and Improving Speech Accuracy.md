@@ -1,6 +1,6 @@
 # Measuring and Improving Speech Accuracy || [GSP758](https://www.cloudskillsboost.google/focuses/13597?parent=catalog) ||
 
-## Solution [here](https://youtu.be/43eQTPQD6uY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -25,7 +25,7 @@ gsutil cp gs://spls/gsp758/notebook/speech_adaptation.ipynb .
 gsutil cp gs://spls/gsp758/notebook/simple_wer_v2.py .
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

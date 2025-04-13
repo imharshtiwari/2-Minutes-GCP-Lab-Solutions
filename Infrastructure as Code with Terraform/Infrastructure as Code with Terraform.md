@@ -1,6 +1,6 @@
 # Infrastructure as Code with Terraform || [GSP750](https://www.cloudskillsboost.google/focuses/15842?parent=catalog) ||
 
-## Solution [here](https://youtu.be/u6B0Vaoe9T0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp750.sh
 ./gsp750.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

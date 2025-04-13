@@ -1,6 +1,6 @@
 # Protect Cloud Traffic with Chrome Enterprise Premium Security: Challenge Lab || [GSP373](https://www.cloudskillsboost.google/focuses/104667?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Dtf-jG0BYx8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp373.sh
 ./gsp373.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 ##### *You Have Successfully Demonstrated Your Skills and Perseverance.*  
 

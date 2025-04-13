@@ -1,6 +1,6 @@
 # Build a Website on Google Cloud: Challenge Lab || [GSP319](https://www.cloudskillsboost.google/focuses/11765?parent=catalog) ||
 
-## Solution [here](https://youtu.be/R_h7Djbw5jg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -22,7 +22,7 @@ sudo chmod +x gsp319.sh
 ./gsp319.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

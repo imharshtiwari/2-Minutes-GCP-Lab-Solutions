@@ -1,6 +1,6 @@
 # Cloud Storage: Qwik Start - CLI/SDK || [GSP074](https://www.cloudskillsboost.google/focuses/569?parent=catalog) ||
 
-## Solution [here](https://youtu.be/nnDHTQKhhxY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp074.sh
 ./gsp074.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

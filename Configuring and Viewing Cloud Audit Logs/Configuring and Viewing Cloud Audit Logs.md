@@ -1,6 +1,6 @@
 # [Configuring and Viewing Cloud Audit Logs](https://www.cloudskillsboost.google/focuses/19184?parent=catalog)
 
-## Solution [here](https://youtu.be/wlgv4lnoqqw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Deploy a Hugo Website with Cloud Build and Firebase Pipeline || [GSP747](https://www.cloudskillsboost.google/focuses/14353?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/xFYnoum98Fo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 📋 **Prerequisites**  
 
@@ -22,7 +22,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

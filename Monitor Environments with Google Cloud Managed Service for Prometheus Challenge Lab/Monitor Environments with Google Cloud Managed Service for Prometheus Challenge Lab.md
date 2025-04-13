@@ -1,6 +1,6 @@
 # Monitor Environments with Google Cloud Managed Service for Prometheus: Challenge Lab || [GSP364](https://www.cloudskillsboost.google/focuses/33337?parent=catalog) ||
 
-## Solution [here](https://youtu.be/AA0KSf71iLQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp364.sh
 ./gsp364.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

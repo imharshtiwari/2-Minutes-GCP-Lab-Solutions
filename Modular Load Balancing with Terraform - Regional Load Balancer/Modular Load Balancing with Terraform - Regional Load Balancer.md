@@ -1,6 +1,6 @@
 # Modular Load Balancing with Terraform - Regional Load Balancer || [GSP191](https://www.cloudskillsboost.google/focuses/1207?parent=catalog) ||
 
-## Solution [here](https://youtu.be/efCjZBv8zRo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp191.sh
 ./gsp191.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

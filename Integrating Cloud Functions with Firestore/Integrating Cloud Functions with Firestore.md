@@ -1,6 +1,6 @@
 # [Integrating Cloud Functions with Firestore](https://www.cloudskillsboost.google/course_templates/505/labs/361054)
 
-## Solution [here](https://youtu.be/I5sP3Z8VdXA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to `Create database` from [here](https://console.cloud.google.com/firestore/create-database?)
 
@@ -40,7 +40,7 @@ sudo chmod +x shell.sh
 |   :---:   | :----: | :----:  |
 | lastname  | string | Sherman |
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

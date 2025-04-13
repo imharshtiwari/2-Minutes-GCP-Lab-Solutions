@@ -1,6 +1,6 @@
 # BigQuery Soccer Data Ingestion || [GSP848](https://www.cloudskillsboost.google/focuses/23114?parent=catalog) ||
 
-## Solution [here](https://youtu.be/UPAYeY5imvw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp848.sh
 ./gsp848.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

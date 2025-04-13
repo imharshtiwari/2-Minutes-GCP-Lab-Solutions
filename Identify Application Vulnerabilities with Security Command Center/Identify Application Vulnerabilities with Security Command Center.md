@@ -1,6 +1,6 @@
 # [Identify Application Vulnerabilities with Security Command Center](https://www.cloudskillsboost.google/focuses/71934?parent=catalog)
 
-## Solution [here](https://youtu.be/uBscsgvn4AI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -27,7 +27,7 @@ sudo chmod +x shell-2.sh
 ./shell-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

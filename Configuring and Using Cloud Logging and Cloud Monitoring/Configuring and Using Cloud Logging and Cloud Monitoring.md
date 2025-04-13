@@ -1,6 +1,6 @@
 # [Configuring and Using Cloud Logging and Cloud Monitoring](https://www.cloudskillsboost.google/focuses/19183?parent=catalog)
 
-## Solution [here](https://youtu.be/ifge7NgrfsA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

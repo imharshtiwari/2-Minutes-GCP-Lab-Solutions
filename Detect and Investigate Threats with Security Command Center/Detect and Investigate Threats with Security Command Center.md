@@ -1,6 +1,6 @@
 # Detect and Investigate Threats with Security Command Center || [GSP1125](https://www.cloudskillsboost.google/focuses/71932?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/JE2qJiPoWtg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

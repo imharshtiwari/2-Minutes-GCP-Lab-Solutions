@@ -1,6 +1,6 @@
 # Cloud Spanner: Qwik Start || [GSP102](https://www.cloudskillsboost.google/focuses/1774?parent=catalog) ||
 
-## Solution [here](https://youtu.be/INJoqAqXmqY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp102.sh
 ./gsp102.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

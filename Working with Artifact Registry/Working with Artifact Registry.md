@@ -1,6 +1,6 @@
 # Working with Artifact Registry || [GSP1076](https://www.cloudskillsboost.google/focuses/52830?parent=catalog) ||
 
-## Solution [here](https://youtu.be/HRBOkeXYQWI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -27,7 +27,7 @@ sudo chmod +x gsp1076-2.sh
 ./gsp1076-2.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

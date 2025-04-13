@@ -1,6 +1,6 @@
 # Dialogflow CX: Managing Environments || [GSP929](https://www.cloudskillsboost.google/focuses/21708?parent=catalog) ||
 
-## Solution [here](https://youtu.be/RBTfcMOXWf4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Download Blob File from [here](https://drive.google.com/file/d/1TFrpJvVBzU_jIQiF5uADRtgKN9OQD6VF/view?usp=sharing)
 
@@ -39,7 +39,7 @@
 i want to book a flight
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

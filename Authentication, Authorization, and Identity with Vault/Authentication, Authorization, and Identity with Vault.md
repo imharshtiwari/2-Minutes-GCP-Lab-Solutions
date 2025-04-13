@@ -1,6 +1,6 @@
 # Authentication, Authorization, and Identity with Vault || [GSP1005](https://www.cloudskillsboost.google/focuses/32203?parent=catalog) ||
 
-## Solution [here](https://youtu.be/wyHw7Gv897g)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -53,7 +53,7 @@ sudo chmod +x gsp1005-2.sh
 ./gsp1005-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

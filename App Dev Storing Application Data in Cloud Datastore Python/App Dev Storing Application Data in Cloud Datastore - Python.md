@@ -1,6 +1,6 @@
 # App Dev: Storing Application Data in Cloud Datastore - Python || [GSP184](https://www.cloudskillsboost.google/focuses/1076?parent=catalog) ||
 
-## Solution [here](https://youtu.be/tJSlJuHPRdQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp184.sh
 ./gsp184.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

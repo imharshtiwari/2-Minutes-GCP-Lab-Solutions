@@ -1,6 +1,6 @@
 # Manage Data Models in Looker: Challenge Lab || [GSP365](https://www.cloudskillsboost.google/focuses/33370?parent=catalog) ||
 
-## Solution [here](https://youtu.be/fshy-3xtaLs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create LookML objects
 
@@ -471,7 +471,7 @@ view: products {
 }
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

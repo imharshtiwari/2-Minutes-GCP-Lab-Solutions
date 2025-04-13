@@ -1,6 +1,6 @@
 # Use Google Forms with Google Sheets || [GSP1064](https://www.cloudskillsboost.google/focuses/46917?parent=catalog) ||
 
-## Solution [here](https://youtu.be/MKwXW-5phgQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. In the left panel, click **+ New**, and then click **Google Forms** > **Blank form**.
 
@@ -28,7 +28,7 @@
 
 11. In the Import location dropdown, select Replace spreadsheet, and then click Import data.
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

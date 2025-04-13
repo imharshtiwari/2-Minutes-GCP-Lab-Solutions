@@ -1,6 +1,6 @@
 # Enhancing User Interactivity in Looker with Liquid || [GSP934](https://www.cloudskillsboost.google/focuses/21216?parent=catalog) ||
 
-## Solution [here](https://youtu.be/nQeZYeDACMs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Replace the following with **order_items.view** file
 
@@ -467,7 +467,7 @@ explore: +order_items {
 }
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

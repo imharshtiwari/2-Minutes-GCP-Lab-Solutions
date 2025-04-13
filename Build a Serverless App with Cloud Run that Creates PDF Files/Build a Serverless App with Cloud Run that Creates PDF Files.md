@@ -1,6 +1,6 @@
 # Build a Serverless App with Cloud Run that Creates PDF Files || [GSP644](https://www.cloudskillsboost.google/focuses/8390?parent=catalog) ||
 
-## Solution [here](https://youtu.be/x7ERIbp9U9k)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp644.sh
 ./gsp644.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

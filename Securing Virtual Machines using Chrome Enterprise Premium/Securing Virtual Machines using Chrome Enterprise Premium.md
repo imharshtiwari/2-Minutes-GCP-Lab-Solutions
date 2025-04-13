@@ -1,6 +1,6 @@
 # Securing Virtual Machines using Chrome Enterprise Premium || [GSP1036](https://www.cloudskillsboost.google/focuses/104659?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6K85vq5rp1M)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1036.sh
 ./gsp1036.sh
 ```
 
-### Congratulations 🎉 on Completing the Lab!  
+### 🐼 Congratulations 🎉 on Completing the Lab!  
 
 ##### *Your hard work and persistence have truly paid off. Outstanding effort!*  
 

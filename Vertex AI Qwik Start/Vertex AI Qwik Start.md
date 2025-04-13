@@ -1,6 +1,6 @@
 # Vertex AI: Qwik Start || [GSP917](https://www.cloudskillsboost.google/focuses/18940?parent=catalog) ||
 
-## Solution [here](https://youtu.be/IKcmDGxp9k0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -23,7 +23,7 @@ pip uninstall openpyxl -y
 pip install openpyxl
 ```
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 ##### *You Have Successfully Demonstrated Your Skills and Determination.*  
 

@@ -1,6 +1,6 @@
 # TensorFlow: Qwik Start || [GSP637](https://www.cloudskillsboost.google/focuses/7639?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Fx8csorAnSI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in Jupyter notebook terminal
 
@@ -41,7 +41,7 @@ model.fit(xs, ys, epochs=500)
 cloud_logger.info(str(model.predict(np.array([10.0]))))
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

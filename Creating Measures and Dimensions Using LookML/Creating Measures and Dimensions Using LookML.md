@@ -1,6 +1,6 @@
 # Creating Measures and Dimensions Using LookML || [GSP890](https://www.cloudskillsboost.google/focuses/18476?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Odd4rHhRCHs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Replace the following with users.view
 
@@ -285,7 +285,7 @@ view: order_items {
 }
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

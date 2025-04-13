@@ -1,6 +1,6 @@
 # Data Publishing on BigQuery using Authorized Views for Data Sharing Partners || [GSP1041](https://www.cloudskillsboost.google/focuses/42016?parent=catalog) ||
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x arc122.sh
 ./arc122.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

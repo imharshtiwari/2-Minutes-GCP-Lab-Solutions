@@ -1,6 +1,6 @@
 # Mitigate Threats and Vulnerabilities with Security Command Center: Challenge Lab || [GSP382](https://www.cloudskillsboost.google/focuses/71935?parent=catalog) ||
 
-## Solution [here](https://youtu.be/aSUdaONi4CI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -24,7 +24,7 @@ sudo chmod +x gsp382-2.sh
 ./gsp382-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

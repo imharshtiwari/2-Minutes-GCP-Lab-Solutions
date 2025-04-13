@@ -1,6 +1,6 @@
 # Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab || [GSP354](https://www.cloudskillsboost.google/focuses/22019?parent=catalog) ||
 
-## Solution [here](https://youtu.be/aGBZoWKhOyk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. In your notebook, Click the **Terminal** icon to open a terminal window.
 
@@ -15,11 +15,11 @@ wget https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions
 
 4. When asked which kernel to use, select the **Python 3 (ipykernel)** kernel.
 
-### Now follow [video's](https://youtu.be/aGBZoWKhOyk) instructions for tasks 3,4 & 5.
+### Now follow [video's](https://www.youtube.com/@sparkwave.01) instructions for tasks 3,4 & 5.
 
 > *Note: This training can take around **30-40** minutes to train and deploy the model.*
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 #### *Outstanding work! Your commitment has made this accomplishment possible.*  
 

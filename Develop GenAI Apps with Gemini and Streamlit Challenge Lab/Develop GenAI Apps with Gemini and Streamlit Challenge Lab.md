@@ -1,6 +1,6 @@
 # Develop GenAI Apps with Gemini and Streamlit: Challenge Lab || [GSP517](https://www.cloudskillsboost.google/focuses/87315?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/CyXk8cplPsk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Navigate to **Workbench** from [here](https://console.cloud.google.com/vertex-ai/workbench/instances?)
 
@@ -22,7 +22,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

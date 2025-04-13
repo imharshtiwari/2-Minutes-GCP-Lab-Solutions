@@ -1,6 +1,6 @@
 # [Extracting Text from the Images using the Google Cloud Vision API](https://www.cloudskillsboost.google/paths/17/course_templates/18/labs/381944)
 
-## Solution [here](https://youtu.be/V5wXiB6iGYQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

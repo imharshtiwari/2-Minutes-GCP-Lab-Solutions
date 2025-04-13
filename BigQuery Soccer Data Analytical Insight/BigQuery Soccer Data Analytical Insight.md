@@ -1,6 +1,6 @@
 # BigQuery Soccer Data Analytical Insight || [GSP850](https://www.cloudskillsboost.google/focuses/58632?parent=catalog) ||
 
-## Solution [here](https://youtu.be/HCocRX2g6Lo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp850.sh
 ./gsp850.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

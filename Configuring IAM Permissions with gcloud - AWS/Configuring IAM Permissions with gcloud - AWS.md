@@ -1,6 +1,6 @@
 # Configuring IAM Permissions with gcloud - AWS || [GSP1126](https://www.cloudskillsboost.google/focuses/60386?parent=catalog) ||
 
-## Solution [here](https://youtu.be/4wASm1F8qbc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -58,7 +58,7 @@ gcloud compute instances create lab-3 --machine-type=e2-standard-2 --service-acc
 ```
 
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

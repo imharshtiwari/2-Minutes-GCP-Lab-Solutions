@@ -1,6 +1,6 @@
 # Store, Process, and Manage Data on Google Cloud: Challenge Lab || [ARC100](https://www.cloudskillsboost.google/focuses/60439?parent=catalog) ||
 
-## Solution [here](https://youtu.be/b21T32_A0vU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x arc100.sh
 ./arc100.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

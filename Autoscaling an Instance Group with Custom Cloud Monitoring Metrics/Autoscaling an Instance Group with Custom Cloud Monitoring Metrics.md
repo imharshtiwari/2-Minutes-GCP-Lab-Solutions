@@ -1,6 +1,6 @@
 # Autoscaling an Instance Group with Custom Cloud Monitoring Metrics || [GSP087](https://www.cloudskillsboost.google/focuses/611?parent=catalog) ||
 
-## Solution [here](https://youtu.be/jp7VYo44Y-g)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp087.sh
 ./gsp087.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

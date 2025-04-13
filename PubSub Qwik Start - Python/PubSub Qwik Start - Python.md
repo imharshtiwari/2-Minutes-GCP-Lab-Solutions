@@ -1,6 +1,6 @@
 # Pub/Sub: Qwik Start - Python || [GSP094](https://www.cloudskillsboost.google/focuses/2775?parent=catalog) ||
 
-## Solution [here](https://youtu.be/4FTZPTfREHs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -11,7 +11,7 @@ sudo chmod +x gsp094.sh
 ./gsp094.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

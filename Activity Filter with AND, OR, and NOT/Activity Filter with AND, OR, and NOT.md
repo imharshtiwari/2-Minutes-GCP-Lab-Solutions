@@ -1,6 +1,6 @@
 # Activity: Filter with AND, OR, and NOT
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -30,7 +30,7 @@ FROM employees
 WHERE NOT department = 'Information Technology';
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

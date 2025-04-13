@@ -1,6 +1,6 @@
 # Setting up Jenkins on Kubernetes Engine || [GSP117](https://www.cloudskillsboost.google/focuses/1776?parent=catalog) ||
 
-## Solution [here](https://youtu.be/LnpA8NdNubE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp117.sh
 ./gsp117.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

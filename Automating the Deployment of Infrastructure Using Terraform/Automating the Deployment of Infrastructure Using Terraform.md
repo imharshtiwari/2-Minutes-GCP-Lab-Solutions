@@ -1,6 +1,6 @@
 # [Automating the Deployment of Infrastructure Using Terraform ](https://www.cloudskillsboost.google/focuses/19098?parent=catalog)
 
-## Solution [here](https://youtu.be/M6CKigU4BBM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x sparkwave.sh
 ./sparkwave.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

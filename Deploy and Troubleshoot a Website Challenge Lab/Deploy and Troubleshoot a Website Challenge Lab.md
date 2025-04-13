@@ -1,6 +1,6 @@
 # Deploy and Troubleshoot a Website: Challenge Lab || [GSP101](https://www.cloudskillsboost.google/focuses/1734?parent=catalog) ||
 
-## Solution [here](https://youtu.be/CLUkxtEuv68)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -16,7 +16,7 @@ sudo chmod +x gsp101.sh
 ./gsp101.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

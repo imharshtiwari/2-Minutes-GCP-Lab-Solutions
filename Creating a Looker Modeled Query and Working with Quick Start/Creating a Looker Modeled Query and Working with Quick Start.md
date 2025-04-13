@@ -1,6 +1,6 @@
 # Creating a Looker Modeled Query and Working with Quick Start || [GSP984](https://www.cloudskillsboost.google/focuses/22176?parent=catalog) ||
 
-## Solution [here](https://youtu.be/zVI1mZtyO8A)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Paste the following In the training_ecommerce.model file
 ```
@@ -78,7 +78,7 @@ explore: events {
 ```
 Order Items Count per State
 ```
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

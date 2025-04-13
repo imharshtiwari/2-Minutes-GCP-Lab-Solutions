@@ -1,6 +1,6 @@
 # Running a Dedicated Ethereum RPC Node in Google Cloud || [GSP1116](https://www.cloudskillsboost.google/focuses/61475?parent=catalog) ||
 
-## 💡 **Solution [here](https://youtu.be/AfdqhJdgZI0)** 
+## 💡 **🔑 Solution [here](https://www.youtube.com/@sparkwave.01)** 
 
 ####  Download and Run the Initial Script 
 
@@ -175,7 +175,7 @@ sudo chmod +x gsp1116-2.sh
 ./gsp1116-2.sh
 ```
 
-### 🎉 **Congratulations on Completing the Lab!**  
+### 🎉 🐻‍❄️ྀིྀི **Congratulations on Completing the Lab!**  
 
 ##### *Your expertise and effort are shining through—keep up the amazing work!*  
 

@@ -1,6 +1,6 @@
 #  [Cloud Storage](https://www.cloudskillsboost.google/focuses/19083?parent=catalog)
 
-## Solution [here](https://youtu.be/jFRATMptdyI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell on Project 1
 
@@ -28,7 +28,7 @@ sudo chmod +x project-2.sh
 ./project-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

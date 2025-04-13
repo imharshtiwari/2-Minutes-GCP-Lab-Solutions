@@ -1,6 +1,6 @@
 # Get Started with Cloud Storage: Challenge Lab || [ARC111](https://www.cloudskillsboost.google/focuses/62706?parent=catalog) ||
 
-## Solution [here](https://youtu.be/X6DNbZbzKuA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x arc111.sh
 ./arc111.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

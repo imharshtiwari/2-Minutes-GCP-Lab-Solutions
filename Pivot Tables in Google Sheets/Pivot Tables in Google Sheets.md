@@ -1,6 +1,6 @@
 # Pivot Tables in Google Sheets || [GSP1065](https://www.cloudskillsboost.google/focuses/47354?parent=catalog) ||
 
-## Solution [here](https://youtu.be/NU8_C-kBJh8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. In the top left, under Start a new spreadsheet, click + to open a blank spreadsheet in a new browser tab.
 
@@ -19,7 +19,7 @@
 7. At the top, change the filename from Untitled spreadsheet to **On the Rise Bakery Web Traffic**
 
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # mini lab : Cloud Storage : 1
 
-## 💡 Solution [here](https://youtu.be/34Y4CDQFMcQ)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 Run the following commands in **Cloud Shell**:
 

@@ -1,6 +1,6 @@
 # Develop Serverless Applications on Cloud Run: Challenge Lab || [GSP328](https://www.cloudskillsboost.google/focuses/14744?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/3sAq66ct-o8)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ## 🛠️ Export the Following Environment Variables in CloudShell
 
@@ -24,7 +24,7 @@ sudo chmod +x gsp328.sh
 ./gsp328.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### **You’ve demonstrated your expertise and commitment. Keep it up!**
 

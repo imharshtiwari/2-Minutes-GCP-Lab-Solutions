@@ -1,6 +1,6 @@
 # Creating a De-identified Copy of Data in Cloud Storage || [GSP1073](https://www.cloudskillsboost.google/focuses/47127?parent=catalog) ||
 
-## Solution [here](https://youtu.be/QSHX7gFDwK8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1073.sh
 ./gsp1073.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

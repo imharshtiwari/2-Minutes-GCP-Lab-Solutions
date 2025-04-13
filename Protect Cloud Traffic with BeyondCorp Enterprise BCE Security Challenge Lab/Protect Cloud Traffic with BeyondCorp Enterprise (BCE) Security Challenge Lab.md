@@ -1,6 +1,6 @@
 # Protect Cloud Traffic with BeyondCorp Enterprise (BCE) Security: Challenge Lab || [GSP373](https://www.cloudskillsboost.google/focuses/40541?parent=catalog) ||
 
-## Solution [here](https://youtu.be/6dB9Wnq97bw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,9 +17,9 @@ sudo chmod +x gsp373.sh
 
 * Go to `OAuth Consent` from [here](https://console.cloud.google.com/apis/credentials/consent) & `Identity-Aware Proxy` from [here](https://console.cloud.google.com/security/iap)
 
-* Now Follow [Video's](https://youtu.be/6dB9Wnq97bw) Instructions
+* Now Follow [Video's](https://www.youtube.com/@sparkwave.01) Instructions
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

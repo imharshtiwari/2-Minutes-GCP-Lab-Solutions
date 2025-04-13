@@ -1,6 +1,6 @@
 # Check Point: Next-Gen Data Center Security CloudGuard for Google Cloud || [GSP818](https://www.cloudskillsboost.google/focuses/15822?parent=catalog) ||
 
-## Solution [here](https://youtu.be/LaGwriJlAKs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp818.sh
 ./gsp818.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Building a High-throughput VPN || [GSP062](https://www.cloudskillsboost.google/focuses/641?parent=catalog) ||
 
-## Solution [here](https://youtu.be/B9aD3ntjxHs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -16,7 +16,7 @@ sudo chmod +x gsp062.sh
 ./gsp062.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

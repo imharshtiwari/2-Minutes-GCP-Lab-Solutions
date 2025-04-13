@@ -1,6 +1,6 @@
 # Get Started with Looker: Challenge Lab || [ARC107](https://www.cloudskillsboost.google/focuses/61470?parent=catalog) ||
 
-## Solution [here](https://youtu.be/iZPo_KTy1RE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Create a new [Looker Studio](http://lookerstudio.google.com/) report named `Online Sales`
 
@@ -101,13 +101,13 @@ explore: events {
 }
 ```
 
-* NOW FOLLOW [VIDEO'S](https://youtu.be/iZPo_KTy1RE) INSTRUCTIONS
+* NOW FOLLOW [VIDEO'S](https://www.youtube.com/@sparkwave.01) INSTRUCTIONS
 
 * Create a bar chart of the `top 3 event types based on the highest number of users`
 
 * Save your bar chart to a new dashboard named `User Events`
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

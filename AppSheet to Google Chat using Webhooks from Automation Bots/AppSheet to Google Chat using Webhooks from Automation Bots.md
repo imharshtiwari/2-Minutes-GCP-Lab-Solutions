@@ -1,6 +1,6 @@
 # AppSheet to Google Chat using Webhooks from Automation Bots || [GSP756](https://www.cloudskillsboost.google/focuses/55390?parent=catalog) ||
 
-## Solution [here](https://youtu.be/AHXKUectm7g)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -10,7 +10,7 @@
 
 * Download file from [here](https://docs.google.com/spreadsheets/d/15-iUFrYB1Gk1kyYrgpfImptTiquXNY7B/export?ouid=110411516125283809866&format=xlsx)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

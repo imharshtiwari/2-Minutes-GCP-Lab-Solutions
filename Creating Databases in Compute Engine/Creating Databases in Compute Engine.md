@@ -1,6 +1,6 @@
 # [Creating Databases in Compute Engine](https://www.cloudskillsboost.google/course_templates/145/labs/387200)
 
-## Solution [here](https://youtu.be/weiXbix17yE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x db.sh
 ./db.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

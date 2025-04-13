@@ -1,6 +1,6 @@
 # Activity: Filter a SQL query
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands in CloudShell
 
@@ -29,7 +29,7 @@ FROM employees
 WHERE office LIKE 'South%';
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

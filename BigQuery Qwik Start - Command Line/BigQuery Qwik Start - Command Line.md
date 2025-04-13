@@ -1,6 +1,6 @@
 # BigQuery: Qwik Start - Command Line || [GSP071](https://www.cloudskillsboost.google/focuses/577?parent=catalog) ||
 
-## Solution [here](https://youtu.be/IE-952LyfiU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -11,7 +11,7 @@ sudo chmod +x gsp071.sh
 ./gsp071.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

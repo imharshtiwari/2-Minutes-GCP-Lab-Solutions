@@ -1,6 +1,6 @@
 # Configure Replication and Enable Point-in-Time-Recovery for Cloud SQL for PostgreSQL || [GSP922](https://www.cloudskillsboost.google/focuses/22795?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/91LVHWZH9_U)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -66,7 +66,7 @@ supersecret!
 SELECT COUNT(*) FROM distribution_centers;
 ```
 
-# 🎉 Woohoo! You Did It! 🎉
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉
 
 Your hard work and determination paid off! 💻
 You've successfully completed the lab. **Way to go!** 🚀

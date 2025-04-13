@@ -1,6 +1,6 @@
 # Develop your Google Cloud Network: Challenge Lab || [GSP321](https://www.cloudskillsboost.google/focuses/10603?parent=catalog) ||
 
-## Solution [here](https://youtu.be/DlltA4VWsRs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -29,7 +29,7 @@ sudo chmod +x gsp321.sh
 
 5. Leave everything as default. Click `Next` -> `Next` -> `Create`
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

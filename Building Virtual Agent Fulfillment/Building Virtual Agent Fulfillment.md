@@ -1,6 +1,6 @@
 # Building Virtual Agent Fulfillment || [GSP792](https://www.cloudskillsboost.google/focuses/12039?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Tl08w_3VaQU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Enable `Dialogflow API` from [here](https://console.cloud.google.com/marketplace/product/google/dialogflow.googleapis.com?)
 
@@ -128,7 +128,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 }
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

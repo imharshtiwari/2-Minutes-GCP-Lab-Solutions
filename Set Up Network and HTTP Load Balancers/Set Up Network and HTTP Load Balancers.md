@@ -1,6 +1,6 @@
 # Set Up Network and HTTP Load Balancers || [GSP007](https://www.cloudskillsboost.google/focuses/12007?parent=catalog) ||
 
-## Solution [here](https://youtu.be/g5K47lEpK4M)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp007.sh
 ./gsp007.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

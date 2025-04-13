@@ -1,6 +1,6 @@
 # [Resource Monitoring ](https://www.cloudskillsboost.google/games/5632/labs/36136)
 
-## Solution [here](https://youtu.be/kTN9AP-g9Hc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -24,7 +24,7 @@ sudo chmod +x shell.sh
 
 * Go to **Create Uptime Check** from [here](https://console.cloud.google.com/monitoring/uptime/create?)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

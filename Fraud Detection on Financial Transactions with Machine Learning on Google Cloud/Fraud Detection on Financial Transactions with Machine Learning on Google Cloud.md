@@ -1,6 +1,6 @@
 # Fraud Detection on Financial Transactions with Machine Learning on Google Cloud || [GSP774](https://www.cloudskillsboost.google/focuses/17976?parent=catalog) ||
 
-## Solution [here](https://youtu.be/-1yvO1yVaKA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

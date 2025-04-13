@@ -1,6 +1,6 @@
 # Implement DevOps Workflows in Google Cloud: Challenge Lab || [GSP330](https://www.cloudskillsboost.google/focuses/13287?parent=catalog) ||
 
-## 💡 **Solution** [here](https://youtu.be/4DO6MQ4zF3o)  
+## 💡 **🔑 Solution** [here](https://www.youtube.com/@sparkwave.01)  
 
 ### 📋 **Prerequisites**  
 
@@ -52,7 +52,7 @@ sudo chmod +x gsp330-2.sh
 ./gsp330-2.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *Your dedication and hard work are truly commendable—great job!*
 

@@ -1,6 +1,6 @@
 # Networking Fundamentals on Google Cloud: Challenge Lab || [ARC124](https://www.cloudskillsboost.google/focuses/65382?parent=catalog) ||
 
-## Solution [here](https://youtu.be/am608gmgOGY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x arc124.sh
 ./arc124.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

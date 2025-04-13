@@ -1,6 +1,6 @@
 # Continuous Delivery with Jenkins in Kubernetes Engine || [GSP051](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) ||
 
-## Solution [here](https://youtu.be/YYB83ZtzTpc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp051.sh
 ./gsp051.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

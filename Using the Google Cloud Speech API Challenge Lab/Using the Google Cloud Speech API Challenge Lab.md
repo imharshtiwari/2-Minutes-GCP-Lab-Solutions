@@ -1,6 +1,6 @@
 # Using the Google Cloud Speech API: Challenge Lab || [ARC131](https://www.cloudskillsboost.google/focuses/65993?parent=catalog) ||
 
-## Solution [here](https://youtu.be/5Wzpy6Y2yPk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create an API key
 
@@ -30,7 +30,7 @@ sudo chmod +x arc131.sh
 ./arc131.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

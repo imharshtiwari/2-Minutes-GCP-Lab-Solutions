@@ -1,6 +1,6 @@
 # VPC Networking: Cloud HA-VPN || [GSP619](https://www.cloudskillsboost.google/focuses/6270?parent=catalog) ||
 
-## Solution [here](https://youtu.be/kZIfqsIP5YA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -16,7 +16,7 @@ sudo chmod +x gsp619.sh
 ./gsp619.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

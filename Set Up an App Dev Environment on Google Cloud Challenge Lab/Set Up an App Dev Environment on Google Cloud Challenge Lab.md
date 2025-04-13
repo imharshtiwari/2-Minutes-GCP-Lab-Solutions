@@ -1,6 +1,6 @@
 # Set Up an App Dev Environment on Google Cloud: Challenge Lab || [GSP315](https://www.cloudskillsboost.google/focuses/10379?parent=catalog) ||
 
-## Solution [here](https://youtu.be/lYPt_N54QbQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp315.sh
 ./gsp315.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

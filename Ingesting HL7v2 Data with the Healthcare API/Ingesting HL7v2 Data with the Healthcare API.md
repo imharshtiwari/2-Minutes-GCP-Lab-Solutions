@@ -1,6 +1,6 @@
 # Ingesting HL7v2 Data with the Healthcare API || [GSP628](https://www.cloudskillsboost.google/focuses/7015?parent=catalog) ||
 
-## Solution [here](https://youtu.be/lKAtxRfh2Rg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp628.sh
 ./gsp628.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Streaming Analytics into BigQuery: Challenge Lab || [ARC106](https://www.cloudskillsboost.google/focuses/61948?parent=catalog) ||
 
-## Solution [here](https://youtu.be/21jjrIK5EiQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -20,7 +20,7 @@ sudo chmod +x arc106.sh
 ./arc106.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

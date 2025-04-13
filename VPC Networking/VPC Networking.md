@@ -1,6 +1,6 @@
 # [VPC Networking](https://www.cloudskillsboost.google/course_templates/50/labs/485519)
 
-## Solution [here](https://youtu.be/pKAu_PB3FZI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -17,7 +17,7 @@ sudo chmod +x vpc-networking.sh
 ./vpc-networking.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

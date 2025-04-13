@@ -1,6 +1,6 @@
 # Cloud SQL with Terraform || [GSP234](https://www.cloudskillsboost.google/focuses/1215?parent=catalog) ||
 
-## Solution [here](https://youtu.be/VtnseElEcTE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in SSH
 ```
@@ -11,7 +11,7 @@ sudo chmod +x gsp234.sh
 ./gsp234.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

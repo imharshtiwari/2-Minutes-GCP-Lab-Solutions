@@ -1,6 +1,6 @@
 # Importing Data to a Firestore Database || [GSP642](https://www.cloudskillsboost.google/focuses/8392?parent=catalog) ||
 
-## Solution [here](https://youtu.be/lZ2ISeCnDKU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp642.sh
 ./gsp642.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

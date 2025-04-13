@@ -1,6 +1,6 @@
 # [Cloud Audit Logs](https://www.cloudskillsboost.google/paths/15/course_templates/99/labs/432519?)
 
-## Solution [here](https://youtu.be/IZatdzjmncM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. Got `Audit Logs` from [here](https://console.cloud.google.com/iam-admin/audit)
 
@@ -34,7 +34,7 @@ sudo chmod +x Audit-Logs.sh
 5. Press the `Run query` button.
 
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

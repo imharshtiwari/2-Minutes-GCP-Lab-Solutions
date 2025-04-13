@@ -1,6 +1,6 @@
 # Connect and Configure Data for your AppSheet App || [GSP910](https://www.cloudskillsboost.google/focuses/20159?parent=catalog) ||
 
-## Solution [here](https://youtu.be/gqYBjcwQtMo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. Open the link in another browser tab to copy the Customer Contacts app to your AppSheet account: [Customer Contacts app](https://www.appsheet.com/Template/AppDef?appName=Lab1-CustomerContacts-3856613)
 
@@ -14,7 +14,7 @@
 
 5. Download File from [here](https://docs.google.com/spreadsheets/d/1t7ppj_RTHYACbkJRINozlyRtqSYYxoAd/export?&format=xlsx)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

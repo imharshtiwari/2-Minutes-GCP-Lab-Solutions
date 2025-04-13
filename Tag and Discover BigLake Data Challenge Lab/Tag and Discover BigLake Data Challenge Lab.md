@@ -1,6 +1,6 @@
 # Tag and Discover BigLake Data: Challenge Lab || [ARC123](https://www.cloudskillsboost.google/focuses/64167?parent=catalog) ||
 
-## Solution [here](https://youtu.be/_c6Zmt9pAgk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc123.sh
 ./arc123.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

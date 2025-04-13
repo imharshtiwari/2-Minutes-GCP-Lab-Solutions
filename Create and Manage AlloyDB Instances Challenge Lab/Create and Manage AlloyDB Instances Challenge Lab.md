@@ -1,6 +1,6 @@
 # Create and Manage AlloyDB Instances: Challenge Lab || [GSP395](https://www.cloudskillsboost.google/focuses/50123?parent=catalog) ||
 
-## Solution [here](https://youtu.be/86kpvb2omtw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -78,7 +78,7 @@ INSERT INTO departments VALUES (50, 'Shipping', 121, 1500);
 INSERT INTO departments VALUES (60, 'IT', 103, 1400);
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

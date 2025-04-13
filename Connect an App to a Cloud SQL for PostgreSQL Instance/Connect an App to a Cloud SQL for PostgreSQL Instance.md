@@ -1,6 +1,6 @@
 # Connect an App to a Cloud SQL for PostgreSQL Instance || [GSP919](https://www.cloudskillsboost.google/focuses/57387?parent=catalog) ||
 
-## Solution [here](https://youtu.be/WgY9Hbpmkk0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -20,7 +20,7 @@ sudo chmod +x gsp919.sh
 supersecret!
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

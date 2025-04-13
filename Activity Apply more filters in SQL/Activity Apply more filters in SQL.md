@@ -1,6 +1,6 @@
 # Activity: Apply more filters in SQL
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -34,7 +34,7 @@ FROM log_in_attempts
 WHERE event_id BETWEEN 100 AND 150;
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Using BigQuery and Cloud Logging to Analyze BigQuery Usage || [GSP617](https://www.cloudskillsboost.google/focuses/6100?parent=catalog) ||
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp617.sh
 ./gsp617.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

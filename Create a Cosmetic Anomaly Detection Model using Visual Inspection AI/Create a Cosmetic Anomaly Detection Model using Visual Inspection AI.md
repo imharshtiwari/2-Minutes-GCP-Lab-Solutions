@@ -1,6 +1,6 @@
 # Create a Cosmetic Anomaly Detection Model using Visual Inspection AI || [GSP897](https://www.cloudskillsboost.google/focuses/34181?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/X95kc9AZk5c)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp897.sh
 ./gsp897.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You've successfully conquered the lab! Your dedication and skills truly shine.*
 

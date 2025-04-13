@@ -1,6 +1,6 @@
 # Identify Damaged Car Parts with Vertex AutoML Vision || [GSP972](https://www.cloudskillsboost.google/focuses/22020?parent=catalog) ||
 
-## Solution [here](https://youtu.be/pcA7W2sOK9M)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -38,7 +38,7 @@ sudo chmod +x gsp972-2.sh
 ./gsp972-2.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

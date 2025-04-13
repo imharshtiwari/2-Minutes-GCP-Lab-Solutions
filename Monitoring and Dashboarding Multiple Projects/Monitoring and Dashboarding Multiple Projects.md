@@ -1,6 +1,6 @@
 # [Monitoring and Dashboarding Multiple Projects](https://www.cloudskillsboost.google/focuses/19475?parent=catalog)
 
-## 🔑 **Solution [here](https://youtu.be/4A_iA4MLlmM)**
+## 🔑 **🔑 Solution [here](https://www.youtube.com/@sparkwave.01)**
 
 #### 1️⃣ Download and Run the Script  
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You have showcased incredible perseverance and skill. Well done on completing the lab!*
 

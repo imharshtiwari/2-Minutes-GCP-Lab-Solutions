@@ -1,6 +1,6 @@
 # Employing Best Practices for Improving the Usability of LookML Projects || [GSP1020](https://www.cloudskillsboost.google/focuses/33369?parent=catalog) ||
 
-## Solution [here](https://youtu.be/YMBxqRgCN60)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Paste The Following
 
@@ -350,7 +350,7 @@ explore: events {
 
 4. Lastly, click `Deploy to Production`.
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

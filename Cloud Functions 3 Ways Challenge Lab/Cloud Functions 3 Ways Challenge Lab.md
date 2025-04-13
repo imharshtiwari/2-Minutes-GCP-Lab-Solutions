@@ -1,6 +1,6 @@
 # Cloud Functions: 3 Ways: Challenge Lab || [ARC104](https://www.cloudskillsboost.google/focuses/61974?parent=catalog) ||
 
-## Solution [here](https://youtu.be/fPVslkWDTGg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x arc104.sh
 ./arc104.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

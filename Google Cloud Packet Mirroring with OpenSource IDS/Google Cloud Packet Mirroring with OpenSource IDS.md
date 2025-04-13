@@ -1,6 +1,6 @@
 # Develop your Google Cloud Network: Challenge Lab || [GSP474](https://www.cloudskillsboost.google/focuses/14864?parent=catalog) ||
 
-## Solution [here](https://youtu.be/cKY0hhrFz9E)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp474.sh
 ./gsp474.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

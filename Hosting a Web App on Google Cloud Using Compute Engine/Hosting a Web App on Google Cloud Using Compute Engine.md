@@ -1,6 +1,6 @@
 # Hosting a Web App on Google Cloud Using Compute Engine || [GSP662](https://www.cloudskillsboost.google/focuses/11952?parent=catalog) ||
 
-## Solution [here](https://youtu.be/um0RpF0k070)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -26,7 +26,7 @@ sudo chmod +x gsp662-2.sh
 ./gsp662-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

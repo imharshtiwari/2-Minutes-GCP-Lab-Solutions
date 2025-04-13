@@ -1,6 +1,6 @@
 # Securing Compute Engine Applications and Resources using BeyondCorp Enterprise (BCE) || [GSP1033](https://www.cloudskillsboost.google/focuses/40542?parent=catalog) ||
 
-## Solution [here](https://youtu.be/VZLI922Fxkg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x gsp1033.sh
 
 * Go to the `Identity-Aware Proxy` from [here](https://console.cloud.google.com/security/iap?)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

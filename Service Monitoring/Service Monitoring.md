@@ -1,6 +1,6 @@
 # [Service Monitoring](https://www.cloudskillsboost.google/focuses/19476?parent=catalog)
 
-## 🔑 Solution [here](https://youtu.be/7DlUJMF4hWc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Download and Execute the Script
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You’ve showcased remarkable skills and determination. Keep up the great work!*
 

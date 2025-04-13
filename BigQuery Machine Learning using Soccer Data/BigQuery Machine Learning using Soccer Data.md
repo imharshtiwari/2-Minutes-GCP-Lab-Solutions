@@ -1,6 +1,6 @@
 # BigQuery Machine Learning using Soccer Data || [GSP851](https://www.cloudskillsboost.google/focuses/23293?parent=catalog) ||
 
-## Solution [here](https://youtu.be/8Y09SYa9U0o)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp851.sh
 ./gsp851.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

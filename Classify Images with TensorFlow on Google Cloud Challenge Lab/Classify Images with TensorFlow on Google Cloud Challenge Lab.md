@@ -1,6 +1,6 @@
 # Classify Images with TensorFlow on Google Cloud: Challenge Lab || [GSP398](https://www.cloudskillsboost.google/focuses/53698?parent=catalog) ||
 
-## Solution [here](https://youtu.be/HDa3hklJaTQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -14,7 +14,7 @@ sudo chmod +x *.sh
 
 * Download `cnn_challenge_lab-v1.0.0.ipynb` file from [here](https://drive.google.com/uc?export=download&id=1cxn75Welotezp3x-4ZZ7MJti08ao5l-f)
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

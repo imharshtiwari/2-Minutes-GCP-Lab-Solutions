@@ -1,6 +1,6 @@
 # Deploying Redis Enterprise for GKE and Serverless App on GDCV on Bare Metal || [GSP938](https://www.cloudskillsboost.google/focuses/21603?parent=catalog) ||
 
-## Solution [here](https://youtu.be/1fFDv2zbthc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp938.sh
 ./gsp938.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

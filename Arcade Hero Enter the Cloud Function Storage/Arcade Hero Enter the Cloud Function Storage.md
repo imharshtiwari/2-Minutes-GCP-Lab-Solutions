@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the Cloud Function Storage || [ARC236](https://www.cloudskillsboost.google/focuses/98835?parent=catalog) ||
 
-## Solution [here](https://youtu.be/b6wGHbRAgew)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc236.sh
 ./arc236.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

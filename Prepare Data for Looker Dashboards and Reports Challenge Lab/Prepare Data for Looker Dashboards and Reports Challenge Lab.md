@@ -1,6 +1,6 @@
 # Prepare Data for Looker Dashboards and Reports: Challenge Lab || [GSP346](https://www.cloudskillsboost.google/focuses/18116?parent=catalog) ||
 
-## Solution [here](https://youtu.be/nqm6FQTOICI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create Looks
 
@@ -142,7 +142,7 @@ Busiest, Major Joint-Use Airports with Control Towers
 6. Click **Add Look to Dashboard**.
 7. For each of the **Looks you created**, add them to the **YOUR DASHBOARD NAME**.
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # App Dev: Storing Image and Video Files in Cloud Storage - Python || [GSP185](https://www.cloudskillsboost.google/focuses/1075?parent=catalog) ||
 
-## Solution [here](https://youtu.be/sDWlw49Aqjo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp185.sh
 ./gsp185.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

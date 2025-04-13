@@ -1,6 +1,6 @@
 # Tagging Dataplex Assets || [GSP1145](https://www.cloudskillsboost.google/focuses/62711?parent=catalog) ||
 
-## Solution [here](https://youtu.be/s-3nNkkocdo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1145.sh
 ./gsp1145.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Configure Secure RDP using a Windows Bastion Host: Challenge Lab || [GSP303](https://www.cloudskillsboost.google/focuses/1737?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Y8_C7jwHpHc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp303.sh
 
 * Go to `VM instances` from [here](https://console.cloud.google.com/compute/instances?)
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

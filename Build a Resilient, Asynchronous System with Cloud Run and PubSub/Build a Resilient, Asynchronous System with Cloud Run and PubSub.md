@@ -1,6 +1,6 @@
 # Build a Resilient, Asynchronous System with Cloud Run and Pub/Sub || [GSP650](https://www.cloudskillsboost.google/focuses/8389?parent=catalog) ||
 
-## Solution [here](https://youtu.be/UdRVg-mIAcY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp650.sh
 ./gsp650.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

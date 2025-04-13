@@ -1,6 +1,6 @@
 # Securing Compute Engine Applications and Resources using Chrome Enterprise Premium || [GSP1033](https://www.cloudskillsboost.google/focuses/104663?parent=catalog) ||
 
-## Solution [here](https://youtu.be/2gu-ouGhjow)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1033.sh
 ./gsp1033.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab!  
+### 🐼 Congratulations 🎉 for Completing the Lab!  
 
 ##### *You've truly showcased your skills and determination.*  
 

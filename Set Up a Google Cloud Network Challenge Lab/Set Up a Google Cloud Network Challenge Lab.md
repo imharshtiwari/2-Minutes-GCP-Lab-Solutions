@@ -1,6 +1,6 @@
 # Set Up a Google Cloud Network: Challenge Lab || [GSP314](https://www.cloudskillsboost.google/focuses/10417?parent=catalog) ||
 
-## Solution [here](https://youtu.be/Z74R0Fm_hso)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -22,7 +22,7 @@ sudo chmod +x gsp314.sh
 ./gsp314.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

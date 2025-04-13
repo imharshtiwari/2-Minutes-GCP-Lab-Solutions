@@ -1,6 +1,6 @@
 # Use Machine Learning APIs on Google Cloud: Challenge Lab || [GSP329](https://www.cloudskillsboost.google/focuses/12704?parent=catalog) ||
 
-## Solution [here](https://youtu.be/lusvywJCSVI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp329.sh
 ./gsp329.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

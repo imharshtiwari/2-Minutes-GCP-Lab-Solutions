@@ -1,6 +1,6 @@
 # Streaming Data to Bigtable || [GSP1055](https://www.cloudskillsboost.google/focuses/92498?&parent=catalog) ||
 
-## Solution [here](https://youtu.be/Jj4dGiPUImA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -30,7 +30,7 @@ cbt deletetable current_conditions
 gcloud bigtable instances delete sandiego --quiet
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

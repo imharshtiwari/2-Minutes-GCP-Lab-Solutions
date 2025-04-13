@@ -1,6 +1,6 @@
 # [Virtual Private Networks (VPN)](https://www.cloudskillsboost.google/games/4770/labs/31092)
 
-## Solution [here](https://youtu.be/53EMmNwm9cw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x VPN.sh
 
 ./VPN.sh
 ```
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

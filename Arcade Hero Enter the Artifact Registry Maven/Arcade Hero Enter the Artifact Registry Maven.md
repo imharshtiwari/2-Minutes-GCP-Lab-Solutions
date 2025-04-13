@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the Artifact Registry Maven || [ARC151](https://www.cloudskillsboost.google/focuses/89730?parent=catalog) ||
 
-## Solution [here](https://youtu.be/4Rsiz-sQDtw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -16,7 +16,7 @@ sudo chmod +x arc151.sh
 ./arc151.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

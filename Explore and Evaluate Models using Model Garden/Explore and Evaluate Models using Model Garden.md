@@ -1,6 +1,6 @@
 # Explore and Evaluate Models using Model Garden || [GSP1166](https://www.cloudskillsboost.google/focuses/71938?parent=catalog) ||
 
-## Solution [here](https://youtu.be/TkBlUZDTOTQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1: Explore Model Garden
 
@@ -17,7 +17,7 @@
 
 2. Click [here](https://console.cloud.google.com/vertex-ai/pipelines/vertex-ai-templates/bert-finetuning;versionId=sha256:0caf76450a3db5d768462d4846b4fb164845b0fc68383f6b4d7494be6bb7cf30/details?project=) to open the `bert-fine-tuning` Vertex AI pipeline.
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

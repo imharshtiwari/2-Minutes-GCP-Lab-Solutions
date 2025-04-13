@@ -1,6 +1,6 @@
 # Get Started with Eventarc: Challenge Lab || [ARC118](https://www.cloudskillsboost.google/focuses/63244?parent=catalog) ||
 
-## Solution [here](https://youtu.be/nBEGAJMi8t4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc118.sh
 ./arc118.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Activity: Install software in a Linux distribution
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -28,7 +28,7 @@ sudo apt install suricata -y
 ```
 * * Check score for Task 5.
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Service Directory: Qwik Start || [GSP732](https://www.cloudskillsboost.google/focuses/12412?parent=catalog) ||
 
-## Solution [here](https://youtu.be/A5EqPaJVXlc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp732.sh
 ./gsp732.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

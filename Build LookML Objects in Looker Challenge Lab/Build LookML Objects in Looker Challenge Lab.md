@@ -1,6 +1,6 @@
 # Build LookML Objects in Looker: Challenge Lab || [GSP361](https://www.cloudskillsboost.google/focuses/25703?parent=catalog) ||
 
-## Solution [here](https://youtu.be/PgfPZKWATGo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 1. Create a .view file name `order_items_challenge` and paste the following:
 
@@ -287,7 +287,7 @@ explore: events {
 
 *NOTE*: After completeing `TASK 4` wait `3 or 4 minuts` to `get score`.
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

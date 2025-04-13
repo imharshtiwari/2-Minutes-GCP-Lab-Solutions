@@ -1,6 +1,6 @@
 # Publishing APIs with Apigee X || [GSP843](https://www.cloudskillsboost.google/focuses/32175?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/VYY4ZNVTdWg)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
@@ -45,7 +45,7 @@ sudo chmod +x gsp843.sh
 https://storage.googleapis.com/cloud-training/api-dev-quest/dev-portal/piggy-bank.png  
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You've successfully conquered the lab! Your dedication and skills truly shine.*
 

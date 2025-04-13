@@ -1,6 +1,6 @@
 # Cloud Endpoints: Qwik Start || [GSP164](https://www.cloudskillsboost.google/focuses/767?parent=catalog) ||
 
-## Solution [here](https://youtu.be/dAWIy5Jwn0Q)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp164.sh
 ./gsp164.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

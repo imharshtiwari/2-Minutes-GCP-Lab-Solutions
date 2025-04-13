@@ -1,6 +1,6 @@
 # Securing Container Builds || [GSP1185](https://www.cloudskillsboost.google/focuses/80692?parent=catalog) ||
 
-## Solution [here](https://youtu.be/3-6bv2CSG44)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1185.sh
 ./gsp1185.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

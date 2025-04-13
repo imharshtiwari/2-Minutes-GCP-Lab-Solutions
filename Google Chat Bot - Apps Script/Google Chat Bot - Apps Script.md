@@ -1,6 +1,6 @@
 # Google Chat Bot - Apps Script || [GSP250](https://www.cloudskillsboost.google/focuses/32756?parent=catalog) ||
 
-## Solution [here](https://youtu.be/d4nqYWA4xgw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 1. Create a chat app from a template
 

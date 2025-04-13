@@ -1,6 +1,6 @@
 # Gating Deployments with Binary Authorization || [GSP1183](https://www.cloudskillsboost.google/focuses/83255?parent=catalog) ||
 
-## Solution [here](https://youtu.be/7INFyriFDlg)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1183.sh
 ./gsp1183.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

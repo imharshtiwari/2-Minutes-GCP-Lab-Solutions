@@ -1,6 +1,6 @@
 # Activity: Find files with Linux commands
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ```
 pwd
@@ -13,7 +13,7 @@ cd /home/analyst/logs
 head -n 10 server_logs.txt
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

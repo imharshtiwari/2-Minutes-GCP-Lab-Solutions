@@ -1,6 +1,6 @@
 # Creating and Populating a Bigtable Instance || [GSP1054](https://www.cloudskillsboost.google/focuses/58495?parent=catalog) ||
 
-## Solution [here](https://youtu.be/uZDCSjKTwC8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x gsp1054.sh
 * Delete `table` & `Instance` from [here](https://console.cloud.google.com/bigtable/instances/personalized-sales/tables?)
 
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

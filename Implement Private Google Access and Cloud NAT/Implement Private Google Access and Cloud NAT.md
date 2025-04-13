@@ -1,6 +1,6 @@
 # [Implement Private Google Access and Cloud NAT](https://www.cloudskillsboost.google/paths/11/course_templates/50/labs/485523)
 
-## Solution [here](https://youtu.be/Xrid2UNH118)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

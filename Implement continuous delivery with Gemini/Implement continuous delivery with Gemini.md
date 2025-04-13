@@ -1,6 +1,6 @@
 # [Implement continuous delivery with Gemini](https://www.cloudskillsboost.google/course_templates/882/labs/476337)
 
-## Solution [here](https://youtu.be/lmPXRC8JKr4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

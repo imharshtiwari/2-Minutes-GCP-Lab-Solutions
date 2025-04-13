@@ -1,6 +1,6 @@
 # Managing a GKE Multi-tenant Cluster with Namespaces || [GSP766](https://www.cloudskillsboost.google/focuses/14861?parent=catalog) ||
 
-## Solution [here](https://youtu.be/79EZZrdP_I0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp766.sh
 ./gsp766.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

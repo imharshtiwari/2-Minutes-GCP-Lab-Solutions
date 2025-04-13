@@ -1,6 +1,6 @@
 # Exploring Dataset Metadata Between Projects with Data Catalog || [GSP789](https://www.cloudskillsboost.google/focuses/11034?parent=catalog) ||
 
-## Solution [here](https://youtu.be/sya_vncb984)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell ( `Project-1` Or `NYC Bike Share Project` )
 
@@ -78,7 +78,7 @@ SELECT * FROM male;
 ```
 
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

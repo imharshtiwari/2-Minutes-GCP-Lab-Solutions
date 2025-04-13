@@ -1,6 +1,6 @@
 # Derive Insights from BigQuery Data: Challenge Lab || [GSP787](https://www.cloudskillsboost.google/focuses/11988?parent=catalog) ||
 
-## Solution [here](https://youtu.be/OokfGn267II)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 #### Run the following Queries in BigQuery Editor
 
@@ -176,7 +176,7 @@ WHERE date BETWEEN 'YYYY-MM-DD' AND 'YYYY-MMM-DD'
 GROUP BY date
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

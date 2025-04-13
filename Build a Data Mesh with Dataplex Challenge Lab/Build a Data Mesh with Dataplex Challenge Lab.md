@@ -1,6 +1,6 @@
 # Build a Data Mesh with Dataplex: Challenge Lab || [GSP514](https://www.cloudskillsboost.google/focuses/67212?parent=catalog) ||
 
-## Solution [here](https://youtu.be/9eK4Tz71t0I)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x gsp514.sh
 
 * For BigQuery table type **results**
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

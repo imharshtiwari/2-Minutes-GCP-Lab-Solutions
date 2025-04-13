@@ -1,6 +1,6 @@
 # Create a Streaming Data Lake on Cloud Storage: Challenge Lab || [ARC110](https://www.cloudskillsboost.google/focuses/62701?parent=catalog) ||
 
-## Solution [here](https://youtu.be/wiVyLQNeWmM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -16,7 +16,7 @@ sudo chmod +x arc110.sh
 ./arc110.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

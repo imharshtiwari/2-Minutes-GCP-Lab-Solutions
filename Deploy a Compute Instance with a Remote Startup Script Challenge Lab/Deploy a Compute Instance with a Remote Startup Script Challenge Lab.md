@@ -1,6 +1,6 @@
 # Deploy a Compute Instance with a Remote Startup Script: Challenge Lab || [GSP301](https://www.cloudskillsboost.google/focuses/1735?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ZU2Aw6LPuxs)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp301.sh
 ./gsp301.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

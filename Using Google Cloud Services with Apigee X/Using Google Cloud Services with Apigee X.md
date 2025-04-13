@@ -1,6 +1,6 @@
 # Using Google Cloud Services with Apigee X || [GSP845](https://www.cloudskillsboost.google/focuses/32172?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/VJ1o_HuKQUk)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
@@ -23,7 +23,7 @@ sudo chmod +x gsp845.sh
 
 - **services-v1**: [⬇️ Download Here](https://drive.google.com/uc?export=download&id=1gc2HySP1Mudz-HeYynDohhZlQFWEOzIv)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You've successfully conquered the lab! Your dedication and skills truly shine.*
 

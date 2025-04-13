@@ -1,6 +1,6 @@
 # Activity: Complete a SQL join
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -25,7 +25,7 @@ FROM employees
 INNER JOIN log_in_attempts ON employees.username = log_in_attempts.username;
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

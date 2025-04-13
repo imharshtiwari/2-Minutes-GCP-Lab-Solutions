@@ -1,6 +1,6 @@
 # Video Intelligence: Qwik Start || [GSP154](https://www.cloudskillsboost.google/focuses/603?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GEGu_Gc1HAw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp154.sh
 ./gsp154.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

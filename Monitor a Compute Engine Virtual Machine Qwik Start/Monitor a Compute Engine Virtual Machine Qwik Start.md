@@ -1,6 +1,6 @@
 # Monitor a Compute Engine Virtual Machine: Qwik Start || [GSP1108](https://www.cloudskillsboost.google/focuses/56596?parent=catalog) ||
 
-## Solution [here](https://youtu.be/tiQEUmNP6Zc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to `Create an instance` from [here](https://console.cloud.google.com/compute/instancesAdd?)
 
@@ -16,7 +16,7 @@ sudo chmod +x gsp1108.sh
 ./gsp1108.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Activity: Get help in the command line
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands in CloudShell
 
@@ -20,7 +20,7 @@ whatis rmdir
 apropos -a "create new group"
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

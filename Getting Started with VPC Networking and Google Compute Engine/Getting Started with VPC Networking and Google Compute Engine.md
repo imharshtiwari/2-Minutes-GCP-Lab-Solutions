@@ -1,6 +1,6 @@
 # [Getting Started with VPC Networking and Google Compute Engine](https://www.cloudskillsboost.google/focuses/41750?parent=catalog)
 
-## Solution [here](https://youtu.be/tN44hTxFUQ4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -17,7 +17,7 @@ sudo chmod +x vpc.sh
 ./vpc.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

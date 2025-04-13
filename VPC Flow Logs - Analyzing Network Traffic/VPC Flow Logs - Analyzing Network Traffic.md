@@ -1,6 +1,6 @@
 # VPC Flow Logs - Analyzing Network Traffic || [GSP212](https://www.cloudskillsboost.google/focuses/1236?parent=catalog) ||
 
-## Solution [here](https://youtu.be/CG6ra5LPDvE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -36,7 +36,7 @@ export MY_SERVER=$(gcloud compute instances describe web-server --zone=$ZONE \
 for ((i=1;i<=50;i++)); do curl $MY_SERVER; done
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

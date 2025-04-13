@@ -1,6 +1,6 @@
 # Deploy a Modern Web App connected to a Cloud Spanner Instance || [GSP1051](https://www.cloudskillsboost.google/focuses/54356?parent=catalog) ||
 
-## Solution [here](https://youtu.be/s_9SrH7FvgM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp1051.sh
 ./gsp1051.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

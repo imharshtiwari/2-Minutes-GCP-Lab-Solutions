@@ -1,6 +1,6 @@
 # [Optimizing your BigQuery Queries for Performance 2.5](https://www.cloudskillsboost.google/focuses/28348?parent=catalog)
 
-## Solution [here](https://youtu.be/v1qw2pymwL0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -10,7 +10,7 @@ sudo chmod +x BigQuery.sh
 
 ./BigQuery.sh
 ```
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

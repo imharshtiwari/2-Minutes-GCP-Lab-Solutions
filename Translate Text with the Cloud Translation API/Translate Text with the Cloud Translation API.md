@@ -1,6 +1,6 @@
 # Translate Text with the Cloud Translation APITranslate Text with the Cloud Translation API || [GSP049](https://www.cloudskillsboost.google/focuses/697?parent=catalog) ||
 
-## Solution [here](https://youtu.be/I0kHgGcwB_U)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp049.sh
 ./gsp049.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

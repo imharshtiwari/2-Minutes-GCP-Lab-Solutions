@@ -1,6 +1,6 @@
 # Pub/Sub Lite: Qwik Start || [GSP832](https://www.cloudskillsboost.google/focuses/15940?parent=catalog) ||
 
-## Solution [here](https://youtu.be/vH7Rmq13_7o)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp832.sh
 ./gsp832.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

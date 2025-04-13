@@ -1,6 +1,6 @@
 # Get Started with Dataplex: Challenge Lab || [ARC117](https://www.cloudskillsboost.google/focuses/62710?parent=catalog) ||
 
-## Solution [here](https://youtu.be/NzRcltfHzu0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -21,7 +21,7 @@ sudo chmod +x arc117.sh
 
 * follow video instructions
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

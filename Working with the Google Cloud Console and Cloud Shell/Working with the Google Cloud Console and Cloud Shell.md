@@ -1,6 +1,6 @@
 # [Working with the Google Cloud Console and Cloud Shell](https://www.cloudskillsboost.google/focuses/59871?locale=pt_PT&parent=catalog)
 
-## Solution [here](https://youtu.be/aoJ5r1yPbpk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -11,7 +11,7 @@ sudo chmod +x sparkwave.sh
 ./sparkwave.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

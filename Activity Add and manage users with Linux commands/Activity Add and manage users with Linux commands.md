@@ -1,6 +1,6 @@
 # Activity: Add and manage users with Linux commands
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -15,7 +15,7 @@ sudo userdel researcher9
 sudo groupdel researcher9
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

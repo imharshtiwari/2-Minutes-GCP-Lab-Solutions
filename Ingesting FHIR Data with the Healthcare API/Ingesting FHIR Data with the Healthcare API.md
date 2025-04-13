@@ -1,6 +1,6 @@
 # Ingesting FHIR Data with the Healthcare API || [GSP457](https://www.cloudskillsboost.google/focuses/6104?parent=catalog) ||
 
-## Solution [here](https://youtu.be/gUZ2Cjv3DKo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -18,7 +18,7 @@ sudo chmod +x gsp457.sh
 
 * Go to `BigQuery Studio!` from [here](https://console.cloud.google.com/bigquery?)
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

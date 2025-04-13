@@ -1,6 +1,6 @@
 # Getting Started with BigQuery ML || [GSP247](https://www.cloudskillsboost.google/focuses/2157?parent=catalog) ||
 
-## Solution [here](https://youtu.be/H-b-C1P8K2U)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp247.sh
 ./gsp247.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

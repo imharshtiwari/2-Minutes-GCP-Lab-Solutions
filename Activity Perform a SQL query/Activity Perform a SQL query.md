@@ -1,6 +1,6 @@
 # Activity: Perform a SQL query
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -31,7 +31,7 @@ FROM log_in_attempts
 ORDER BY login_date, login_time;
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

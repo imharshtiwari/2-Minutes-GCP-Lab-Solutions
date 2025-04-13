@@ -1,6 +1,6 @@
 # [Analyzing Network Traffic with VPC Flow Logs](https://www.cloudskillsboost.google/games/5551/labs/35770)
 
-## Solution [here](https://youtu.be/epQLHLoq4hc)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -73,7 +73,7 @@ LIMIT
 15
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

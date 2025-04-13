@@ -1,6 +1,6 @@
 # Bracketology with Google Machine Learning || [GSP461](https://www.cloudskillsboost.google/focuses/4337?parent=catalog) ||
 
-## Solution [here](https://youtu.be/sCnIiV_Hm4A)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp461.sh
 ./gsp461.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

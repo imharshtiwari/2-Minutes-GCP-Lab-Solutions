@@ -1,6 +1,6 @@
 # Configuring Network Connectivity Center as a Transit Hub || [GSP911](https://www.cloudskillsboost.google/focuses/18539?parent=catalog) ||
 
-## 💡 **Solution [here](https://youtu.be/NoQ1WjtdH1w)**
+## 💡 **🔑 Solution [here](https://www.youtube.com/@sparkwave.01)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp911.sh
 
 
 
-### 🎉 **Congratulations on completing the lab!**  
+### 🎉 🐻‍❄️ྀིྀི **Congratulations on completing the lab!**  
 
 ##### *Your hard work and determination are commendable!*  
 

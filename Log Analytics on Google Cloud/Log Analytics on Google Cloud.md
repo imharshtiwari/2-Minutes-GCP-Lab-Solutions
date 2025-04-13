@@ -1,6 +1,6 @@
 # Log Analytics on Google Cloud || [GSP1088](https://www.cloudskillsboost.google/focuses/49749?parent=catalog) ||
 
-## Solution [here](https://youtu.be/l7UOU56TWzk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ day2ops-log
 ```
 day2ops_log
 ```
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

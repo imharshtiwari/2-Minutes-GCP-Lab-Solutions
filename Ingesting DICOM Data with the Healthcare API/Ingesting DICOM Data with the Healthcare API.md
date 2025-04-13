@@ -1,6 +1,6 @@
 # Ingesting DICOM Data with the Healthcare API || [GSP615](https://www.cloudskillsboost.google/focuses/6132?parent=catalog) ||
 
-## Solution [here](https://youtu.be/4cP8PMHnykk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp615.sh
 ./gsp615.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

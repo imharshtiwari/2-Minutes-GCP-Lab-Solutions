@@ -1,6 +1,6 @@
 # Migrate Existing Prometheus Monitoring Workloads to Google Cloud || [GSP1025](https://www.cloudskillsboost.google/focuses/33331?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/TWv3hnr8bQM)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1025.sh
 ./gsp1025.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !  
+### 🐼 Congratulations 🎉 for completing the Lab !  
 
 ##### *You've demonstrated incredible skill and perseverance.*  
 

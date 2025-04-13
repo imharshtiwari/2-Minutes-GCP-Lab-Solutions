@@ -1,6 +1,6 @@
 # Cloud IAM: Qwik Start || [GSP064](https://www.cloudskillsboost.google/focuses/44159?parent=catalog) ||
 
-## Solution [here](https://youtu.be/oU6iPm9gGF4)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ```
 export USER_2=
@@ -13,7 +13,7 @@ sudo chmod +x GSP064.sh
 ./GSP064.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

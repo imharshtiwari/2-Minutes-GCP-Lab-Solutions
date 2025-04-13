@@ -1,6 +1,6 @@
 # [Analyze data with Gemini assistance](https://www.cloudskillsboost.google/focuses/80989?parent=catalog)
 
-## 💡 Solution [here](https://youtu.be/7ne-fLzxglM)  
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)  
 
 ### 🚀 **Execute the Following Commands in Cloud Shell:**
 
@@ -12,7 +12,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *Your commitment and expertise have shone through—fantastic work!*
 

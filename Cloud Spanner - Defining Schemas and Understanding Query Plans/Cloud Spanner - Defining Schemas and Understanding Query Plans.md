@@ -1,6 +1,6 @@
 # Cloud Spanner - Defining Schemas and Understanding Query Plans || [GSP1050](https://www.cloudskillsboost.google/focuses/54353?parent=catalog) ||
 
-## Solution [here](https://youtu.be/OBMGgjSIiGo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1050.sh
 ./gsp1050.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

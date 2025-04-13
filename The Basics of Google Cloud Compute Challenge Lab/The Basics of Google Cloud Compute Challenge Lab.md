@@ -1,6 +1,6 @@
 # The Basics of Google Cloud Compute: Challenge Lab || [ARC120](https://www.cloudskillsboost.google/focuses/65384?parent=catalog) ||
 
-## Solution [here](https://youtu.be/XAwPdcW5iZY)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to `Create a bucket` from [here](https://console.cloud.google.com/storage/create-bucket?)
 
@@ -17,7 +17,7 @@ sudo chmod +x arc120.sh
 ./arc120.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

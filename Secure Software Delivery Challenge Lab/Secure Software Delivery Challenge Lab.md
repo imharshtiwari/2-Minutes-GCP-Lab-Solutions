@@ -1,6 +1,6 @@
 # Secure Software Delivery: Challenge Lab || [GSP521](https://www.cloudskillsboost.google/focuses/104244?parent=catalog) ||
 
-## Solution [here](https://youtu.be/i8TPnSVc2qU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp521.sh
 ./gsp521.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

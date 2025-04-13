@@ -1,6 +1,6 @@
 # Dataplex: Qwik Start - Console || [GSP1143](https://www.cloudskillsboost.google/focuses/62709?parent=catalog) ||
 
-## Solution [here](https://youtu.be/yDQfs8fNBgM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp1143.sh
 ./gsp1143.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

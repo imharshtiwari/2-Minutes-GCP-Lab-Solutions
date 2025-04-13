@@ -1,6 +1,6 @@
 # De-identifying DICOM Data with the Healthcare API || [GSP626](https://www.cloudskillsboost.google/focuses/6920?parent=catalog) ||
 
-## Solution [here](https://youtu.be/lIBzejSxSsM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp626.sh
 ./gsp626.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the Cloud Function Python || [ARC235](https://www.cloudskillsboost.google/focuses/98837?parent=catalog) ||
 
-## Solution [here](https://youtu.be/SnTnDTLlcb0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x arc235.sh
 ./arc235.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

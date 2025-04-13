@@ -1,6 +1,6 @@
 # [Deploying Apps to Google Cloud](https://www.cloudskillsboost.google/paths/20/course_templates/41/labs/489870)
 
-## Solution [here](https://youtu.be/CKrK51bl7aE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x shell.sh
 ./shell.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Activity: Examine input/output in the Linux shell
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Run the following Commands
 
@@ -17,7 +17,7 @@ expr 3500 * 12
 clear
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

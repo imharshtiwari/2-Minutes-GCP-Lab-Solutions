@@ -1,6 +1,6 @@
 # User Authentication: Identity-Aware Proxy || [GSP499](https://www.cloudskillsboost.google/focuses/5562?parent=catalog) ||
 
-## Solution [here](https://youtu.be/tHIe2dGfsYo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -19,7 +19,7 @@ sudo chmod +x gsp499.sh
 
 * Go to `Identity-Aware Proxy` from [here](https://console.cloud.google.com/security/iap?)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

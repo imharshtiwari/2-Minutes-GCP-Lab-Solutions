@@ -1,6 +1,6 @@
 # Analyzing Billing Data with BigQuery || [GSP621](https://www.cloudskillsboost.google/focuses/7114?parent=catalog) ||
 
-## Solution [here](https://youtu.be/T2lHq8kMOHk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -21,7 +21,7 @@ SELECT CONCAT(service.description, ' : ',sku.description) as Line_Item FROM `bil
 SELECT CONCAT(service.description, ' : ',sku.description) as Line_Item, Count(*) as NUM FROM `billing_dataset.enterprise_billing` GROUP BY CONCAT(service.description, ' : ',sku.description)
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

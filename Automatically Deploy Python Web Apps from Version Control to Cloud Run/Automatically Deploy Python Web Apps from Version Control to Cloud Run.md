@@ -1,6 +1,6 @@
 # Automatically Deploy Python Web Apps from Version Control to Cloud Run || [GSP1204](https://www.cloudskillsboost.google/focuses/80415?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GpUp5nfEJPo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 **Prerequisites**
 
@@ -34,7 +34,7 @@ sudo chmod +x gsp1204-2.sh
 ./gsp1204-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

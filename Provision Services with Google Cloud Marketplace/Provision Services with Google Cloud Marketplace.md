@@ -1,6 +1,6 @@
 # Provision Services with Google Cloud Marketplace || [GSP003](https://www.cloudskillsboost.google/focuses/565?parent=catalog) ||
 
-## Solution [here](https://youtu.be/4slr9p3D6DA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to `Bitnami package for NGINX Open Source` from [here](https://console.cloud.google.com/marketplace/product/bitnami-launchpad/nginxstack?)
 
@@ -14,7 +14,7 @@ sudo chmod +x gsp003.sh
 ./gsp003.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

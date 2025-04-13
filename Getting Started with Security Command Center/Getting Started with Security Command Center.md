@@ -1,6 +1,6 @@
 # Getting Started with Security Command Center || [GSP1124](https://www.cloudskillsboost.google/focuses/71933?parent=catalog) ||
 
-## Solution [here](https://youtu.be/HQZEJDQ7jiU)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Task 3. Analyze and fix SCC vulnerability findings
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1124.sh
 ./gsp1124.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

@@ -1,6 +1,6 @@
 # Arcade Hero: Enter the PubSub || [ARC123-PUBSUB](https://www.cloudskillsboost.google/focuses/83837?parent=catalog) ||
 
-## Solution [here](https://youtu.be/u2iflA58Sy0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

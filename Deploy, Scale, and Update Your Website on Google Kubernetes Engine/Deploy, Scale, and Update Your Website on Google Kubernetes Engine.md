@@ -1,6 +1,6 @@
 # Deploy, Scale, and Update Your Website on Google Kubernetes Engine || [GSP663](https://www.cloudskillsboost.google/focuses/10470?parent=catalog) ||
 
-## Solution [here](https://youtu.be/N5NEBsxjMOI)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -14,7 +14,7 @@ sudo chmod +x gsp663.sh
 ./gsp663.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

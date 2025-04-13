@@ -1,6 +1,6 @@
 # Dataproc: Qwik Start - Console || [GSP103](https://www.cloudskillsboost.google/focuses/586?parent=catalog) ||
 
-## Solution [here](https://youtu.be/GOAXZc8Ve58)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp103.sh
 ./gsp103.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

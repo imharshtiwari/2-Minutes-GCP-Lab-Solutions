@@ -1,6 +1,6 @@
 # Google Kubernetes Engine Pipeline using Cloud Build || [GSP1077](https://www.cloudskillsboost.google/focuses/52829?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/zhZgk7naW2U)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 **Prerequisites**
 
@@ -22,7 +22,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

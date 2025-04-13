@@ -1,6 +1,6 @@
 # Build a BI Dashboard Using Looker Studio and BigQuery || [GSP403](https://www.cloudskillsboost.google/focuses/5538?parent=catalog) ||
 
-## Solution [here](https://youtu.be/sprkEnSqsZ8)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -14,7 +14,7 @@ sudo chmod +x gsp403.sh
 
 * Go to **Looker Studio** from [here](https://datastudio.google.com/)
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

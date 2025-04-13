@@ -1,6 +1,6 @@
 # Build and Deploy a Docker Image to a Kubernetes Cluster: Challenge Lab || [GSP304](https://www.cloudskillsboost.google/focuses/1738?parent=catalog) ||
 
-## Solution [here](https://youtu.be/YnM1zN4maes)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp304.sh
 ./gsp304.sh
 ```
 
-### Congratulations 🎉 for completing the Challenge Lab !
+### 🐼 Congratulations 🎉 for completing the Challenge Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

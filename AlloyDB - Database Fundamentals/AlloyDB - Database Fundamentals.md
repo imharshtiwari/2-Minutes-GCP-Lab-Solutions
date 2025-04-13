@@ -1,6 +1,6 @@
 # AlloyDB - Database Fundamentals || [GSP1083](https://www.cloudskillsboost.google/focuses/50122?parent=catalog) ||
 
-## Solution [here](https://youtu.be/NtkOg8kjdxk)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01/NtkOg8kjdxk)
 
 ### Run the following Commands in CloudShell
 
@@ -54,7 +54,7 @@ sudo chmod +x gsp1083-2.sh
 ./gsp1083-2.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

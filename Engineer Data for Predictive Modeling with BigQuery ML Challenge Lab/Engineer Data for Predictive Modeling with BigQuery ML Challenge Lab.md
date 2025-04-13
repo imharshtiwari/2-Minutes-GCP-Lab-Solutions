@@ -1,6 +1,6 @@
 # Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab || [GSP327](https://www.cloudskillsboost.google/focuses/12379?parent=catalog) ||
 
-## Solution [here](https://youtu.be/-YJEXngsFJQ)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Queries in BigQuery Editor
 
@@ -66,7 +66,7 @@ SELECT * FROM ML.PREDICT(MODEL taxirides.MODEL_NAME,(
 )
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

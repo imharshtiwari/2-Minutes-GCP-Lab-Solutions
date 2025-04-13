@@ -1,6 +1,6 @@
 # Networking 101 || [GSP016](https://www.cloudskillsboost.google/focuses/1743?parent=catalog) ||
 
-## Solution [here](https://youtu.be/0S2CMfzfxoA)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -17,7 +17,7 @@ sudo chmod +x gsp016.sh
 ./gsp016.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

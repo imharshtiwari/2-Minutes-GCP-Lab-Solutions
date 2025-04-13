@@ -1,6 +1,6 @@
 # [Build Apps with Gemini Code Assist](https://www.cloudskillsboost.google/paths/19/course_templates/1166/labs/509927)
 
-## 🔑 Solution [here](https://youtu.be/djPcgx96OBE)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
@@ -23,7 +23,7 @@ sudo chmod +x *.sh
 ```
 
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

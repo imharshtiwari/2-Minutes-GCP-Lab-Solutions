@@ -1,6 +1,6 @@
 # Loading Your Own Data into BigQuery || [GSP865](https://www.cloudskillsboost.google/focuses/17816?parent=catalog) ||
 
-## Solution [here]()
+## 🔑 Solution [here]()
 
 ### Execute the following Commands in CloudShell
 

@@ -1,6 +1,6 @@
 # Enabling Sensitive Data Protection Discovery for BigQuery || [GSP1282](https://www.cloudskillsboost.google/focuses/109503?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/YYGGh6xZads)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 * Go to **Sensitive Data Protection** from [here](https://console.cloud.google.com/security/sensitive-data-protection/create/discoveryConfiguration;source=DATA_PROFILE_COVERAGE_DASHBOARD;discoveryType=1?project=)
 
@@ -14,7 +14,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

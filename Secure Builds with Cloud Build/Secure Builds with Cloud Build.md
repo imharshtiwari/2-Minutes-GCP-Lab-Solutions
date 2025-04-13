@@ -1,6 +1,6 @@
 # Secure Builds with Cloud Build || [GSP1184](https://www.cloudskillsboost.google/focuses/83256?parent=catalog) ||
 
-## Solution [here](https://youtu.be/DNrBihMIYUo)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1184.sh
 ./gsp1184.sh
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

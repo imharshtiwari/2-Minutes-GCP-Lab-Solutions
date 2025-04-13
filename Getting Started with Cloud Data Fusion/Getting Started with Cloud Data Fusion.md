@@ -16,7 +16,7 @@ bq query --use_legacy_sql=false \
 "SELECT * FROM \`${DEVSHELL_PROJECT_ID}.GCPQuickStart.top_rated_inexpensive\` LIMIT 10"
 ```
 
-# 🎉 Woohoo! You Did It! 🎉  
+# 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉  
 
 Your hard work and determination paid off! 💻  
 You've successfully completed the lab. **Way to go!** 🚀

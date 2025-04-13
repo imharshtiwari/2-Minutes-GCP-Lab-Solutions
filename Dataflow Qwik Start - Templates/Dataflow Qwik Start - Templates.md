@@ -1,6 +1,6 @@
 # Dataflow: Qwik Start - Templates || [GSP192](https://www.cloudskillsboost.google/focuses/1101?parent=catalog) ||
 
-## Solution [here](https://youtu.be/aq9owMpKLH0)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp192.sh
 ./gsp192.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

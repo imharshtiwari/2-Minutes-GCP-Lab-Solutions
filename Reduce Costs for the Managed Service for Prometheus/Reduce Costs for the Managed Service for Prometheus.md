@@ -1,6 +1,6 @@
 # Reduce Costs for the Managed Service for Prometheus || [GSP1027](https://www.cloudskillsboost.google/focuses/33334?parent=catalog) ||
 
-## 💡 Solution [here](https://youtu.be/bm8BpN1dUSk)
+## 💡 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### 🚀 **Execute the following commands in Cloud Shell:**
 
@@ -12,7 +12,7 @@ sudo chmod +x gsp1027.sh
 ./gsp1027.sh
 ```
 
-### Congratulations on Completing the Lab! 🎉  
+### 🐼 Congratulations on Completing the Lab! 🎉  
 
 ##### *You’ve mastered this challenge with skill and dedication.*  
 

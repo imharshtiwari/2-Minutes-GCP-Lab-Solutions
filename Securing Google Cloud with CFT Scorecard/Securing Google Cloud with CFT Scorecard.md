@@ -1,6 +1,6 @@
 # Securing Google Cloud with CFT Scorecard || [GSP698](https://www.cloudskillsboost.google/focuses/10437?parent=catalog) ||
 
-## Solution [here](https://youtu.be/ZugCeiyVQ6o)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -15,7 +15,7 @@ sudo chmod +x gsp698.sh
 ./gsp698.sh
 ```
 
-### Congratulations 🎉 for Completing the Lab !
+### 🐼 Congratulations 🎉 for Completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

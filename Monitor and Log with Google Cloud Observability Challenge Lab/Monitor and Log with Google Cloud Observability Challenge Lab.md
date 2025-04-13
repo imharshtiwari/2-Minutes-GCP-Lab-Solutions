@@ -1,6 +1,6 @@
 # Monitor and Log with Google Cloud Observability: Challenge Lab || [GSP338](https://www.cloudskillsboost.google/focuses/13786?parent=catalog) ||
 
-## Solution [here](https://youtu.be/kE99SeaB4aM)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -18,7 +18,7 @@ sudo chmod +x gsp338.sh
 
 * Type or paste **input_queue_size**
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

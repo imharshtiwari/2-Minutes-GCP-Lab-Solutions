@@ -1,6 +1,6 @@
 # Creating Dynamic Secrets for Google Cloud with Vault || [GSP1007](https://www.cloudskillsboost.google/focuses/32204?parent=catalog) ||
 
-## Solution [here](https://youtu.be/MuMcDSeUmAw)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
@@ -97,7 +97,7 @@ vault write gcp/static-account/my-key-account \
     bindings=@bindings.hcl
 ```
 
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 

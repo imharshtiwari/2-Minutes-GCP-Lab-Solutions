@@ -1,6 +1,6 @@
 # Exploring Your Ecommerce Dataset with SQL in Google BigQuery || [GSP407](https://www.cloudskillsboost.google/focuses/3618?parent=catalog) ||
 
-## Solution [here](https://youtu.be/zhsrYJPaU3Y)
+## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 ```
@@ -10,7 +10,7 @@ sudo chmod +x gsp407.sh
 
 ./gsp407.sh
 ```
-### Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
