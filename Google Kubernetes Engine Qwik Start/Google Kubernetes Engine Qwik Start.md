@@ -1,6 +1,6 @@
 # Google Kubernetes Engine: Qwik Start || [GSP100](https://www.cloudskillsboost.google/focuses/878?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/2x-bRoPzfgE)
 
 ### Run the following Commands in CloudShell
 ```
