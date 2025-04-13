@@ -1,6 +1,6 @@
 # Introduction to Docker || [GSP055](https://www.cloudskillsboost.google/focuses/1029?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/gDCozh-1qko)
 
 ### Run the following Commands in CloudShell
 ```
