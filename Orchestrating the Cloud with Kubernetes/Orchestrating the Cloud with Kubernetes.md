@@ -1,6 +1,6 @@
-# Orchestrating the Cloud with Kubernetes || [GSP213](https://www.cloudskillsboost.google/focuses/557?parent=catalog) ||
+# Orchestrating the Cloud with Kubernetes || [GSP021](https://www.cloudskillsboost.google/focuses/557?parent=catalog) ||
 
-## 🔑 Solution [here](https://youtu.be/JIpnStuo0_U)
+## 🔑 Solution [here](https://youtu.be/3jxuxvCphMk)
 
 ### Run the following Commands in CloudShell
 ```
