@@ -1,6 +1,6 @@
 # Optimizing Cost with Google Cloud Storage || [GSP649](https://www.cloudskillsboost.google/focuses/7830?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/QscQjoE0EiQ)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
