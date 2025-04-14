@@ -1,6 +1,6 @@
 # Introduction to SQL for BigQuery and Cloud SQL || [GSP281](https://www.cloudskillsboost.google/focuses/2802?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/NbuJ8EsrpPY)
 
 ### Run the following Commands in CloudShell
 ```
