@@ -1,6 +1,6 @@
 # Ingesting FHIR Data with the Healthcare API || [GSP457](https://www.cloudskillsboost.google/focuses/6104?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/GoJHwRyUNPc)
 
 ### Run the following Commands in CloudShell
 ```
