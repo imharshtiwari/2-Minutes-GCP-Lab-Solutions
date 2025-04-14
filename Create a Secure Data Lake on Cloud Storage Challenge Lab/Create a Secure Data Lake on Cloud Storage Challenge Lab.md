@@ -3,7 +3,7 @@
 * **Note Before Starting The Execution Check and Match Your `Task 1 & Task 4` From Below and Your Instruction page..**
 ---
 
-### For form 1: 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+### For form 1: 🔑 Solution [here](https://youtu.be/dPYOshN92eE)
 ---
 
 * **Task 1. Create a Cloud Storage bucket.**
@@ -27,7 +27,7 @@ sudo chmod +x form1.sh
 * **Now check your progress, You will get score for all tasks...**
 ---
 
-### For form 2: 🔑 Solution [here]()
+### For form 2: 🔑 Solution [here](https://youtu.be/dPYOshN92eE)
 ---
 
 * **Task 1. Create a lake in Dataplex and add a zone to your .**
@@ -72,7 +72,7 @@ sudo chmod +x form3.sh
 ./form3.sh
 ```
 
-* **For Task 4. Follow Video's Instruction from [here](https://www.youtube.com/@sparkwave.01?t=97)**
+* **For Task 4. Follow Video's Instruction from [here](https://youtu.be/dPYOshN92eE)**
 ---
 
 ### For form 4: 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
@@ -96,7 +96,7 @@ sudo chmod +x form4.sh
 ./form4.sh
 ```
 
-* **For Task 4. Follow Video's Instruction from [here](https://www.youtube.com/@sparkwave.01?t=65)**
+* **For Task 4. Follow Video's Instruction from [here](https://youtu.be/dPYOshN92eE)**
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
 
@@ -104,6 +104,6 @@ sudo chmod +x form4.sh
 
 #### *Well done!*
 
-#### Don't Forget to Join the [Telegram Channel](https://t.me/sparkwave.01) & [Discussion group](https://t.me/sparkwave.01chats)
+#### Don't Forget to Join the [Telegram Channel](https://t.me/sparkwave01) & [Discussion group](https://t.me/sparkwave.01chats)
 
 # [SPARKWAVE](https://www.youtube.com/@sparkwave.01)
