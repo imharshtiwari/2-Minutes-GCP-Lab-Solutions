@@ -1,6 +1,6 @@
 # Reinforcement Learning: Qwik Start || [GSP691](https://www.cloudskillsboost.google/focuses/10285?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/ry2Uv2F3GLg)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
