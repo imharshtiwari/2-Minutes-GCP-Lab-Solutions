@@ -1,6 +1,6 @@
 # Speaking with a Webpage - Streaming Speech Transcripts || [GSP125](https://www.cloudskillsboost.google/focuses/676?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/aHnXLqiIXec)
 
 ### Run the following Commands in CloudShell
 
