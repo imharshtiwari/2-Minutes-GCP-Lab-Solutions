@@ -1,6 +1,6 @@
 # Creating a Virtual Machine || [GSP001](https://www.cloudskillsboost.google/focuses/3563?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/OaxKIJi4Z8s)
 
 ### Run the following Commands in CloudShell
 
