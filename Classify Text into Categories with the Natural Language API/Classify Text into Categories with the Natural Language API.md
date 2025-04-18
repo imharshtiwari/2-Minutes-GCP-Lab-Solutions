@@ -1,6 +1,6 @@
 # Classify Text into Categories with the Natural Language API || [GSP063](https://www.cloudskillsboost.google/focuses/1749?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/HVv-oFznt6A)
 
 ### Run the following Commands in CloudShell
 
