@@ -5,7 +5,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/edit/main/Cloud%20Filestore%20Qwik%20Start%20/gsp244.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Cloud%20Filestore%20Qwik%20Start/gsp244.sh
 
 sudo chmod +x *.sh
 
