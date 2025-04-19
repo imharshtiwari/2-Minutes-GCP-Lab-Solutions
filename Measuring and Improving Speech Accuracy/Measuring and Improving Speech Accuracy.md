@@ -1,6 +1,6 @@
 # Measuring and Improving Speech Accuracy || [GSP758](https://www.cloudskillsboost.google/focuses/13597?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/wiAy4nEdWYY)
 
 ### Run the following Commands in CloudShell
 
