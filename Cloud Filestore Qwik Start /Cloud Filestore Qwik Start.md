@@ -9,7 +9,7 @@ curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/mai
 
 sudo chmod +x *.sh
 
-./*.sh
+./*gsp244.sh
 ```
 
 # 🎉 Woohoo! You Did It! 🎉
