@@ -1,6 +1,6 @@
 # Cloud Scheduler: Qwik Start || [GSP401](https://www.cloudskillsboost.google/focuses/3556?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/wKUXzzVOeng)
 
 ### Run the following Commands in CloudShell
 
