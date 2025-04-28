@@ -1,6 +1,6 @@
 # Get Started with Dataplex: Challenge Lab || [ARC117](https://www.cloudskillsboost.google/focuses/62710?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/wKUXzzVOeng)
 
 ### Run the following Commands in CloudShell
 
