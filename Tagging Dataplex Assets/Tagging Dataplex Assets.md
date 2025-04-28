@@ -1,6 +1,6 @@
 # Tagging Dataplex Assets || [GSP1145](https://www.cloudskillsboost.google/focuses/62711?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/n8o2NgNcDAA)
 
 ### Run the following Commands in CloudShell
 
