@@ -5,9 +5,6 @@
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
-```
-```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Creating%20a%20Persistent%20Disk/gsp004.sh
 
 sudo chmod +x gsp004.sh
