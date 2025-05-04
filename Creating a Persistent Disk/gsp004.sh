@@ -1,38 +1,56 @@
-BLACK=`tput setaf 0`
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-YELLOW=`tput setaf 3`
-BLUE=`tput setaf 4`
-MAGENTA=`tput setaf 5`
-CYAN=`tput setaf 6`
-WHITE=`tput setaf 7`
+#!/bin/bash
 
-BG_BLACK=`tput setab 0`
-BG_RED=`tput setab 1`
-BG_GREEN=`tput setab 2`
-BG_YELLOW=`tput setab 3`
-BG_BLUE=`tput setab 4`
-BG_MAGENTA=`tput setab 5`
-BG_CYAN=`tput setab 6`
-BG_WHITE=`tput setab 7`
+# Bright Foreground Colors
+BLACK_TEXT=$'\033[0;90m'
+RED_TEXT=$'\033[0;91m'
+GREEN_TEXT=$'\033[0;92m'
+YELLOW_TEXT=$'\033[0;93m'
+BLUE_TEXT=$'\033[0;94m'
+MAGENTA_TEXT=$'\033[0;95m'
+CYAN_TEXT=$'\033[0;96m'
+WHITE_TEXT=$'\033[0;97m'
 
-BOLD=`tput bold`
-RESET=`tput sgr0`
-#----------------------------------------------------start--------------------------------------------------#
+NO_COLOR=$'\033[0m'
+RESET_FORMAT=$'\033[0m'
+BOLD_TEXT=$'\033[1m'
+UNDERLINE_TEXT=$'\033[4m'
 
-echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
+# Displaying start message
+echo
+echo "${CYAN_TEXT}${BOLD_TEXT}╔════════════════════════════════════════════════════════╗${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}                  Starting the process...                   ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}╚════════════════════════════════════════════════════════╝${RESET_FORMAT}"
+echo
 
+echo
+read -p "${YELLOW_TEXT}${BOLD_TEXT} Enter ZONE: ${RESET_FORMAT}" ZONE
+export ZONE=$ZONE
 export REGION="${ZONE%-*}"
+
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Setting the compute zone and region ========================== ${RESET_FORMAT}"
+echo
 
 gcloud config set compute/zone $ZONE
 gcloud config set compute/region $REGION
 
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Creating a compute instance 'gcelab' ========================== ${RESET_FORMAT}"
+echo
+
 gcloud compute instances create gcelab --zone $ZONE --machine-type e2-standard-2
+
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Creating a disk 'mydisk' of 200GB ========================== ${RESET_FORMAT}"
+echo
 
 gcloud compute disks create mydisk --size=200GB \
 --zone $ZONE
 
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Attaching disk 'mydisk' to instance 'gcelab' ========================== ${RESET_FORMAT}"
+echo
+
 gcloud compute instances attach-disk gcelab --disk mydisk --zone $ZONE
+
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Creating the 'prepare_disk.sh' script ========================== ${RESET_FORMAT}"
+echo
 
 cat > prepare_disk.sh <<'EOF_END'
 
@@ -46,10 +64,20 @@ sudo mount -o discard,defaults /dev/disk/by-id/scsi-0Google_PersistentDisk_persi
 
 EOF_END
 
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Transfering script 'prepare_disk.sh' to 'gcelab' instance ========================== ${RESET_FORMAT}"
+echo
+
 gcloud compute scp prepare_disk.sh gcelab:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 
+echo "${GREEN_TEXT}${BOLD_TEXT} ========================== Executing the 'prepare_disk.sh' script on 'gcelab' ========================== ${RESET_FORMAT}"
+echo
+
 gcloud compute ssh gcelab --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/prepare_disk.sh"
+echo
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
-
-#-----------------------------------------------------end----------------------------------------------------------#
+echo "${GREEN_TEXT}${BOLD_TEXT}╔════════════════════════════════════════════════════════╗${RESET_FORMAT}"
+echo "${GREEN_TEXT}${BOLD_TEXT}              Lab Completed Successfully!               ${RESET_FORMAT}"
+echo "${GREEN_TEXT}${BOLD_TEXT}╚════════════════════════════════════════════════════════╝${RESET_FORMAT}"
+echo
+echo -e "${RED_TEXT}${BOLD_TEXT}Subscribe to SparkWave :${RESET_FORMAT} ${BLUE_TEXT}${BOLD_TEXT}https://www.youtube.com/@sparkwave.01${RESET_FORMAT}"
+echo
