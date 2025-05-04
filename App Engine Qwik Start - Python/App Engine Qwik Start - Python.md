@@ -1,6 +1,6 @@
 # App Engine: Qwik Start - Python || [GSP067](https://www.cloudskillsboost.google/focuses/1014?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/uAkV4jFSfT4)
 
 ### Run the following Commands in CloudShell
 
