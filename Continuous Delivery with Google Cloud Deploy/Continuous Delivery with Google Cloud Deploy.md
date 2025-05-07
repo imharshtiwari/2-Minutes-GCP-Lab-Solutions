@@ -4,9 +4,7 @@
 
 ### Run the following Commands in CloudShell
 
-```
-export ZONE=
-```
+
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/gsp1079.sh
 
