@@ -1,11 +1,11 @@
-# API Gateway: Qwik Start || [GSP872](https://www.cloudskillsboost.google/focuses/17996?parent=catalog) ||
+# Connect to Cloud SQL from an Application in Google Kubernetes Engine || [GSP449](https://www.cloudskillsboost.google/games/6151/labs/39037) ||
 
 ## 💡 🔑 Solution [here](https://youtu.be/GA0FgNbanEo)
 
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/API%20Gateway%20Qwik%20Start/gsp449.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/gsp449.sh
 
 sudo chmod +x gsp449.sh
 
