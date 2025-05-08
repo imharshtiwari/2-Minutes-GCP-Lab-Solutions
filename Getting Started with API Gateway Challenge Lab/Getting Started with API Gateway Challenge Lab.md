@@ -1,6 +1,6 @@
 # Getting Started with API Gateway: Challenge Lab || [ARC109](https://www.cloudskillsboost.google/focuses/61484?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/3Yxp1k6fH-s)
 
 ### Run the following Commands in CloudShell
 
