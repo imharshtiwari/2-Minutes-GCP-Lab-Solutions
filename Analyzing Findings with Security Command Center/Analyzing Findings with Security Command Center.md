@@ -1,6 +1,6 @@
 # Analyzing Findings with Security Command Center || [GSP1164](https://www.cloudskillsboost.google/focuses/71931?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/PFCr6Sm0FAg)
 
 ### Run the following Commands in CloudShell
 
