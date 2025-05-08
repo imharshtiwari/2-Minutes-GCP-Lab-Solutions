@@ -1,6 +1,6 @@
 # Connect to Cloud SQL from an Application in Google Kubernetes Engine || [GSP449](https://www.cloudskillsboost.google/games/6151/labs/39037) ||
 
-## 💡 🔑 Solution [here](https://youtu.be/GA0FgNbanEo)
+## 💡 🔑 Solution [here](https://youtu.be/5WZGvd_3-ok)
 
 ### Run the following Commands in CloudShell
 
