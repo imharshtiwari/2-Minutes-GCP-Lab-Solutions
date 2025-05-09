@@ -6,7 +6,7 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/API%20Gateway%20Qwik%20Start/arc1208.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Arcade%20Hero%3A%20Building%20Blocks%20Artifact%20Registry%20II/arc1208.sh
 
 sudo chmod +x arc1208.sh
 
