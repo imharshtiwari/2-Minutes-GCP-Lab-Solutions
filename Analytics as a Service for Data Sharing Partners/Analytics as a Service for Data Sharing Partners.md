@@ -81,7 +81,7 @@ sudo chmod +x gsp1.sh
 3.  Click on **Blank Report**.
 4.  If prompted for account setup (country/company):
   *   Country: Select **India** (or your preferred country).
-  *   Company: Enter **ArcadeCrew** (or any name).
+  *   Company: Enter **SparkWave** (or any name).
   *   Agree to the terms and click **Continue**. Answer any subsequent prompts (e.g., "Yes to all" for email preferences).
 5.  In the "Add data to report" window, select the **BigQuery** connector.
 6.  Click **AUTHORIZE** if prompted, and allow access.
@@ -120,7 +120,7 @@ sudo chmod +x gsp2.sh
 3.  Click on **Blank Report**.
 4.  (You might not be prompted for account setup again if you recently did it for Project A). If prompted:
   *   Country: Select **India** (or your preferred country).
-  *   Company: Enter **ArcadeCrew** (or any name).
+  *   Company: Enter **SparkWave** (or any name).
   *   Agree and **Continue**.
 5.  Select the **BigQuery** connector.
 6.  Click **AUTHORIZE** if needed.
