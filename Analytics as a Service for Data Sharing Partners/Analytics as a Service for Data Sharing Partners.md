@@ -2,15 +2,12 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
-> 💡 **Pro Tip:** *Watch the full video to ensure you achieve full scores on all "Check My Progress" steps!*
-
----
 
 ### 1. ☁️ Initialize Views in Cloud Shell
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gso1042.sh
+curl -LO https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gsp1042.sh
 sudo chmod +x gsp1042.sh
 ./gsp1042.sh
 ```
@@ -72,7 +69,7 @@ If you have any incognito windows open from previous lab activity, close them.
 In the Project A Cloud Shell, first set an environment variable for your **Main Lab Project ID** (the one you copied in step 1.2):
 
 ```bash
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gsp1.sh
+curl -LO https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gsp1.sh
 sudo chmod +x gsp1.sh
 ./gsp1.sh
 ```
@@ -111,7 +108,7 @@ Close the Incognito window used for Project A's Looker Studio.
 In the Project B Cloud Shell, set the environment variable for your **Main Lab Project ID** again:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gsp2.sh
+curl -LO https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/gsp2.sh
 sudo chmod +x gsp2.sh
 ./gsp2.sh
 ```
