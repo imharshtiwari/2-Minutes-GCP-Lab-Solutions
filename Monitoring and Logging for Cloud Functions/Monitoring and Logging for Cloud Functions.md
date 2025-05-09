@@ -5,9 +5,6 @@
 ### Run the following Commands in CloudShell
 
 ```
-export REGION=
-```
-```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Monitoring%20and%20Logging%20for%20Cloud%20Functions/gsp092.sh
 
 sudo chmod +x gsp092.sh
