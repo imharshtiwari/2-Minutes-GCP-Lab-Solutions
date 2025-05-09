@@ -2,6 +2,8 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
+* Go to Cloud Run from [here](https://console.cloud.google.com/run?)
+
 ### Run the following Commands in CloudShell
 
 ```
