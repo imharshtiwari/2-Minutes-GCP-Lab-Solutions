@@ -1,6 +1,6 @@
 # BigQuery: Qwik Start - Command Line || [GSP071](https://www.cloudskillsboost.google/focuses/577?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/dCgHcxbECpo)
 
 ### Run the following Commands in CloudShell
 ```
