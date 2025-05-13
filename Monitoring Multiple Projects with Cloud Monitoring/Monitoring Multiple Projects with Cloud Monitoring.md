@@ -1,6 +1,6 @@
 # Monitoring Multiple Projects with Cloud Monitoring || [GSP090](https://www.cloudskillsboost.google/focuses/621?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/8imHydYxLHM)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
