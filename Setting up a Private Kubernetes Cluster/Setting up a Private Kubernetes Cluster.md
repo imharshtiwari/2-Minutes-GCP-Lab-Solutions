@@ -4,9 +4,7 @@
 
 ### Run the following Commands in CloudShell
 
-```
-export ZONE=
-```
+
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/gsp178.sh
 
