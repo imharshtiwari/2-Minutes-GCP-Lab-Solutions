@@ -15,9 +15,7 @@ sudo chmod +x gsp499.sh
 ./gsp499.sh
 ```
 
-* Go to `OAuth consent screen` from [here](https://console.cloud.google.com/apis/credentials/consent?)
 
-* Go to `Identity-Aware Proxy` from [here](https://console.cloud.google.com/security/iap?)
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
 
