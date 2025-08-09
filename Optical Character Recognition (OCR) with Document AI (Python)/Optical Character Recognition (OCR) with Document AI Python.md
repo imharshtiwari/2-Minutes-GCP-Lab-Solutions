@@ -8,11 +8,9 @@ This script and guide are intended solely for educational purposes to help you b
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Optical%20Character%20Recognition%20(OCR)%20with%20Document%20AI%20(Python)/gsp1138.sh
-
-sudo chmod +x gsp1138.sh
-
-./gsp1138.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Optical%20Character%20Recognition%20OCR%20with%20Document%20AI%20Python/techcps1138.sh
+sudo chmod +x techcps1138.sh
+./techcps1138.sh
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
