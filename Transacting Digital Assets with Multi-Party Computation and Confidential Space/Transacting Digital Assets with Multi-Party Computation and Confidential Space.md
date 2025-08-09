@@ -5,15 +5,13 @@
 ### Run the following Commands in CloudShell
 
 ```
-export LOCATION=
-```
-```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/PubSub%20Lite%20Qwik%20Start/gsp832.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Transacting%20Digital%20Assets%20with%20Multi-Party%20Computation%20and%20Confidential%20Space/gsp1128.sh
 
-sudo chmod +x gsp832.sh
+sudo chmod +x gsp1128.sh
 
-./gsp832.sh
+./gsp1128.sh
 ```
+### ⚠️Enter the Zone Name correctly:
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
 
