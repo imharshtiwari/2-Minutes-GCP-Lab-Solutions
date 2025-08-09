@@ -1,63 +1,25 @@
-clear
 
-#!/bin/bash
-# Define color variables
-
-BLACK=`tput setaf 0`
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-YELLOW=`tput setaf 3`
-BLUE=`tput setaf 4`
-MAGENTA=`tput setaf 5`
-CYAN=`tput setaf 6`
-WHITE=`tput setaf 7`
-
-BG_BLACK=`tput setab 0`
-BG_RED=`tput setab 1`
-BG_GREEN=`tput setab 2`
-BG_YELLOW=`tput setab 3`
-BG_BLUE=`tput setab 4`
-BG_MAGENTA=`tput setab 5`
-BG_CYAN=`tput setab 6`
-BG_WHITE=`tput setab 7`
-
-BOLD=`tput bold`
-RESET=`tput sgr0`
-
-# Array of color codes excluding black and white
-TEXT_COLORS=($RED $GREEN $YELLOW $BLUE $MAGENTA $CYAN)
-BG_COLORS=($BG_RED $BG_GREEN $BG_YELLOW $BG_BLUE $BG_MAGENTA $BG_CYAN)
-
-# Pick random colors
-RANDOM_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
-RANDOM_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
-
-#----------------------------------------------------start--------------------------------------------------#
-
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}Starting Execution${RESET}"
 
 export ZONE=$(gcloud compute project-info describe \
 --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-export REGION=$(gcloud compute project-info describe \
---format="value(commonInstanceMetadata.items[google-compute-default-region])")
+gcloud auth list 
 
-gcloud compute addresses create eth-mainnet-rpc-ip \
-  --region=$REGION
+export REGION="${ZONE%-*}"
 
-ETH_MAINNET_RPC_IP=$(gcloud compute addresses describe eth-mainnet-rpc-ip --region=$REGION --format='get(address)')
+export PROJECT_ID=$(gcloud config get-value project)
 
-gcloud compute firewall-rules create eth-rpc-node-fw \
-  --direction=INGRESS \
-  --priority=1000 \
-  --network=default \
-  --action=ALLOW \
-  --rules=tcp:30303,tcp:9000,tcp:8545,udp:30303,udp:9000 \
-  --source-ranges=0.0.0.0/0 \
-  --target-tags=eth-rpc-node
+gcloud config set project $PROJECT_ID
+
+gcloud compute addresses create eth-mainnet-rpc-ip --project=$DEVSHELL_PROJECT_ID --region=$REGION
+
+gcloud compute firewall-rules create eth-rpc-node-fw --project=$DEVSHELL_PROJECT_ID --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:30303,tcp:9000,tcp:8545,udp:30303,udp:9000 --target-tags=eth-rpc-node --source-ranges=0.0.0.0/0
+
+ETH__IP=$(gcloud compute addresses describe eth-mainnet-rpc-ip --project=$DEVSHELL_PROJECT_ID --region=$REGION --format='get(address)')
 
 gcloud iam service-accounts create eth-rpc-node-sa \
-  --display-name "eth-rpc-node-sa"
+    --description="Service account for Ethereum RPC node" \
+    --display-name="eth-rpc-node-sa"
 
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
     --member="serviceAccount:eth-rpc-node-sa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com" \
@@ -83,35 +45,16 @@ gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
     --member="serviceAccount:eth-rpc-node-sa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com" \
     --role="roles/compute.networkUser"
 
-gcloud compute resource-policies create snapshot-schedule eth-mainnet-rpc-node-disk-snapshot \
-    --region=$REGION \
-    --max-retention-days=7 \
-    --on-source-disk-delete=keep-auto-snapshots \
-    --daily-schedule \
-    --start-time=18:00 \
-    --storage-location=$REGION
+gcloud compute resource-policies create snapshot-schedule eth-mainnet-rpc-node-disk-snapshot --project=$DEVSHELL_PROJECT_ID --region=$REGION --max-retention-days=7 --on-source-disk-delete=keep-auto-snapshots --storage-location=$REGION --daily-schedule --start-time=18:00
 
-gcloud compute instances create eth-mainnet-rpc-node \
-    --zone=$ZONE \
-    --machine-type=e2-medium \
-    --network-interface=address=$ETH_MAINNET_RPC_IP,network-tier=PREMIUM,nic-type=GVNIC,stack-type=IPV4_ONLY,subnet=default \
-    --metadata=enable-oslogin=true \
-    --maintenance-policy=MIGRATE \
-    --provisioning-model=STANDARD \
-    --service-account=eth-rpc-node-sa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com \
-    --scopes=https://www.googleapis.com/auth/cloud-platform \
-    --tags=eth-rpc-node \
-    --create-disk=auto-delete=yes,boot=yes,device-name=eth-mainnet-rpc-node,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,image=projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20241115,mode=rw,size=50,type=pd-ssd \
-    --create-disk=device-name=eth-mainnet-rpc-node-disk,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,mode=rw,name=eth-mainnet-rpc-node-disk,size=200,type=pd-ssd \
-    --no-shielded-secure-boot \
-    --shielded-vtpm \
-    --shielded-integrity-monitoring \
-    --labels=goog-ec-src=vm_add-gcloud \
-    --reservation-affinity=any
+sleep 10
 
-sleep 30
+gcloud compute instances --project=$DEVSHELL_PROJECT_ID create eth-mainnet-rpc-node --zone=$ZONE --machine-type=e2-medium --network-interface=address=$ETH_IP,network-tier=PREMIUM,nic-type=GVNIC,stack-type=IPV4_ONLY,subnet=default --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=eth-rpc-node-sa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com --scopes=https://www.googleapis.com/auth/cloud-platform --tags=eth-rpc-node --create-disk=auto-delete=yes,boot=yes,device-name=eth-mainnet-rpc-node,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,image=projects/ubuntu-os-cloud/global/images/ubuntu-2004-focal-v20241115,mode=rw,size=50,type=pd-ssd --create-disk=device-name=eth-mainnet-rpc-node-disk,disk-resource-policy=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/eth-mainnet-rpc-node-disk-snapshot,mode=rw,name=eth-mainnet-rpc-node-disk,size=200,type=pd-ssd --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
 
-cat > prepare_disk.sh <<'EOF_END'
+sleep 60
+
+
+cat > cp_disk.sh <<'EOF_CP'
 sudo dd if=/dev/zero of=/swapfile bs=1MiB count=25KiB
 sudo chmod 0600 /swapfile
 sudo mkswap /swapfile
@@ -131,10 +74,288 @@ df -h
 sudo useradd -m ethereum
 sudo usermod -aG sudo ethereum
 sudo usermod -aG google-sudoers ethereum
-EOF_END
+EOF_CP
 
-gcloud compute scp prepare_disk.sh eth-mainnet-rpc-node:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 
-gcloud compute ssh eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/prepare_disk.sh"
+export ZONE=$(gcloud compute project-info describe \
+--format="value(commonInstanceMetadata.items[google-compute-default-zone])")
 
-gcloud compute ssh eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+gcloud compute scp cp_disk.sh eth-mainnet-rpc-node:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+
+gcloud compute ssh eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/cp_disk.sh"
+
+cat > eth_disk.sh <<'EOF_CP'
+#!/bin/bash
+
+sudo -u ethereum bash <<'EOF'
+bash
+
+cd ~
+sudo apt update -y
+sudo apt-get update -y
+sudo apt install -y dstat jq
+
+curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
+sudo bash add-google-cloud-ops-agent-repo.sh --also-install
+rm add-google-cloud-ops-agent-repo.sh
+
+mkdir -p /mnt/disks/chaindata-disk/ethereum/geth/chaindata
+mkdir -p /mnt/disks/chaindata-disk/ethereum/geth/logs
+mkdir -p /mnt/disks/chaindata-disk/ethereum/lighthouse/chaindata
+mkdir -p /mnt/disks/chaindata-disk/ethereum/lighthouse/logs
+
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get -y install ethereum
+
+geth version
+
+# Fetch the latest release information from GitHub API
+RELEASE_URL="https://api.github.com/repos/sigp/lighthouse/releases/latest"
+LATEST_VERSION=$(curl -s $RELEASE_URL | jq -r '.tag_name')
+
+# Download the latest release using curl
+DOWNLOAD_URL=$(curl -s $RELEASE_URL | jq -r '.assets[] | select(.name | endswith("x86_64-unknown-linux-gnu.tar.gz")) | .browser_download_url')
+
+curl -L "$DOWNLOAD_URL" -o "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+
+# Extract the tar file
+tar -xvf "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+
+# Remove the tar file
+rm "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+
+sudo mv lighthouse /usr/bin
+lighthouse --version
+
+cd ~
+mkdir ~/.secret
+openssl rand -hex 32 > ~/.secret/jwtsecret
+chmod 440 ~/.secret/jwtsecret
+EOF
+EOF_CP
+
+
+export ZONE=$(gcloud compute project-info describe \
+--format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+gcloud compute scp eth_disk.sh eth-mainnet-rpc-node:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+
+gcloud compute ssh eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/eth_disk.sh"
+
+
+cat > geth_disk.sh <<'EOF_CP'
+#!/bin/bash
+
+sudo -u ethereum bash <<'EOFC'
+
+mkdir -p ~/.secret
+openssl rand -hex 32 > ~/.secret/jwtsecret
+chmod 440 ~/.secret/jwtsecret
+
+
+export CHAIN=eth
+export NETWORK=mainnet
+export EXT_IP_ADDRESS_NAME=$CHAIN-$NETWORK-rpc-ip
+export EXT_IP_ADDRESS=$(gcloud compute addresses list --filter=$EXT_IP_ADDRESS_NAME --format="value(address_range())")
+
+nohup geth --datadir "/mnt/disks/chaindata-disk/ethereum/geth/chaindata" \
+--http.corsdomain "*" \
+--http \
+--http.addr 0.0.0.0 \
+--http.port 8545 \
+--http.corsdomain "*" \
+--http.api admin,debug,web3,eth,txpool,net \
+--http.vhosts "*" \
+--gcmode full \
+--cache 2048 \
+--mainnet \
+--metrics \
+--metrics.addr 127.0.0.1 \
+--syncmode snap \
+--authrpc.vhosts="localhost" \
+--authrpc.port 8551 \
+--authrpc.jwtsecret=/home/ethereum/.secret/jwtsecret \
+--txpool.accountslots 32 \
+--txpool.globalslots 8192 \
+--txpool.accountqueue 128 \
+--txpool.globalqueue 2048 \
+--nat extip:$EXT_IP_ADDRESS \
+&> "/mnt/disks/chaindata-disk/ethereum/geth/logs/geth.log" &
+
+sudo chmod 666 /etc/google-cloud-ops-agent/config.yaml
+
+sudo cat << EOF >> /etc/google-cloud-ops-agent/config.yaml
+logging:
+  receivers:
+    syslog:
+      type: files
+      include_paths:
+      - /var/log/messages
+      - /var/log/syslog
+
+    ethGethLog:
+      type: files
+      include_paths: ["/mnt/disks/chaindata-disk/ethereum/geth/logs/geth.log"]
+      record_log_file_path: true
+
+    ethLighthouseLog:
+      type: files
+      include_paths: ["/mnt/disks/chaindata-disk/ethereum/lighthouse/logs/lighthouse.log"]
+      record_log_file_path: true
+
+    journalLog:
+      type: systemd_journald
+
+  service:
+    pipelines:
+      logging_pipeline:
+        receivers:
+        - syslog
+        - journalLog
+        - ethGethLog
+        - ethLighthouseLog
+EOF
+
+sudo systemctl stop google-cloud-ops-agent
+sudo systemctl start google-cloud-ops-agent
+
+sudo journalctl -xe | grep "google_cloud_ops_agent_engine"
+
+sudo cat << EOF >> /etc/google-cloud-ops-agent/config.yaml
+metrics:
+  receivers:
+    prometheus:
+        type: prometheus
+        config:
+          scrape_configs:
+            - job_name: 'geth_exporter'
+              scrape_interval: 10s
+              metrics_path: /debug/metrics/prometheus
+              static_configs:
+                - targets: ['localhost:6060']
+            - job_name: 'lighthouse_exporter'
+              scrape_interval: 10s
+              metrics_path: /metrics
+              static_configs:
+                - targets: ['localhost:5054']
+
+  service:
+    pipelines:
+      prometheus_pipeline:
+        receivers:
+        - prometheus
+EOF
+
+sudo systemctl stop google-cloud-ops-agent
+sudo systemctl start google-cloud-ops-agent
+
+sudo journalctl -xe | grep "google_cloud_ops_agent_engine"
+
+EOFC
+EOF_CP
+
+
+export ZONE=$(gcloud compute project-info describe \
+--format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+gcloud compute scp geth_disk.sh eth-mainnet-rpc-node:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+
+gcloud compute ssh eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/geth_disk.sh"
+
+
+cat > email-channel.json <<EOF_CP
+{
+  "type": "email",
+  "displayName": "techcps",
+  "description": "subscribe to techcps",
+  "labels": {
+    "email_address": "$USER_EMAIL"
+  }
+}
+EOF_CP
+
+gcloud beta monitoring channels create --channel-content-from-file="email-channel.json"
+
+
+cp_info=$(gcloud beta monitoring channels list)
+cp_id=$(echo "$cp_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
+
+cat > cp.json <<EOF_CP
+{
+  "displayName": "VM - Disk space alert - 90% utilization",
+  "documentation": {
+    "content": "Check the disk space of the VM",
+    "mimeType": "text/markdown"
+  },
+  "userLabels": {},
+  "conditions": [
+    {
+      "displayName": "VM Instance - Disk utilization",
+      "conditionThreshold": {
+        "filter": "resource.type = \"gce_instance\" AND metric.type = \"agent.googleapis.com/disk/percent_used\" AND (metric.labels.device = \"/dev/sdb\" AND metric.labels.state = \"used\")",
+        "aggregations": [
+          {
+            "alignmentPeriod": "300s",
+            "crossSeriesReducer": "REDUCE_NONE",
+            "perSeriesAligner": "ALIGN_MEAN"
+          }
+        ],
+        "comparison": "COMPARISON_GT",
+        "duration": "0s",
+        "trigger": {
+          "count": 1
+        },
+        "thresholdValue": 90
+      }
+    }
+  ],
+  "alertStrategy": {
+    "autoClose": "172800s",
+    "notificationPrompts": [
+      "OPENED",
+      "CLOSED"
+    ]
+  },
+  "combiner": "OR",
+  "enabled": true,
+  "notificationChannels": [
+    "$cp_id"
+  ],
+  "severity": "SEVERITY_UNSPECIFIED"
+}
+EOF_CP
+
+gcloud alpha monitoring policies create --policy-from-file="cp.json"
+
+export INSTANCE_ID=$(gcloud compute instances list --filter=eth-mainnet-rpc-node --zones $ZONE --format="value(id)")
+
+curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" \
+  "https://monitoring.googleapis.com/v3/projects/$DEVSHELL_PROJECT_ID/uptimeCheckConfigs" \
+  -d "$(cat <<EOF
+{
+  "displayName": "eth-mainnet-rpc-node-uptime-check",
+  "monitoredResource": {
+    "type": "gce_instance",
+    "labels": {
+      "instance_id": "$INSTANCE_ID",
+      "project_id": "$DEVSHELL_PROJECT_ID",
+      "zone": "$ZONE"
+    }
+  },
+  "httpCheck": {
+    "path": "/",
+    "port": 8545,
+    "requestMethod": "GET",
+    "acceptedResponseStatusCodes": [
+      {
+        "statusClass": "STATUS_CLASS_2XX"
+      }
+    ]
+  },
+  "period": "60s",
+  "timeout": "10s",
+  "checkerType": "STATIC_IP_CHECKERS"
+}
+EOF
+)"
+
