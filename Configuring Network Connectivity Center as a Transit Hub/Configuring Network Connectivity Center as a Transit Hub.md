@@ -1,6 +1,6 @@
 # Configuring Network Connectivity Center as a Transit Hub || [GSP911](https://www.cloudskillsboost.google/focuses/18539?parent=catalog) ||
 
-## 💡 **🔑 Solution [here](https://www.youtube.com/@sparkwave.01)**
+## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
