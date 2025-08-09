@@ -1,6 +1,6 @@
 # Transacting Digital Assets with Multi-Party Computation and Confidential Space || [GSP1128](https://www.cloudskillsboost.google/games/6393/labs/40254) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/8JMJIu89p18)
 
 ### Run the following Commands in CloudShell
 
