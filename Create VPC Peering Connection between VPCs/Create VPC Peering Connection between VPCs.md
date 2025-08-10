@@ -4,15 +4,13 @@
 
 ### Run the following Commands in CloudShell
 
-```
-export LOCATION=
-```
-```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/PubSub%20Lite%20Qwik%20Start/gsp832.sh
 
-sudo chmod +x gsp832.sh
+```
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Create%20VPC%20Peering%20Connection%20between%20VPCs/gsp.sh
 
-./gsp832.sh
+sudo chmod +x gsp.sh
+
+./gsp.sh
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
