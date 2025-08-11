@@ -1,6 +1,6 @@
 # Deploying a Fault-Tolerant Microsoft Active Directory Environment || [GSP118](https://www.cloudskillsboost.google/focuses/1817?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/iUdws8-SCRQ)
 
 ### Run the following Commands in CloudShell
 
