@@ -1,6 +1,6 @@
 # Distributed Load Testing Using Kubernetes || [GSP182](https://www.cloudskillsboost.google/focuses/967?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/gyOrrM6RMF0)
 
 ### Run the following Commands in CloudShell
 
