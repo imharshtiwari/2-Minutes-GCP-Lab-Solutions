@@ -1,6 +1,6 @@
 # Creating Cross-region Load Balancing || [GSP157](https://www.cloudskillsboost.google/focuses/642?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/EmAtjeEWQSQ)
 
 ### Run the following Commands in CloudShell
 
