@@ -1,6 +1,6 @@
 # Importing Data to a Firestore Database || [GSP642](https://www.cloudskillsboost.google/focuses/8392?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/6cDtMfFqp-M)
 
 ### Run the following Commands in CloudShell
 
