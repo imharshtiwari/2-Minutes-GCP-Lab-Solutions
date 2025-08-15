@@ -15,7 +15,7 @@ sudo chmod +x gsp872.sh
 ./gsp872.sh
 ```
 
-### 🐼 Congratulations 🎉 for completing the Lab !
+### 🐼 Congratulations 🎉 for completing the Lab !.
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
