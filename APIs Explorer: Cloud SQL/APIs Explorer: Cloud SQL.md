@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/PubSub%20Lite%20Qwik%20Start/gsp423.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/APIs%20Explorer%3A%20Cloud%20SQL/gsp423.sh
 
 sudo chmod +x gsp423.sh
 
