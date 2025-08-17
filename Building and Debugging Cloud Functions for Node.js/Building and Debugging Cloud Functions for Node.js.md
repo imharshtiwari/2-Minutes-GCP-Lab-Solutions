@@ -6,7 +6,7 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Configuring%20Network%20Connectivity%20Center%20as%20a%20Transit%20Hub/gsp880.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Building%20and%20Debugging%20Cloud%20Functions%20for%20Node.js/gsp880.sh
 
 sudo chmod +x gsp880.sh
 
