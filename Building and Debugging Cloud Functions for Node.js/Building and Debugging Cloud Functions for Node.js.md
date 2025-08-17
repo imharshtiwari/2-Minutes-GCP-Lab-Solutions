@@ -2,7 +2,7 @@
 
 ## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
 
-### 🚀 **Execute the following commands in Cloud Shell:**  
+### 🚀 **Execute the following commands in VS CODE TERMINAL:**  
 
 
 ```
