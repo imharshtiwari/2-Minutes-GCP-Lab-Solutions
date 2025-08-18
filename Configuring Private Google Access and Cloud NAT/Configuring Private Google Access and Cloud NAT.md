@@ -1,6 +1,6 @@
 # Configuring Private Google Access and Cloud NAT || [GSP459](https://www.cloudskillsboost.google/games/6415/labs/40387) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/gQ4yvjFHDI8)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
