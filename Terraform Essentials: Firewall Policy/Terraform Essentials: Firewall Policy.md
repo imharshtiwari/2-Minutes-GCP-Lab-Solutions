@@ -6,7 +6,7 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Configuring%20Network%20Connectivity%20Center%20as%20a%20Transit%20Hub/gsp.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Terraform%20Essentials%3A%20Firewall%20Policy/gsp.sh
 
 sudo chmod +x gsp.sh
 
