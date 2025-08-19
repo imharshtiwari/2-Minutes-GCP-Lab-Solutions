@@ -1,18 +1,16 @@
-# Configuring Network Connectivity Center as a Transit Hub || [GSP911](https://www.cloudskillsboost.google/focuses/18539?parent=catalog) ||
+# Terraform Essentials: Google Cloud Storage Bucket || [GSP](https://www.cloudskillsboost.google/games/6396/labs/40295) ||
 
 ## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
-```
-export ZONE_2=
-```
-```
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Storage_Bucket.sh
 
-sudo chmod +x Abhi_Storage_Bucket.sh
+```
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Terraform%20Essentials%3A%20Google%20Cloud%20Storage%20Bucket/GSP/gsp.sh
 
-./Abhi_Storage_Bucket.sh
+sudo chmod +x gsp.sh
+
+./gsp.sh
 ```
 
 
