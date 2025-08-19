@@ -6,7 +6,7 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Terraform%20Essentials%3A%20Google%20Cloud%20Storage%20Bucket/GSP/gsp.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Terraform%20Essentials%3A%20Google%20Cloud%20Storage%20Bucket/gsp.sh
 
 sudo chmod +x gsp.sh
 
