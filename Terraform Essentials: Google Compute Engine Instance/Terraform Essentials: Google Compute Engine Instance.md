@@ -1,6 +1,6 @@
-# Terraform Essentials: Google Compute Engine Instance || [GSP](https://www.cloudskillsboost.google/games/6396/labs/40294) ||
+# Terraform Essentials: Google Compute Engine Instance || [Terraform Essentials](https://www.cloudskillsboost.google/games/6396/labs/40294) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/3i1DqSD7JYE)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
