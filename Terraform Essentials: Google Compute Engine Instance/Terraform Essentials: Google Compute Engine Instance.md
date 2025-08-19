@@ -5,14 +5,11 @@
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
 ```
-export ZONE_2=
-```
-```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Configuring%20Network%20Connectivity%20Center%20as%20a%20Transit%20Hub/gsp911.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Terraform%20Essentials%3A%20Google%20Compute%20Engine%20Instance/gsp.sh
 
-sudo chmod +x gsp911.sh
+sudo chmod +x gsp.sh
 
-./gsp911.sh
+./gsp.sh
 ```
 
 
