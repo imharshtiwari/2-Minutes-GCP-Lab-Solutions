@@ -1,6 +1,6 @@
-# Terraform Essentials: Cloud Firestore Database || [GSP](https://www.cloudskillsboost.google/games/6396/labs/40293) ||
+# Terraform Essentials: Cloud Firestore Database || [Terraform Essentaials](https://www.cloudskillsboost.google/games/6396/labs/40293) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/2vLWx10vI-4)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
