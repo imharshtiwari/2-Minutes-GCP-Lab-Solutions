@@ -5,11 +5,11 @@
 ### Task 3. Analyze and fix SCC vulnerability findings
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Getting%20Started%20with%20Security%20Command%20Center/gsp1124.sh
+curl -LO raw.githubusercontent.com/Titash-shil/Get-Started-with-Security-Command-Center-GSP1124/refs/heads/main/qwiklab_explorers_gsp1124.sh
 
-sudo chmod +x gsp1124.sh
+sudo chmod +x qwiklab_explorers_gsp1124.sh
 
-./gsp1124.sh
+./qwiklab_explorers_gsp1124.sh
 ```
 
 ### 🐼 Congratulations 🎉 for Completing the Lab !
