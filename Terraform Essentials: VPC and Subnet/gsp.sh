@@ -1,28 +1,47 @@
 #!/bin/bash
-YELLOW='\033[0;33m'
-NC='\033[0m' 
-pattern=(
-"**********************************************************"
-"**                 S U B S C R I B E  TO                **"
-"**                        SPARKWAVE ✨                 **"
-"**                                                      **"
-"**********************************************************"
-)
-for line in "${pattern[@]}"
-do
-    echo -e "${YELLOW}${line}${NC}"
-done
-ZONE=$(gcloud compute project-info describe \
-  --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
-REGION=$(gcloud compute project-info describe \
-  --format="value(commonInstanceMetadata.items[google-compute-default-region])")
-PROJECT_ID=$(gcloud config get-value project)
+# ======================================================
+# Terraform + Google Cloud VPC Creation Lab - SPARKWAVE
+# ======================================================
 
+# --- Variables ---
+PROJECT_ID=$(gcloud config get-value project 2> /dev/null)
+
+if [[ -z "$PROJECT_ID" ]]; then
+  echo "❌ No active project found. Please set a project first:"
+  echo "   gcloud config set project PROJECT_ID"
+  exit 1
+fi
+
+# Ask for region and zone
+read -p "Enter region [us-west1]: " REGION
+REGION=${REGION:-us-west1}
+
+read -p "Enter zone [us-west1-b]: " ZONE
+ZONE=${ZONE:-us-west1-b}
+
+BUCKET_NAME="${PROJECT_ID}-terraform-state"
+
+# --- Step 1: Set gcloud Config ---
+echo "🔹 Setting Google Cloud configuration..."
+gcloud config set project $PROJECT_ID
+gcloud config set compute/region $REGION
+gcloud config set compute/zone $ZONE
+
+# --- Step 2: Create GCS Bucket ---
+echo "🔹 Creating Cloud Storage bucket for Terraform state..."
+gcloud storage buckets create gs://$BUCKET_NAME --project=$PROJECT_ID --location=us
+
+# --- Step 3: Enable Required API ---
+echo "🔹 Enabling Cloud Resource Manager API..."
 gcloud services enable cloudresourcemanager.googleapis.com --project=$PROJECT_ID
 
-gcloud storage buckets create gs://$PROJECT_ID-tf-state --project=$PROJECT_ID --location=$REGION --uniform-bucket-level-access
+# --- Step 4: Create Terraform Files ---
+echo "🔹 Creating Terraform configuration files..."
+mkdir -p terraform-vpc
+cd terraform-vpc
 
-cat > firewall.tf <<EOF_END
+# main.tf
+cat > main.tf <<EOF
 terraform {
   required_providers {
     google = {
@@ -31,7 +50,7 @@ terraform {
     }
   }
   backend "gcs" {
-    bucket = "$PROJECT_ID-terraform-state"
+    bucket = "$BUCKET_NAME"
     prefix = "terraform/state"
   }
 }
@@ -66,16 +85,15 @@ resource "google_compute_firewall" "allow_ssh" {
 resource "google_compute_firewall" "allow_icmp" {
   name    = "allow-icmp"
   network = google_compute_network.vpc_network.name
-
   allow {
     protocol = "icmp"
   }
   source_ranges = ["0.0.0.0/0"]
 }
-EOF_END
+EOF
 
-
-cat > variables.tf <<EOF_END
+# variables.tf
+cat > variables.tf <<EOF
 variable "project_id" {
   type        = string
   description = "The ID of the Google Cloud project"
@@ -83,14 +101,14 @@ variable "project_id" {
 }
 
 variable "region" {
-  type = string
+  type        = string
   description = "The region to deploy resources in"
-  default = "$REGION"
+  default     = "$REGION"
 }
-EOF_END
+EOF
 
-
-cat > outputs.tf <<EOF_END
+# outputs.tf
+cat > outputs.tf <<EOF
 output "network_name" {
   value       = google_compute_network.vpc_network.name
   description = "The name of the VPC network"
@@ -100,20 +118,32 @@ output "subnet_name" {
   value       = google_compute_subnetwork.subnet_us.name
   description = "The name of the subnetwork"
 }
-EOF_END
+EOF
 
+# --- Step 5: Initialize & Apply Terraform ---
+echo "🔹 Initializing Terraform..."
 terraform init
+
+echo "🔹 Planning Terraform deployment..."
 terraform plan
+
+echo "🔹 Applying Terraform configuration..."
 terraform apply --auto-approve
 
-pattern=(
-"**********************************************************"
-"**                 S U B S C R I B E  TO                **"
-"**                        SPARKWAVE ✨                 **"
-"**                                                      **"
-"**********************************************************"
-)
-for line in "${pattern[@]}"
-do
-    echo -e "${YELLOW}${line}${NC}"
-done
+# --- Step 6: Verification ---
+echo "✅ Verifying created resources..."
+echo "VPC Networks:"
+gcloud compute networks list --filter="name=custom-vpc-network"
+
+echo "Subnets:"
+gcloud compute networks subnets list --filter="name=subnet-us"
+
+echo "Firewall Rules:"
+gcloud compute firewall-rules list --filter="name~'allow-ssh|allow-icmp'"
+
+# --- Step 7: Cleanup ---
+echo "⚠️ Destroying resources to avoid charges..."
+terraform destroy --auto-approve
+
+cd ..
+rm -rf terraform-vpc
