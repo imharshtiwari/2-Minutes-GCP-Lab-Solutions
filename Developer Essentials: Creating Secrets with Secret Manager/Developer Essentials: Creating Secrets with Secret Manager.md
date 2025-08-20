@@ -6,7 +6,7 @@
 
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Developer%20Essentials%3A%20Application%20Development%20with%20Secret%20Manager/gsp.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Developer%20Essentials%3A%20Creating%20Secrets%20with%20Secret%20Manager/gsp.sh
 
 sudo chmod +x gsp.sh
 
