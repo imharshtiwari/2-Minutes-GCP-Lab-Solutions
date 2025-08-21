@@ -1,6 +1,6 @@
-# Terraform Essentials: Google Cloud Storage Bucket || [GSP](https://www.cloudskillsboost.google/games/6396/labs/40295) ||
+# Terraform Essentials: Google Cloud Storage Bucket || [Terraform Essentials:](https://www.cloudskillsboost.google/games/6396/labs/40295) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/plhvtJ9anr0)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
