@@ -1,6 +1,6 @@
 # Terraform Essentials: VPC and Subnet || [Terraform Essentials](https://www.cloudskillsboost.google/games/6396/labs/40298) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/ORSq8FaQDAw)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
