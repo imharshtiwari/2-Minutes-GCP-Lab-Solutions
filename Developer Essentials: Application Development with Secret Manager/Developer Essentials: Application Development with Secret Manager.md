@@ -1,6 +1,6 @@
 # Developer Essentials: Application Development with Secret Manager || [Developer Essentials ](https://www.cloudskillsboost.google/games/6396/labs/40299) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/Ygv9auKJAcU)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
