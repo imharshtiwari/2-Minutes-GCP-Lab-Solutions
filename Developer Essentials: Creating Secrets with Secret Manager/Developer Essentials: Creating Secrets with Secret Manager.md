@@ -1,6 +1,6 @@
 # Developer Essentials: Creating Secrets with Secret Manager || [Developer Essentials ](https://www.cloudskillsboost.google/games/6396/labs/40300) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/ac2YtHtrZRo)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
