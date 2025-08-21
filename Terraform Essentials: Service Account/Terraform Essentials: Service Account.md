@@ -1,6 +1,6 @@
 # Terraform Essentials: Service Account || [Terraform Essentials](https://www.cloudskillsboost.google/games/6396/labs/40296) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/VD-asAOampA)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
