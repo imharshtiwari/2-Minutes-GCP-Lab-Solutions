@@ -1,6 +1,6 @@
 # Terraform Essentials: Firewall Policy || [Terraform Essentials](https://www.cloudskillsboost.google/games/6396/labs/40297) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/7Mf9icI4_c8)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
