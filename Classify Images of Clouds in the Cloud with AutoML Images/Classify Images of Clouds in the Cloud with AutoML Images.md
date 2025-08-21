@@ -1,6 +1,6 @@
 # Classify Images of Clouds in the Cloud with AutoML Images || [GSP223](https://www.cloudskillsboost.google/focuses/8406?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/6oiV79R5l38)
 
 ### Run the following Commands in CloudShell
 
