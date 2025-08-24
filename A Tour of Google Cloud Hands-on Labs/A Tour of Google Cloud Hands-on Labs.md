@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
-### ⚙️ Execute the Following Commands in Cloud Shell. 
+### ⚙️ Execute the Following Commands in Cloud Shell..
 
 ```
 export USER_2=
