@@ -1,6 +1,6 @@
 # Conversational Agents: Managing Environments || [GSP929](https://www.cloudskillsboost.google/games/6397/labs/40303) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/3a0vJywTQMM)
 
 ### Run the following Commands in CloudShell
 
