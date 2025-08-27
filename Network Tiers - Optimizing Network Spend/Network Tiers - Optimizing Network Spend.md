@@ -1,6 +1,6 @@
 # Network Tiers - Optimizing Network Spend || [GSP219](https://www.cloudskillsboost.google/focuses/1234?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/bHL6PloZR0M)
 
 ### Run the following Commands in CloudShell
 
