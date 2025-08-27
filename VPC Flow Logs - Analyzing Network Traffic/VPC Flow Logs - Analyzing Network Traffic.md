@@ -18,13 +18,6 @@ sudo chmod +x techcps212.sh
 
 * For `Sink Name`, type or paste `vpc-flows`
 
-```
-CP_IP=$(gcloud compute instances describe web-server --zone=$ZONE --format='get(networkInterfaces[0].accessConfigs[0].natIP)')
-
-export MY_SERVER=$CP_IP
-
-for ((i=1;i<=50;i++)); do curl $MY_SERVER; done
-```
 
 ### 🐼 Congratulations 🎉 for Completing the Lab !
 
