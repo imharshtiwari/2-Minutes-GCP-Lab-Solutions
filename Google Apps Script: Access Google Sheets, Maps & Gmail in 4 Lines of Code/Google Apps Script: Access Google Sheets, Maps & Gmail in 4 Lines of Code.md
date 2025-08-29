@@ -1,6 +1,6 @@
 # Google Apps Script: Access Google Sheets, Maps & Gmail in 4 Lines of Code || [GSP235](https://www.cloudskillsboost.google/games/6435/labs/40491) ||
 
-## 💡 **🔑 Solution [here](ht)**
+## 💡 **🔑 Solution [here](https://youtu.be/MiOgWRbvaEI)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
