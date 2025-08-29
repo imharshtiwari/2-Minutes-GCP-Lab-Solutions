@@ -2,13 +2,11 @@
 
 ## 🔑 Solution [here](https://youtu.be/DSw2cp0wOBQ)
 
-### Run the following Commands in SSH
+### Run the following Commands in  Cloud Shell
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Cloud%20SQL%20with%20Terraform/gsp234.sh
-
-sudo chmod +x gsp234.sh
-
-./gsp234.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20SQL%20with%20Terraform/techcps234.sh
+sudo chmod +x techcps234.sh
+./techcps234.sh
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
