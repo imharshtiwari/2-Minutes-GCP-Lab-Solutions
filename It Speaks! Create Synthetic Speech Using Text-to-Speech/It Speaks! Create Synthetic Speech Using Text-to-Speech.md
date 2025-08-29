@@ -1,6 +1,6 @@
 # It Speaks! Create Synthetic Speech Using Text-to-Speech|| [GSP222](https://www.cloudskillsboost.google/games/6435/labs/40488) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/AZb2jRCBMaQ)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
