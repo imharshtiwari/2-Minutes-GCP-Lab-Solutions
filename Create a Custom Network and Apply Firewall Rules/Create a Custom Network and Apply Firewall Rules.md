@@ -1,6 +1,6 @@
 # Create a Custom Network and Apply Firewall Rules || [GSP159](https://www.cloudskillsboost.google/focuses/102551?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/wYCQakEu4W4)
 
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
