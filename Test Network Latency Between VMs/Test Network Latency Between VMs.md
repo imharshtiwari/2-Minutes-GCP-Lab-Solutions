@@ -1,6 +1,6 @@
 # Test Network Latency Between VMs || [GSP161](https://www.cloudskillsboost.google/course_templates/641/labs/550085) ||
 
-## 💡 **🔑 Solution [here]()**
+## 💡 **🔑 Solution [here](https://youtu.be/BmF8xmklAxA)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:**  
 
