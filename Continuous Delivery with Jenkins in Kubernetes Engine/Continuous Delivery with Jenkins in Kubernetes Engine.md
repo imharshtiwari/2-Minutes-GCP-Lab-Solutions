@@ -1,18 +1,24 @@
-# Continuous Delivery with Jenkins in Kubernetes Engine || [GSP051](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) ||
+  # Continuous Delivery with Jenkins in Kubernetes Engine || [GSP051](https://www.cloudskillsboost.google/focuses/1104?parent=catalog) ||
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
-```
-export ZONE=
-```
-```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/gsp051.sh
+1 Run the first code
 
-sudo chmod +x gsp051.sh
+```
+curl -LO https://raw.githubusercontent.com/ChanduCharanSample/Level-1-Application-Design-and-Delivery---2025/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/cloudcupcake.sh
+sudo chmod +x cloudcupcake.sh
+./cloudcupcake.sh
 
-./gsp051.sh
+```
+2 Follow video instructions
+3 Run the next code
+```
+curl -LO https://raw.githubusercontent.com/ChanduCharanSample/Level-1-Application-Design-and-Delivery---2025/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/cloudcupcake1.sh
+sudo chmod +x cloudcupcake1.sh
+./cloudcupcake1.sh
+
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
