@@ -1,6 +1,6 @@
 # Networking 101 || [GSP016](https://www.cloudskillsboost.google/focuses/1743?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/XX9VoY9HNK8)
 
 ### Run the following Commands in CloudShell
 
