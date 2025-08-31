@@ -1,6 +1,6 @@
 # Set Up a Google Cloud Network: Challenge Lab || [GSP314](https://www.cloudskillsboost.google/focuses/10417?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/0C_ZTbEMMJo)
 
 ### Run the following Commands in CloudShell
 
