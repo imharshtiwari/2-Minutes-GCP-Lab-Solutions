@@ -1,6 +1,6 @@
 # Create a Machine Image for Instance Replication || [Trivia](https://www.cloudskillsboost.google/games/6461/labs/40609) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/ttgZKSXVdNM)**
 
 ### 🚀 **Execute the following commands in Shell:**  
 
