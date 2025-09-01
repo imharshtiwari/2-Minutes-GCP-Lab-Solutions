@@ -6,7 +6,7 @@
 
 
 ```
-gcloud compute machine-images create vm-mc-image-632 --source-instance=[enter server here] --source-instance-zone=[enter zone here]
+gcloud compute machine-images create [enter Machine Image Name] --source-instance=[enter VM Name] --source-instance-zone=[enter zone here]
 
 ```
 
