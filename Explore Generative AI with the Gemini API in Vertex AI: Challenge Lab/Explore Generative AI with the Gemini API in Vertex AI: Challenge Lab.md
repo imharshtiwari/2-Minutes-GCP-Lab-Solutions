@@ -1,6 +1,6 @@
 # Explore Generative AI with the Gemini API in Vertex AI: Challenge Lab || [GSP515](https://www.cloudskillsboost.google/course_templates/959/labs/555712) ||
 
-## 💡 **🔑 Solution [here](https://youtu.be/Ef4jIkTLu8k)**
+## 💡 **🔑 Solution [here](https://youtu.be/rAgL_6_Px3Y)**
 
 ### 🚀 **Execute the following commands in Cloud Shell:** 
 
