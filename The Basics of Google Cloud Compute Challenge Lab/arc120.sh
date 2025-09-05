@@ -25,6 +25,8 @@ RESET=`tput sgr0`
 
 echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 
+gcloud storage buckets create gs://$DEVSHELL_PROJECT_ID-bucket --location=US
+
 gcloud compute instances create my-instance \
     --machine-type=e2-medium \
     --zone=$ZONE \
