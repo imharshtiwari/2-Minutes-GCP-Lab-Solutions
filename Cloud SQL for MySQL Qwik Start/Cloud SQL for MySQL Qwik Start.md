@@ -1,6 +1,6 @@
 # Cloud SQL for MySQL: Qwik Start || [GSP151](https://www.cloudskillsboost.google/focuses/936?parent=catalog) ||
 
-## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
+## 🔑 Solution [here](https://youtu.be/Z-F-QqiSEq0)
 
 ### Run the following Commands in CloudShell
 
