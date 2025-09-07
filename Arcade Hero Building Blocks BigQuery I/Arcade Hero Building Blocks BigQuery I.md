@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
-### ⚙️ Execute the Following Commands in Cloud Shell
+### ⚙️ Execute the Following Commands in Cloud Shell..
 
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Arcade%20Hero%20Building%20Blocks%20BigQuery%20I/arc1201.sh
