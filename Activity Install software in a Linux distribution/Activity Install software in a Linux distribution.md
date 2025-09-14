@@ -1,6 +1,6 @@
 # Activity: Install software in a Linux distribution
 
-## 🔑 Solution [here]()
+## 🔑 Solution [here](www)
 
 ### Run the following Commands
 
