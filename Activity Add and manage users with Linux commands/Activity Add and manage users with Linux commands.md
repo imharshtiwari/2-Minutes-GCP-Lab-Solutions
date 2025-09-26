@@ -19,7 +19,7 @@ sudo groupdel researcher9
 
 ##### *You Have Successfully Demonstrated Your Skills And Determination.*
 
-#### *Well done!*
+#### *Well done!!*
 
 #### Don't Forget to Join the [Telegram Channel](https://t.me/sparkwave.01) & [Discussion group](https://t.me/sparkwave.01chats)
 
