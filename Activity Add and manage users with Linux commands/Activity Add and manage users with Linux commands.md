@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here]()
 
-### Run the following Commands
+### Run the following Commands.
 
 ```
 sudo useradd researcher9
