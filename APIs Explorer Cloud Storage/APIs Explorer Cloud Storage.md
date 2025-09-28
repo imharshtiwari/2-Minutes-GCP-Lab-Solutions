@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
-### Run the following Commands in CloudShell
+### Run the following Commands in CloudShell.
 
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/APIs%20Explorer%20Cloud%20Storage/gsp421.sh
