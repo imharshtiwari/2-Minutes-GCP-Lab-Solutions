@@ -3,7 +3,7 @@
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 
-### 1. ☁️ Initialize Views in Cloud Shell
+### 1. ☁️ Initialize Views in Cloud Shell..
 
 
 ```bash
