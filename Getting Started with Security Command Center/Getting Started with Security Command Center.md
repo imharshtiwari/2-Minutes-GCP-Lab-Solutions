@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
-### Task 3. Analyze and fix SCC vulnerability findings
+### Analyze and fix SCC vulnerability findings
 
 ```
 curl -LO raw.githubusercontent.com/Titash-shil/Get-Started-with-Security-Command-Center-GSP1124/refs/heads/main/qwiklab_explorers_gsp1124.sh
