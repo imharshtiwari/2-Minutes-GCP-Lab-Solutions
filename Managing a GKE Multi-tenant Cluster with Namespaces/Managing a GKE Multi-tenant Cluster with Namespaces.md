@@ -14,6 +14,8 @@ sudo chmod +x gsp766.sh
 
 ./gsp766.sh
 ```
+### For Task 5 follow video it will take onely 1 min to complete it 
+
 
 ### 🐼 Congratulations 🎉 for Completing the Lab !
 
