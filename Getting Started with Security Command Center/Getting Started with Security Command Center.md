@@ -7,7 +7,7 @@
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main//Getting%20Started%20with%20Security%20Command%20Center/gsp1124.sh
 
-sudo chmod +x 1124.sh
+sudo chmod +x gsp1124.sh
 
 ./gsp1124.sh
 ```
