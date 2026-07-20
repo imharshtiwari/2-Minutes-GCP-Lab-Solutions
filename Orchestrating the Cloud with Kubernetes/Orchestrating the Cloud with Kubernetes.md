@@ -3,9 +3,7 @@
 ## 🔑 Solution [here](https://youtu.be/3jxuxvCphMk)
 
 ### Run the following Commands in CloudShell
-```
-export ZONE=
-```
+
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Orchestrating%20the%20Cloud%20with%20Kubernetes/gsp021.sh
 
