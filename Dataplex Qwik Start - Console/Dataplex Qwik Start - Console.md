@@ -1,4 +1,4 @@
-# Dataplex: Qwik Start - Console || [GSP1143](https://www.cloudskillsboost.google/focuses/62709?parent=catalog) ||
+# Knowledge Catalog: Qwik Start - Console || [GSP1143](https://www.cloudskillsboost.google/focuses/62709?parent=catalog) ||
 
 ## 🔑 Solution [here](https://youtu.be/9YH80Xz1-cQ)
 
