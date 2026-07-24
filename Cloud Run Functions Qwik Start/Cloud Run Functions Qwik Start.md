@@ -5,11 +5,9 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Cloud%20Run%20Functions%20Qwik%20Start/gsp1089.sh
-
-sudo chmod +x *.sh
-
-./*.sh
+curl -LO https://raw.githubusercontent.com/Cloud-hustlers-official/lab-solutions/refs/heads/main/Arcade-Voyage/Cloud%20Run%20Functions%3A%20Qwik%20Start/abc.sh
+sudo chmod +x abc.sh
+./abc.sh
 ```
 
 # 🎉 🐻‍❄️ྀིྀི Woohoo! You Did It! 🎉
