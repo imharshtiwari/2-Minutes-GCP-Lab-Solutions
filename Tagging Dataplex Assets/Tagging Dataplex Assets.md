@@ -1,4 +1,4 @@
-# Tagging Dataplex Assets || [GSP1145](https://www.cloudskillsboost.google/focuses/62711?parent=catalog) ||
+# TCreate and Add Aspects to Knowledge Catalog Assets || [GSP1145](https://www.cloudskillsboost.google/focuses/62711?parent=catalog) ||
 
 ## 🔑 Solution [here](https://youtu.be/n8o2NgNcDAA)
 
