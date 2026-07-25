@@ -21,7 +21,7 @@ BG_WHITE=`tput setab 7`
 
 BOLD=`tput bold`
 RESET=`tput sgr0`
-#----------------------------------------------------chori krne aaye ho na  ji khudke dam pe nahi bnata kyaa-------------------------------------------------#
+#----------------------------------------------------chori krne aaye ho na  ji khudke dam pe nahi bnata kyaa , nhi matlab may chor nhi bol rha lekin phir kya bolenge ..?-------------------------------------------------#
 
 echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
 
