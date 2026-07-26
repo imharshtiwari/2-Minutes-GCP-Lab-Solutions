@@ -18,79 +18,86 @@ BG_WHITE=`tput setab 7`
 
 BOLD=`tput bold`
 RESET=`tput sgr0`
-#----------------------------------------------------start--------------------------------------------------#
 
-echo "${BG_MAGENTA}${BOLD}Starting Execution${RESET}"
+clear
 
+echo "${CYAN_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}          SUBSCRIBE SPARKWAVE DEV - INITIATING EXECUTION...        ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
+echo
+
+print_phase "1" "🌍  Detecting Project & Region"
+export PROJECT_ID=$(gcloud config get-value project)
+
+if [ -n "$ALLOWED_REGION_OVERRIDE" ]; then
+  export REGION="$ALLOWED_REGION_OVERRIDE"
+  info "Using manual override region"
+elif [ -n "$GOOGLE_CLOUD_REGION" ]; then
+  export REGION="$GOOGLE_CLOUD_REGION"
+  info "Region sourced from \$GOOGLE_CLOUD_REGION"
+elif [ -n "$CLOUDSHELL_ENVIRONMENT" ]; then
+  DETECTED_ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items.google-compute-default-zone)")
+  if [ -n "$DETECTED_ZONE" ]; then
+    export REGION=$(echo "$DETECTED_ZONE" | sed 's/-[a-z]$//')
+    info "Region derived from Cloud Shell default zone"
+  fi
+fi
+
+if [ -z "$REGION" ]; then
+  DETECTED_ZONE=$(curl -s -H "Metadata-Flavor: Google" http://metadata.google.internal/computeMetadata/v1/instance/zone | awk -F/ '{print $NF}')
+  if [ -n "$DETECTED_ZONE" ]; then
+    export REGION=$(echo "$DETECTED_ZONE" | sed 's/-[a-z]$//')
+    info "Region derived from instance metadata"
+  fi
+fi
+
+if [ -z "$REGION" ] || [ "$REGION" == "null" ]; then
+  export REGION="us-central1"
+  warn "Falling back to default region us-central1"
+fi
+
+success "Project ID: ${WHITE}$PROJECT_ID${NC}"
+success "Region:     ${WHITE}$REGION${NC}"
+
+# ----------------------------- Phase 2: Terraform Install -------------------------
+print_phase "2" "📦  Installing Terraform"
+cat << 'EOF' > ~/.customize_environment
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install -y terraform
+EOF
+bash ~/.customize_environment
+success "Terraform installed: $(terraform --version | head -n1)"
+
+# ----------------------------- Phase 3: Task 1 - VPC Module -------------------------
+print_phase "3" "🛠️   Task 1: Deploying VPC via Registry Module"
+cd ~ || exit
+rm -rf terraform-google-network
 git clone https://github.com/terraform-google-modules/terraform-google-network
-
-cd terraform-google-network
-
+cd terraform-google-network/examples/simple_project || exit
 git checkout tags/v6.0.1 -b v6.0.1
+success "Repository cloned and checked out at v6.0.1"
 
-gcloud config list --format 'value(core.project)'
+gcloud services enable cloudaicompanion.googleapis.com 2>/dev/null || warn "Could not enable Gemini API (non-blocking, continuing)"
 
-cd ~/terraform-google-network/examples/simple_project
-
-cat > variables.tf <<EOF_END
-/**
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
+cat << EOF > variables.tf
 variable "project_id" {
   description = "The project ID to host the network in"
-  default     = "$DEVSHELL_PROJECT_ID"
+  default     = "$PROJECT_ID"
 }
-
 variable "network_name" {
-  description = "The name of the VPC network being created"
+  description = "The name of the network to be created"
   default     = "example-vpc"
 }
-EOF_END
+EOF
 
-cat > main.tf <<EOF_END
-/**
- * Copyright 2019 Google LLC
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-# Whenever a new major version of the network module is released, the
-# version constraint below should be updated, e.g. to ~> 4.0.
-#
-# If that new version includes provider updates, validation of this
-# example may fail until that is done.
-
-# [START vpc_custom_create]
+cat << EOF > main.tf
 module "test-vpc-module" {
   source       = "terraform-google-modules/network/google"
   version      = "~> 6.0"
-  project_id   = var.project_id # Replace this with your project ID in quotes
+  project_id   = var.project_id
   network_name = var.network_name
   mtu          = 1460
-
   subnets = [
     {
       subnet_name   = "subnet-01"
@@ -116,232 +123,77 @@ module "test-vpc-module" {
     }
   ]
 }
-# [END vpc_custom_create]
-EOF_END
-
-cat > outputs.tf <<EOF_END
-output "bucket-name" {
-  description = "Bucket names."
-  value       = "module.gcs-static-website-bucket.bucket"
-}
-EOF_END
+EOF
 
 terraform init
+terraform apply -auto-approve
+success "VPC network and subnets deployed  (⏱  $(elapsed_since_start)s elapsed)"
 
-terraform apply --auto-approve
+# ----------------------------- Phase 4: Task 2 - Storage Module -------------------------
+print_phase "4" "🪣  Task 2: Deploying Custom Storage Bucket Module"
+rm -rf ~/gcp-storage-lab
+mkdir -p ~/gcp-storage-lab/modules/gcp_storage_bucket
+cd ~/gcp-storage-lab || exit
 
-terraform destroy --auto-approve
+cat << EOF > main.tf
+provider "google" {
+  project = "$PROJECT_ID"
+  region  = "$REGION"
+}
 
-cd ~
-rm -rd terraform-google-network -f
-
-touch main.tf
-
-mkdir -p modules/gcs-static-website-bucket
-
-cd modules/gcs-static-website-bucket
-
-touch website.tf variables.tf outputs.tf
-
-tee -a README.md <<EOF
-# GCS static website bucket
-This module provisions Cloud Storage buckets configured for static website hosting.
+module "gcp_storage_bucket" {
+  source      = "./modules/gcp_storage_bucket"
+  bucket_name = "${PROJECT_ID}-bucket"
+}
 EOF
 
-tee -a LICENSE <<EOF
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-    http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+cd modules/gcp_storage_bucket || exit
+
+cat << 'EOF' > variables.tf
+variable "bucket_name" {
+  description = "The name of the storage bucket"
+  type        = string
+}
 EOF
 
-cat > website.tf <<EOF_END
+cat << EOF > main.tf
 resource "google_storage_bucket" "bucket" {
-  name               = var.name
-  project            = var.project_id
-  location           = var.location
-  storage_class      = var.storage_class
-  labels             = var.labels
-  force_destroy      = var.force_destroy
-  uniform_bucket_level_access = true
-  versioning {
-    enabled = var.versioning
-  }
-  dynamic "retention_policy" {
-    for_each = var.retention_policy == null ? [] : [var.retention_policy]
-    content {
-      is_locked        = var.retention_policy.is_locked
-      retention_period = var.retention_policy.retention_period
-    }
-  }
-  dynamic "encryption" {
-    for_each = var.encryption == null ? [] : [var.encryption]
-    content {
-      default_kms_key_name = var.encryption.default_kms_key_name
-    }
-  }
-  dynamic "lifecycle_rule" {
-    for_each = var.lifecycle_rules
-    content {
-      action {
-        type          = lifecycle_rule.value.action.type
-        storage_class = lookup(lifecycle_rule.value.action, "storage_class", null)
-      }
-      condition {
-        age                   = lookup(lifecycle_rule.value.condition, "age", null)
-        created_before        = lookup(lifecycle_rule.value.condition, "created_before", null)
-        with_state            = lookup(lifecycle_rule.value.condition, "with_state", null)
-        matches_storage_class = lookup(lifecycle_rule.value.condition, "matches_storage_class", null)
-        num_newer_versions    = lookup(lifecycle_rule.value.condition, "num_newer_versions", null)
-      }
-    }
-  }
+  name          = var.bucket_name
+  location      = "$REGION"
+  force_destroy = true
 }
-EOF_END
 
-cat > variables.tf <<EOF_END
-variable "name" {
-  description = "The name of the bucket."
-  type        = string
+resource "google_storage_bucket_object" "index" {
+  name    = "index.html"
+  bucket  = google_storage_bucket.bucket.name
+  content = "<html><body><h1>Welcome to my website!</h1></body></html>"
 }
-variable "project_id" {
-  description = "The ID of the project to create the bucket in."
-  type        = string
-}
-variable "location" {
-  description = "The location of the bucket."
-  type        = string
-}
-variable "storage_class" {
-  description = "The Storage Class of the new bucket."
-  type        = string
-  default     = null
-}
-variable "labels" {
-  description = "A set of key/value label pairs to assign to the bucket."
-  type        = map(string)
-  default     = null
-}
-variable "bucket_policy_only" {
-  description = "Enables Bucket Policy Only access to a bucket."
-  type        = bool
-  default     = true
-}
-variable "versioning" {
-  description = "While set to true, versioning is fully enabled for this bucket."
-  type        = bool
-  default     = true
-}
-variable "force_destroy" {
-  description = "When deleting a bucket, this boolean option will delete all contained objects. If false, Terraform will fail to delete buckets which contain objects."
-  type        = bool
-  default     = true
-}
-variable "iam_members" {
-  description = "The list of IAM members to grant permissions on the bucket."
-  type = list(object({
-    role   = string
-    member = string
-  }))
-  default = []
-}
-variable "retention_policy" {
-  description = "Configuration of the bucket's data retention policy for how long objects in the bucket should be retained."
-  type = object({
-    is_locked        = bool
-    retention_period = number
-  })
-  default = null
-}
-variable "encryption" {
-  description = "A Cloud KMS key that will be used to encrypt objects inserted into this bucket"
-  type = object({
-    default_kms_key_name = string
-  })
-  default = null
-}
-variable "lifecycle_rules" {
-  description = "The bucket's Lifecycle Rules configuration."
-  type = list(object({
-    # Object with keys:
-    # - type - The type of the action of this Lifecycle Rule. Supported values: Delete and SetStorageClass.
-    # - storage_class - (Required if action type is SetStorageClass) The target Storage Class of objects affected by this Lifecycle Rule.
-    action = any
-    # Object with keys:
-    # - age - (Optional) Minimum age of an object in days to satisfy this condition.
-    # - created_before - (Optional) Creation date of an object in RFC 3339 (e.g. 2017-06-13) to satisfy this condition.
-    # - with_state - (Optional) Match to live and/or archived objects. Supported values include: "LIVE", "ARCHIVED", "ANY".
-    # - matches_storage_class - (Optional) Storage Class of objects to satisfy this condition. Supported values include: MULTI_REGIONAL, REGIONAL, NEARLINE, COLDLINE, STANDARD, DURABLE_REDUCED_AVAILABILITY.
-    # - num_newer_versions - (Optional) Relevant only for versioned objects. The number of newer versions of an object to satisfy this condition.
-    condition = any
-  }))
-  default = []
-}
-EOF_END
 
-cat > outputs.tf <<EOF_END
-output "bucket" {
-  description = "The created storage bucket"
-  value       = google_storage_bucket.bucket
+resource "google_storage_bucket_object" "error" {
+  name    = "error.html"
+  bucket  = google_storage_bucket.bucket.name
+  content = "<html><body><h1>Error: Page not found!</h1></body></html>"
 }
-EOF_END
+EOF
 
-cd ~
-
-cat > main.tf <<EOF_END
-module "gcs-static-website-bucket" {
-  source = "./modules/gcs-static-website-bucket"
-  name       = var.name
-  project_id = var.project_id
-  location   = "$REGION"
-  lifecycle_rules = [{
-    action = {
-      type = "Delete"
-    }
-    condition = {
-      age        = 365
-      with_state = "ANY"
-    }
-  }]
-}
-EOF_END
-
-cat > outputs.tf <<EOF_END
-output "bucket-name" {
-  description = "Bucket names."
-  value       = "module.gcs-static-website-bucket.bucket"
-}
-EOF_END
-
-cat > variables.tf <<EOF_END
-variable "project_id" {
-  description = "The ID of the project in which to provision resources."
-  type        = string
-  default     = "$DEVSHELL_PROJECT_ID"
-}
-variable "name" {
-  description = "Name of the buckets to create."
-  type        = string
-  default     = "$DEVSHELL_PROJECT_ID"
-}
-EOF_END
-
+cd ../../ || exit
 terraform init
+terraform apply -auto-approve
+success "Storage bucket module deployed  (⏱  $(elapsed_since_start)s elapsed)"
 
-terraform apply --auto-approve
+# ----------------------------- Phase 5: Destroy Task 1 -------------------------
+print_phase "5" "🧹  Cleaning Up Task 1 Infrastructure"
+info "Lab requirement: Task 1 resources must be destroyed after Task 2 is verified"
+cd ~/terraform-google-network/examples/simple_project || exit
+terraform destroy -auto-approve
+success "Task 1 infrastructure destroyed  (⏱  $(elapsed_since_start)s elapsed)"
 
-cd ~
-
-curl https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Interact%20with%20Terraform%20Modules/index.html > index.html
-curl https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Interact%20with%20Terraform%20Modules/error.html > error.html
-
-gsutil cp *.html gs://$DEVSHELL_PROJECT_ID
-
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
-
-#-----------------------------------------------------end----------------------------------------------------------#
+# Final message
+echo
+echo "${CYAN_TEXT}${BOLD_TEXT}=======================================================${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}              LAB COMPLETED SUCCESSFULLY!              ${RESET_FORMAT}"
+echo "${CYAN_TEXT}${BOLD_TEXT}=======================================================${RESET_FORMAT}"
+echo
+echo "${RED_TEXT}${BOLD_TEXT}${UNDERLINE_TEXT}https://www.youtube.com/@sparkwavedev${RESET_FORMAT}"
+echo "${GREEN_TEXT}${BOLD_TEXT}Don't forget to Like, Share and Subscribe for more Videos${RESET_FORMAT}"
+echo
