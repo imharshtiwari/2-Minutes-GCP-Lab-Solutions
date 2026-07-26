@@ -3,9 +3,7 @@
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
-```
-export REGION=
-```
+
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Managing%20Terraform%20State/gsp752.sh
 
