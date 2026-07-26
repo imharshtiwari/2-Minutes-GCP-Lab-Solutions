@@ -4,9 +4,7 @@
 
 ### Run the following Commands in CloudShell
 
-```
-export ZONE=
-```
+
 ```
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Gating%20Deployments%20with%20Binary%20Authorization/gsp1183.sh
 
