@@ -1,15 +1,15 @@
-# Understanding and Combining GKE Autoscaling Strategies || 🚀 [GSP768](https://www.cloudskillsboost.google/focuses/15845?parent=catalog) ||
+# Understanding and Combining GKE Autoscaling Strategies || [GSP768](https://www.cloudskillsboost.google/focuses/15845?parent=catalog) ||
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwave.01)
 
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Understanding%20and%20Combining%20GKE%20Autoscaling%20Strategies/gsp786.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Understanding%20and%20Combining%20GKE%20Autoscaling%20Strategies/gsp768.sh
 
-sudo chmod +x gsp786.sh
+sudo chmod +x gsp768.sh
 
-./gsp786.sh
+./gsp768.sh
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
