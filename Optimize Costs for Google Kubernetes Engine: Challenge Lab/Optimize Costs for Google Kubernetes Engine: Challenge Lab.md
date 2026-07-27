@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Understanding%20and%20Combining%20GKE%20Autoscaling%20Strategies/gsp343.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Optimize%20Costs%20for%20Google%20Kubernetes%20Engine%3A%20Challenge%20Lab/gsp343.sh
 
 sudo chmod +x gsp343.sh
 
