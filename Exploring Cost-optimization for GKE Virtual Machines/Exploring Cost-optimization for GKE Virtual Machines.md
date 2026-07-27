@@ -5,7 +5,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Understanding%20and%20Combining%20GKE%20Autoscaling%20Strategies/gsp767.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Exploring%20Cost-optimization%20for%20GKE%20Virtual%20Machines/gsp767.sh
 
 sudo chmod +x gsp767.sh
 
