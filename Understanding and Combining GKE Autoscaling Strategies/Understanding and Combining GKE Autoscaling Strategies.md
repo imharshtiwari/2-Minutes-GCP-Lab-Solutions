@@ -5,11 +5,11 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Managing%20Terraform%20State/gsp752.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Understanding%20and%20Combining%20GKE%20Autoscaling%20Strategies/gsp786.sh
 
-sudo chmod +x gsp752.sh
+sudo chmod +x gsp786.sh
 
-./gsp752.sh
+./gsp786.sh
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
