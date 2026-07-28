@@ -1,71 +1,49 @@
+#!/bin/bash
+
+# =========================
+# COLOR & FORMAT VARIABLES
+# =========================
+RED_TEXT=$'\033[0;91m'
+BLUE_TEXT=$'\033[0;94m'
+RESET_FORMAT=$'\033[0m'
+BOLD_TEXT=$'\033[1m'
+
 clear
 
-#!/bin/bash
-# Define color variables
+# =========================
+# WELCOME MESSAGE
+# =========================
+echo "${BLUE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}     ✨✨ GOOGLE CLOUD LAB AUTOMATION | SPARKWAVE DEV ✨✨       ${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
+echo
 
-BLACK=`tput setaf 0`
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-YELLOW=`tput setaf 3`
-BLUE=`tput setaf 4`
-MAGENTA=`tput setaf 5`
-CYAN=`tput setaf 6`
-WHITE=`tput setaf 7`
+# Prompt user for Zone
+echo "${RED_TEXT}${BOLD_TEXT}[Action Required] Please enter your target GCP Zone (e.g., us-central1-a):${RESET_FORMAT}"
+read -r ZONE
+export ZONE
 
-BG_BLACK=`tput setab 0`
-BG_RED=`tput setab 1`
-BG_GREEN=`tput setab 2`
-BG_YELLOW=`tput setab 3`
-BG_BLUE=`tput setab 4`
-BG_MAGENTA=`tput setab 5`
-BG_CYAN=`tput setab 6`
-BG_WHITE=`tput setab 7`
+echo "${BLUE_TEXT}${BOLD_TEXT}[Step 1/9] Provisioning a new e2-small VM instance (lamp-1-vm)${RESET_FORMAT}"
 
-BOLD=`tput bold`
-RESET=`tput sgr0`
+# Create the instance with the necessary metadata and tags
+gcloud compute instances create lamp-1-vm \
+    --project=$DEVSHELL_PROJECT_ID \
+    --zone=$ZONE \
+    --machine-type=e2-small \
+    --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
+    --metadata=enable-oslogin=true \
+    --maintenance-policy=MIGRATE \
+    --provisioning-model=STANDARD \
+    --tags=http-server \
+    --create-disk=auto-delete=yes,boot=yes,device-name=lamp-1-vm,image=projects/debian-cloud/global/images/debian-12-bookworm-v20240709,mode=rw,size=10,type=projects/$DEVSHELL_PROJECT_ID/zones/$ZONE/diskTypes/pd-balanced \
+    --no-shielded-secure-boot \
+    --shielded-vtpm \
+    --shielded-integrity-monitoring \
+    --labels=goog-ec-src=vm_add-gcloud \
+    --reservation-affinity=any
 
-# Array of color codes excluding black and white
-TEXT_COLORS=($RED $GREEN $YELLOW $BLUE $MAGENTA $CYAN)
-BG_COLORS=($BG_RED $BG_GREEN $BG_YELLOW $BG_BLUE $BG_MAGENTA $BG_CYAN)
+echo "${RED_TEXT}${BOLD_TEXT}[Step 2/9] Configuring firewall rules to allow incoming HTTP traffic${RESET_FORMAT}"
 
-# Pick random colors
-RANDOM_TEXT_COLOR=${TEXT_COLORS[$RANDOM % ${#TEXT_COLORS[@]}]}
-RANDOM_BG_COLOR=${BG_COLORS[$RANDOM % ${#BG_COLORS[@]}]}
-
-#----------------------------------------------------start--------------------------------------------------#
-
-echo "${RANDOM_BG_COLOR}${RANDOM_TEXT_COLOR}${BOLD}Starting Execution${RESET}"
-
-# Step 1: Set PROJECT_ID, PROJECT_NUMBER, ZONE & REGION
-echo "${BOLD}${BLUE}Setting PROJECT_ID, PROJECT_NUMBER, ZONE & REGION${RESET}"
-export PROJECT_ID=$(gcloud config get-value project)
-
-export PROJECT_NUMBER=$(gcloud projects describe ${PROJECT_ID} \
-    --format="value(projectNumber)")
-
-export ZONE=$(gcloud compute project-info describe \
---format="value(commonInstanceMetadata.items[google-compute-default-zone])")
-
-export REGION=$(gcloud compute project-info describe \
---format="value(commonInstanceMetadata.items[google-compute-default-region])")
-
-# Step 2: Enable OS Config Service
-echo "${BOLD}${GREEN}Enabling OS Config Service${RESET}"
-
-gcloud services enable osconfig.googleapis.com
-
-# Step 3: Configure gcloud settings
-echo "${BOLD}${YELLOW}Configuring gcloud settings${RESET}"
-
-gcloud config set compute/zone $ZONE
-gcloud config set compute/region $REGION
-
-# Step 4: Create Compute Instance
-echo "${BOLD}${MAGENTA}Creating Compute Instance${RESET}"
-gcloud compute instances create lamp-1-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-medium --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=enable-osconfig=TRUE,enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append --tags=http-server --create-disk=auto-delete=yes,boot=yes,device-name=lamp-1-vm,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250311,mode=rw,size=10,type=pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ops-agent-policy=v2-x86-template-1-4-0,goog-ec-src=vm_add-gcloud --reservation-affinity=any && printf 'agentsRule:\n  packageState: installed\n  version: latest\ninstanceFilter:\n  inclusionLabels:\n  - labels:\n      goog-ops-agent-policy: v2-x86-template-1-4-0\n' > config.yaml && gcloud compute instances ops-agents policies create goog-ops-agent-v2-x86-template-1-4-0-$ZONE --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --file=config.yaml && gcloud compute resource-policies create snapshot-schedule default-schedule-1 --project=$DEVSHELL_PROJECT_ID --region=$REGION --max-retention-days=14 --on-source-disk-delete=keep-auto-snapshots --daily-schedule --start-time=22:00 && gcloud compute disks add-resource-policies lamp-1-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --resource-policies=projects/$DEVSHELL_PROJECT_ID/regions/$REGION/resourcePolicies/default-schedule-1
-
-# Step 5: Create Firewall Rule for HTTP
-echo "${BOLD}${RED}Creating Firewall Rule for HTTP${RESET}"
 gcloud compute firewall-rules create allow-http \
     --project=$DEVSHELL_PROJECT_ID \
     --direction=INGRESS \
@@ -76,61 +54,35 @@ gcloud compute firewall-rules create allow-http \
     --source-ranges=0.0.0.0/0 \
     --target-tags=http-server
 
-sleep 45
+sleep 10
 
-# Step 6: Create and Transfer Startup Script
-echo "${BOLD}${CYAN}Creating and Transferring Startup Script${RESET}"
-cat > prepare_disk.sh <<'EOF_END'
+echo "${BLUE_TEXT}${BOLD_TEXT}[Step 3/9] Generating SSH keys for secure access${RESET_FORMAT}"
 
-sudo apt-get update
+gcloud compute config-ssh --project "$DEVSHELL_PROJECT_ID" --quiet
 
-sudo apt-get install -y apache2 php7.0
+echo "${RED_TEXT}${BOLD_TEXT}[Step 4/9] Bootstrapping VM with Apache2 and PHP...${RESET_FORMAT}"
 
-sudo service apache2 restart
+gcloud compute ssh lamp-1-vm --project "$DEVSHELL_PROJECT_ID" --zone $ZONE --command "sudo sed -i '/buster-backports/d' /etc/apt/sources.list && sudo apt-get update && sudo apt-get install apache2 php7.3 -y && sudo service apache2 restart"
 
-EOF_END
+sleep 10
 
-# Step 7: Execute Startup Script on VM
-echo "${BOLD}${BLUE}Executing Startup Script on VM${RESET}"
-gcloud compute scp prepare_disk.sh lamp-1-vm:/tmp --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+echo "${BLUE_TEXT}${BOLD_TEXT}[Step 5/9] Retrieving the Instance ID for monitoring setup.${RESET_FORMAT}"
 
-gcloud compute ssh lamp-1-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet --command="bash /tmp/prepare_disk.sh"
+INSTANCE_ID="$(gcloud compute instances describe lamp-1-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --format='value(id)')"
 
-# Step 8: Get Instance ID
-echo "${BOLD}${GREEN}Retrieving Instance ID${RESET}"
-export INSTANCE_ID=$(gcloud compute instances list --filter=lamp-1-vm --zones $ZONE --format="value(id)")
+echo "${RED_TEXT}${BOLD_TEXT}[Step 6/9] Initializing Google Cloud Uptime Monitoring...${RESET_FORMAT}"
 
-# Step 9: Setup Uptime Check
-echo "${BOLD}${YELLOW}Setting Up Uptime Check${RESET}"
-curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" -H "Content-Type: application/json" \
-  "https://monitoring.googleapis.com/v3/projects/$DEVSHELL_PROJECT_ID/uptimeCheckConfigs" \
-  -d "$(cat <<EOF
-{
-  "displayName": "Lamp Uptime Check",
-  "httpCheck": {
-    "path": "/",
-    "port": 80,
-    "requestMethod": "GET"
-  },
-  "monitoredResource": {
-    "labels": {
-      "instance_id": "$INSTANCE_ID",
-      "project_id": "$DEVSHELL_PROJECT_ID",
-      "zone": "$ZONE"
-    },
-    "type": "gce_instance"
-  }
-}
-EOF
-)"
+gcloud monitoring uptime create lamp-uptime-check \
+  --resource-type="gce-instance" \
+  --resource-labels=project_id=$DEVSHELL_PROJECT_ID,instance_id=$INSTANCE_ID,zone=$ZONE
 
-# Step 10: Create Email Notification Channel
-echo "${BOLD}${MAGENTA}Creating Email Notification Channel${RESET}"
+echo "${BLUE_TEXT}${BOLD_TEXT}[Step 7/9] Setting up email notification channels.${RESET_FORMAT}"
+
 cat > email-channel.json <<EOF_END
 {
   "type": "email",
-  "displayName": "sparkwave",
-  "description": "Awesome",
+  "displayName": "kenilithcloudx",
+  "description": "kenilithcloudx",
   "labels": {
     "email_address": "$USER_EMAIL"
   }
@@ -139,14 +91,14 @@ EOF_END
 
 gcloud beta monitoring channels create --channel-content-from-file="email-channel.json"
 
-# Step 11: Get Notification Channel ID
-echo "${BOLD}${RED}Retrieving Notification Channel ID${RESET}"
-email_channel_info=$(gcloud beta monitoring channels list)
-email_channel_id=$(echo "$email_channel_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
+echo "${RED_TEXT}${BOLD_TEXT}[Step 8/9] Extracting notification channel ID${RESET_FORMAT}"
 
-# Step 12: Create Alerting Policy
-echo "${BOLD}${CYAN}Creating Alerting Policy${RESET}"
-cat > awesome.json <<EOF_END
+channel_info=$(gcloud beta monitoring channels list)
+channel_id=$(echo "$channel_info" | grep -oP 'name: \K[^ ]+' | head -n 1)
+
+echo "${BLUE_TEXT}${BOLD_TEXT}[Step 9/9] Deploying inbound network traffic alert policies.${RESET_FORMAT}"
+
+cat > app-engine-error-percent-policy.json <<EOF_END
 {
   "displayName": "Inbound Traffic Alert",
   "userLabels": {},
@@ -171,114 +123,28 @@ cat > awesome.json <<EOF_END
       }
     }
   ],
-  "alertStrategy": {
-    "notificationPrompts": [
-      "OPENED"
-    ]
-  },
+  "alertStrategy": {},
   "combiner": "OR",
   "enabled": true,
   "notificationChannels": [
-    "$email_channel_id"
+    "$channel_id"
   ],
   "severity": "SEVERITY_UNSPECIFIED"
 }
 EOF_END
 
-gcloud alpha monitoring policies create --policy-from-file="awesome.json"
+gcloud alpha monitoring policies create --policy-from-file="app-engine-error-percent-policy.json"
 
-echo 
-
-# Function to display a random congratulatory message
-function random_congrats() {
-    MESSAGES=(
-        "${GREEN}Congratulations For Completing The Lab! Keep up the great work!${RESET}"
-        "${CYAN}Well done! Your hard work and effort have paid off!${RESET}"
-        "${YELLOW}Amazing job! You’ve successfully completed the lab!${RESET}"
-        "${BLUE}Outstanding! Your dedication has brought you success!${RESET}"
-        "${MAGENTA}Great work! You’re one step closer to mastering this!${RESET}"
-        "${RED}Fantastic effort! You’ve earned this achievement!${RESET}"
-        "${CYAN}Congratulations! Your persistence has paid off brilliantly!${RESET}"
-        "${GREEN}Bravo! You’ve completed the lab with flying colors!${RESET}"
-        "${YELLOW}Excellent job! Your commitment is inspiring!${RESET}"
-        "${BLUE}You did it! Keep striving for more successes like this!${RESET}"
-        "${MAGENTA}Kudos! Your hard work has turned into a great accomplishment!${RESET}"
-        "${RED}You’ve smashed it! Completing this lab shows your dedication!${RESET}"
-        "${CYAN}Impressive work! You’re making great strides!${RESET}"
-        "${GREEN}Well done! This is a big step towards mastering the topic!${RESET}"
-        "${YELLOW}You nailed it! Every step you took led you to success!${RESET}"
-        "${BLUE}Exceptional work! Keep this momentum going!${RESET}"
-        "${MAGENTA}Fantastic! You’ve achieved something great today!${RESET}"
-        "${RED}Incredible job! Your determination is truly inspiring!${RESET}"
-        "${CYAN}Well deserved! Your effort has truly paid off!${RESET}"
-        "${GREEN}You’ve got this! Every step was a success!${RESET}"
-        "${YELLOW}Nice work! Your focus and effort are shining through!${RESET}"
-        "${BLUE}Superb performance! You’re truly making progress!${RESET}"
-        "${MAGENTA}Top-notch! Your skill and dedication are paying off!${RESET}"
-        "${RED}Mission accomplished! This success is a reflection of your hard work!${RESET}"
-        "${CYAN}You crushed it! Keep pushing towards your goals!${RESET}"
-        "${GREEN}You did a great job! Stay motivated and keep learning!${RESET}"
-        "${YELLOW}Well executed! You’ve made excellent progress today!${RESET}"
-        "${BLUE}Remarkable! You’re on your way to becoming an expert!${RESET}"
-        "${MAGENTA}Keep it up! Your persistence is showing impressive results!${RESET}"
-        "${RED}This is just the beginning! Your hard work will take you far!${RESET}"
-        "${CYAN}Terrific work! Your efforts are paying off in a big way!${RESET}"
-        "${GREEN}You’ve made it! This achievement is a testament to your effort!${RESET}"
-        "${YELLOW}Excellent execution! You’re well on your way to mastering the subject!${RESET}"
-        "${BLUE}Wonderful job! Your hard work has definitely paid off!${RESET}"
-        "${MAGENTA}You’re amazing! Keep up the awesome work!${RESET}"
-        "${RED}What an achievement! Your perseverance is truly admirable!${RESET}"
-        "${CYAN}Incredible effort! This is a huge milestone for you!${RESET}"
-        "${GREEN}Awesome! You’ve done something incredible today!${RESET}"
-        "${YELLOW}Great job! Keep up the excellent work and aim higher!${RESET}"
-        "${BLUE}You’ve succeeded! Your dedication is your superpower!${RESET}"
-        "${MAGENTA}Congratulations! Your hard work has brought great results!${RESET}"
-        "${RED}Fantastic work! You’ve taken a huge leap forward today!${RESET}"
-        "${CYAN}You’re on fire! Keep up the great work!${RESET}"
-        "${GREEN}Well deserved! Your efforts have led to success!${RESET}"
-        "${YELLOW}Incredible! You’ve achieved something special!${RESET}"
-        "${BLUE}Outstanding performance! You’re truly excelling!${RESET}"
-        "${MAGENTA}Terrific achievement! Keep building on this success!${RESET}"
-        "${RED}Bravo! You’ve completed the lab with excellence!${RESET}"
-        "${CYAN}Superb job! You’ve shown remarkable focus and effort!${RESET}"
-        "${GREEN}Amazing work! You’re making impressive progress!${RESET}"
-        "${YELLOW}You nailed it again! Your consistency is paying off!${RESET}"
-        "${BLUE}Incredible dedication! Keep pushing forward!${RESET}"
-        "${MAGENTA}Excellent work! Your success today is well earned!${RESET}"
-        "${RED}You’ve made it! This is a well-deserved victory!${RESET}"
-        "${CYAN}Wonderful job! Your passion and hard work are shining through!${RESET}"
-        "${GREEN}You’ve done it! Keep up the hard work and success will follow!${RESET}"
-        "${YELLOW}Great execution! You’re truly mastering this!${RESET}"
-        "${BLUE}Impressive! This is just the beginning of your journey!${RESET}"
-        "${MAGENTA}You’ve achieved something great today! Keep it up!${RESET}"
-        "${RED}You’ve made remarkable progress! This is just the start!${RESET}"
-    )
-
-    RANDOM_INDEX=$((RANDOM % ${#MESSAGES[@]}))
-    echo -e "${BOLD}${MESSAGES[$RANDOM_INDEX]}"
-}
-
-# Display a random congratulatory message
-random_congrats
-
-echo -e "\n"  # Adding one blank line
-
-cd
-
-remove_files() {
-    # Loop through all files in the current directory
-    for file in *; do
-        # Check if the file name starts with "gsp", "arc", or "shell"
-        if [[ "$file" == gsp* || "$file" == arc* || "$file" == shell* ]]; then
-            # Check if it's a regular file (not a directory)
-            if [[ -f "$file" ]]; then
-                # Remove the file and echo the file name
-                rm "$file"
-                echo "File removed: $file"
-            fi
-        fi
-    done
-}
-
-remove_files
-#-----------------------------------------------------end----------------------------------------------------------#
+# =========================
+# COMPLETION FOOTER
+# =========================
+echo
+echo "${RED_TEXT}${BOLD_TEXT}==============================================================${RESET_FORMAT}"
+echo "${RED_TEXT}${BOLD_TEXT}                   LAB EXECUTION COMPLETE!                  ${RESET_FORMAT}"
+echo "${RED_TEXT}${BOLD_TEXT}      ✨✨✨     SUBSCRIBE to SPARKWAVE DEV    ✨✨✨         ${RESET_FORMAT}"
+echo "${RED_TEXT}${BOLD_TEXT}==============================================================${RESET_FORMAT}"
+echo
+echo "${BLUE_TEXT}${BOLD_TEXT}🙏 Thank you for using the SPARKWAVE DEV automated setup.${RESET_FORMAT}"
+echo "${RED_TEXT}${BOLD_TEXT}📢 For more tutorials and Google Cloud Labs, visit:${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}https://www.youtube.com/@sparkwavedev${RESET_FORMAT}"
+echo
