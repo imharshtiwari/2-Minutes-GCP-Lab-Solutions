@@ -87,6 +87,6 @@ sleep 80
 
 gcloud dataflow jobs run spanner-load --gcs-location gs://dataflow-templates-us-west1/latest/GCS_Text_to_Cloud_Spanner --region us-west1 --staging-location gs://$DEVSHELL_PROJECT_ID/tmp/ --parameters instanceId=banking-instance,databaseId=banking-db,importManifest=gs://cloud-training/OCBL372/manifest.json
 
-echo "${BG_RED}${BOLD}Congratulations For Completing The Lab !!!${RESET}"
+echo "${BG_RED}${BOLD}Follow Video for next last step !!!${RESET}"
 
 #-----------------------------------------------------end----------------------------------------------------------#
