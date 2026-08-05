@@ -1,4 +1,4 @@
-# Establish VPC to VPC Connectivity using NCC || [GSP1317](https://www.skills.google/catalog_lab/32126) ||
+# Configuring IAM Permissions with gcloud || [GSP647](https://www.skills.google/catalog_lab/2058) ||
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwavedev)
 
