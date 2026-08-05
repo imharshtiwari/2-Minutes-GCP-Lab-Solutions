@@ -2,7 +2,7 @@
 
 ## 🔑 Solution [here](https://www.youtube.com/@sparkwavedev)
 
-> [!WARNING]
+> [!IMPORTANT] 
 > This is an independent, community-made walkthrough created to help you understand why each step works. Attempt the challenge yourself first. This guide is provided for educational purposes and is not intended to replace the official lab instructions or your own hands-on learning. It is not affiliated with or endorsed by Google Cloud or Google Cloud Skills Boost. Always follow the official Google Cloud and Qwiklabs terms of service, lab instructions, and usage policies.
 
 > This lab focuses on advanced Google Cloud networking concepts, including Network Connectivity Center (NCC), VPC connectivity, Private Service Connect (PSC), Cloud SQL, and resource lifecycle management. The lab is fully automated, but the order of execution is critical because the automated grader depends on the provisioned resources being available when you check your progress. Do not delete or clean up resources until the lab tracker shows the required 100/100 score. Always follow the official lab instructions and use the exact values and resources provided by your current lab session.
