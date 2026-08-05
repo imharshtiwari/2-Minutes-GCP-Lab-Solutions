@@ -14,7 +14,7 @@ clear
 # WELCOME MESSAGE
 # =========================
 echo "${BLUE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
-echo "${BLUE_TEXT}${BOLD_TEXT}     ✨✨ GOOGLE CLOUD LAB AUTOMATION | SPARKWAVE DEV ✨✨       ${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}      🚀 GOOGLE CLOUD LAB AUTOMATION | SPARKWAVE  DEV ✨ 🚀       ${RESET_FORMAT}"
 echo "${BLUE_TEXT}${BOLD_TEXT}==================================================================${RESET_FORMAT}"
 echo
 
@@ -81,8 +81,8 @@ echo "${BLUE_TEXT}${BOLD_TEXT}[Step 7/9] Setting up email notification channels.
 cat > email-channel.json <<EOF_END
 {
   "type": "email",
-  "displayName": "kenilithcloudx",
-  "description": "kenilithcloudx",
+  "displayName": "sparkwavedev",
+  "description": "sparkwavedev",
   "labels": {
     "email_address": "$USER_EMAIL"
   }
@@ -140,11 +140,10 @@ gcloud alpha monitoring policies create --policy-from-file="app-engine-error-per
 # =========================
 echo
 echo "${RED_TEXT}${BOLD_TEXT}==============================================================${RESET_FORMAT}"
-echo "${RED_TEXT}${BOLD_TEXT}                   LAB EXECUTION COMPLETE!                  ${RESET_FORMAT}"
-echo "${RED_TEXT}${BOLD_TEXT}      ✨✨✨     SUBSCRIBE to SPARKWAVE DEV    ✨✨✨         ${RESET_FORMAT}"
+echo "${RED_TEXT}${BOLD_TEXT}                 LAB EXECUTION COMPLETE!                 ${RESET_FORMAT}"
 echo "${RED_TEXT}${BOLD_TEXT}==============================================================${RESET_FORMAT}"
 echo
-echo "${BLUE_TEXT}${BOLD_TEXT}🙏 Thank you for using the SPARKWAVE DEV automated setup.${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}🙏 Thank you for using the SPARKWAVE  DEV ✨ automated setup.${RESET_FORMAT}"
 echo "${RED_TEXT}${BOLD_TEXT}📢 For more tutorials and Google Cloud Labs, visit:${RESET_FORMAT}"
 echo "${BLUE_TEXT}${BOLD_TEXT}https://www.youtube.com/@sparkwavedev${RESET_FORMAT}"
 echo
