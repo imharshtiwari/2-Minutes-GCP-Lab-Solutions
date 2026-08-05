@@ -67,7 +67,7 @@ echo -e "\n${MAGENTA}${BOLD}╔════════════════�
 echo -e "${MAGENTA}${BOLD}║           🎉 LAB COMPLETED SUCCESSFULLY 🎉                  ║${RESET}"
 echo -e "${MAGENTA}${BOLD}╚========== ✨✨ SUBSCRIBE TO SPARKWAVE DEV ✨✨=============${RESET}"
 echo -e "${MAGENTA}${BOLD}╚════════════════════════════════════════════════════════════╝${RESET}"
-echo -e "${CYAN}${BOLD}⚠️ CRITICAL: Check your progress in Qwiklabs NOW and wait until you have 100/100 points BEFORE running Part 2! ⚠️${RESET}\n"
+echo -e "${CYAN}${BOLD}⚠️ Subscribe to SparkWaveDev for more videos https://www.youtube.com/sparkwavedev ⚠️${RESET}\n"
 
 ```
 
