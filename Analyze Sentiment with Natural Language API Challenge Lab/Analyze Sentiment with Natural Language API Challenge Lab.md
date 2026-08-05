@@ -5,11 +5,26 @@
 ### Run the following Commands in CloudShell
 
 ```
-export ZONE=
 export API_KEY=
 ```
+
+
 ```
-gcloud compute ssh lab-vm --zone=$ZONE --quiet --command "curl -LO https://raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Analyze%20Sentiment%20with%20Natural%20Language%20API%20Challenge%20Lab/arc130.sh && sudo chmod +x arc130.sh && ./arc130.sh"
+curl -s -H "Content-Type: application/json" \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" \
+"https://language.googleapis.com/v1/documents:analyzeSyntax" \
+-d @analyze-request.json > analyze-response.txt
+
+```
+
+
+```
+
+curl -s -H "Content-Type: application/json" \
+-H "Authorization: Bearer $(gcloud auth print-access-token)" \
+"https://language.googleapis.com/v1/documents:analyzeEntities" \
+-d @multi-nl-request.json > multi-response.txt
+
 ```
 
 ### 🐼 Congratulations 🎉 for completing the Lab !
