@@ -5,7 +5,7 @@
 ### ⚙️ Execute the Following Commands in Cloud Shell
 
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Cloud%20Monitoring%20Qwik%20Start/sparkwavedev.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Monitoring%20in%20Google%20Cloud%3A%20Challenge%20Lab/sparkwavedev.sh
 
 sudo chmod +x sparkwavedev.sh
 
