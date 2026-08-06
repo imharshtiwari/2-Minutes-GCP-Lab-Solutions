@@ -37,7 +37,7 @@ echo -e "${BLUE}${BOLD}╔══════════════════
 echo -e "${BLUE}${BOLD}║   🌊 WELCOME TO SPARKWAVE  DEV ✨                               ║${RESET}"
 echo -e "${BLUE}${BOLD}║   🚀 TARGET: Continuous Delivery with Google Cloud Deploy        ║${RESET}"
 echo -e "${BLUE}${BOLD}╚════════════════════════════════════════════════════════════╝${RESET}\n"
-#!/bin/bash
+
 BLACK_TEXT=$'\033[0;90m'
 RED_TEXT=$'\033[0;91m'
 GREEN_TEXT=$'\033[0;92m'
