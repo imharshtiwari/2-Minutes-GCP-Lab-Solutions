@@ -520,6 +520,6 @@ kubectl get all -n web-app
 echo
 
 echo
-echo "${MAGENTA_TEXT}${BOLD_TEXT}💖 Enjoyed the video? Consider subscribing to SparkWave 👇${RESET_FORMAT}"
-echo "${BLUE_TEXT}${BOLD_TEXT}${UNDERLINE_TEXT}https://www.youtube.com/@sparkwave.01${RESET_FORMAT}"
+echo "${MAGENTA_TEXT}${BOLD_TEXT}💖 Enjoyed the video? Consider subscribing to SparkWave Dev 👇${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}${UNDERLINE_TEXT}https://www.youtube.com/@sparkwavedev${RESET_FORMAT}"
 echo
