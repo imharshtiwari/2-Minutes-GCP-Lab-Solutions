@@ -14,7 +14,7 @@ gcloud compute ssh centos-clean \
     --quiet
 ```
 ```
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/Configuring%20IAM%20Permissions%20with%20gcloud/sparkwavedev.sh
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/sparkwavedev.sh
 sudo chmod +x sparkwavedev.sh
 ./sparkwavedev.sh
 
