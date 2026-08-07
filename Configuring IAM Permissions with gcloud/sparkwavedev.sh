@@ -38,18 +38,8 @@ echo -e "${BLUE}${BOLD}║   🌊 WELCOME TO SPARKWAVE  DEV ✨                 
 echo -e "${BLUE}${BOLD}║   🚀 TARGET:  Configuring IAM Permissions with gcloud | GSP647  ║${RESET}"
 echo -e "${BLUE}${BOLD}╚════════════════════════════════════════════════════════════╝${RESET}\n"
 
-#!/bin/bash
 
-# =========================
-# COLOR DEFINITIONS
-# =========================
-RED_TEXT=$'\033[0;91m'
-BLUE_TEXT=$'\033[0;94m'
-BOLD_TEXT=$'\033[1m'
-UNDERLINE_TEXT=$'\033[4m'
-RESET_FORMAT=$'\033[0m'
 
-clear
 # =========================
 # WELCOME MESSAGE
 # =========================
